@@ -7,7 +7,7 @@ class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-        <title key="title">IIITKota</title>
+        
           <meta charSet="utf-8" />
           <meta
             name="viewport"

@@ -1120,14 +1120,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 9
       },
       __self: this
-    }, __jsx("title", {
-      key: "title",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 10
-      },
-      __self: this
-    }, "IIITKota"), __jsx("meta", {
+    }, __jsx("meta", {
       charSet: "utf-8",
       __source: {
         fileName: _jsxFileName,

@@ -19,88 +19,58 @@ export default function Footer(params) {
 							</a>
 							<ul className="widget-contact">
 								<li>
-									<h4 className="widget-contact__title">Institute’s address:</h4>
-									<p className="widget-contact__text">26/C, Electronics City, Hosur Road<br /> Bengaluru - 560100</p>
+									<h4 className="widget-contact__title">Address:</h4>
+									<p className="widget-contact__text">Indian Institute of Information Technology, Kota,<br/>MNIT Campus<br />Jaipur - 302017</p>
+								</li>
+								<li>
+								<h4 className="widget-contact__title">Telephone:</h4>
+									<p className="widget-contact__text">0141-2715071</p>
 								</li>
 								<li>
 									<h4 className="widget-contact__title">Office Hours:</h4>
-									<p className="widget-contact__text">Monday – Friday (8:00 am to 5:00 pm)</p>
-								</li>
-								<li>
-									<h4 className="widget-contact__title">Telephone:</h4>
-									<p className="widget-contact__text">+91 80 4140 7777/ 2852 7627</p>
+									<p className="widget-contact__text">Monday – Friday (9:00 am to 5:00 pm)</p>
 								</li>
 							</ul>
 						</div>
 						<div className="col-12 col-sm-3">
 							<div className="widget-link">
-								
+							
+                            <h3 class="widget-title mt2">Location</h3>
+                            <p class="widget-contact__text"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d444.90525107731656!2d75.81081539996529!3d26.86405112386001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea3495775ef99a25!2sIndian%20Institute%20of%20Information%20Technology%2C%20Kota!5e0!3m2!1sen!2sin!4v1583758002596!5m2!1sen!2sin" width="500px" height="300px" frameborder="0" allowfullscreen=""></iframe></p>
+                        
 							</div>
 						</div>
 						<div className="col-12 col-sm-3">
 							<div className="widget-link">
-							<h3 className="widget-title mt2">Quick Links</h3>
-								<ul className="widget-list">
-									<li><a href="media">Media</a></li>
-									<li><a href="blogs">Blogs</a></li>
-									<li><a href="placements">Placements</a></li>
-									<li><a href="careers">Careers</a></li>
-									<li><a href="tenders">Tenders</a></li>
-									<li><a href="donatecontribute">Donate/Contribute</a></li>
-									<li><a href="my-iiitb">My IIITB</a></li>
-									<li><a href="contact-us">Contact Us</a></li>
-									<li><a href="sitemap">Sitemap</a></li>
-								</ul>
+							
 							</div>
 						</div>
 						<div className="col-sm-3 col-md-3 col-lg-3">
 							<div className="widget-link">
-								<h3 className="widget-title">Newsletter Sign Up</h3>
-								<form method="post" id="email_subscriber" novalidate="novalidate">
-									<div className="form-group footer-subscribe">
-										<input type="email" placeholder="Subscribe with Email" name="newsletter_email" id="newsletter_email" className="form-control" />
-										<input type="hidden" id="curl" name="curl" value="https://www.iiitb.ac.in/" />
-										<input type="hidden" name="csrf_test_name" value="1a644ca8c7f3233f2caff7a4120ea989" />
-										<button className="butn theme newsletter"><span>Join</span></button>
-									</div>
-									<p className="spam-message display-none"></p>
-								</form>
-
-
-								<strong className="widget-title display-block pt-4 white">Alumni Sign Up</strong>
-								<div method="post" id="alumni_signup" novalidate="novalidate">
-									<div className="form-group footer-subscribe">
-										<a className="butn theme" href="https://alumni.iiitb.ac.in/" target="_blank"><span>Click here</span></a>
-									</div>
-									<p className="spam-message display-none"></p>
-								</div>
+							<h3 className="widget-title mt2">Quick Links</h3>
+								<ul className="widget-list">
+									<li><a href="media">Recruitment</a></li>
+									<li><a href="blogs">Tender Invitations</a></li>
+									<li><a href="placements">Facilities</a></li>
+									<li><a href="careers">Web Masters</a></li>
+									<li><a href="tenders">Annual Reports</a></li>
+									<li><a href="donatecontribute">Photo Gallery</a></li>
+									<li><a href="my-iiitb">Holidays</a></li>
+									<li><a href="contact-us">Contact Us</a></li>
+									<li><a href="sitemap">Sitemap</a></li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div className="footer-box-02">
+			<div className="footer-box-02  ">
 				<div className="container">
-					<div className="row">
-						<div className="col-sm-4 col-md-4 col-lg-4">
+					<div className="row ">
+						<div className="col-12  text-center ">
 							<p className="copy-info">Copyright &copy; 2018 - All Rights Reserved - IIIT Kota</p>
-						</div>
-						<div className="col-sm-4 col-md-4 col-lg-4 text-center">
-							<ul className="social-list-01">
-								<li><a href="https://www.facebook.com/IIIT-Bangalore-152653471481338/"><i className="fab fa-facebook-square"></i></a></li>
-								<li><a href="https://twitter.com/iiitb_official"><i className="fab fa-twitter-square"></i></a></li>
-								<li className='display-none'><a href="#"><i className="fab fa-instagram"></i></a></li>
-								<li><a href="https://www.linkedin.com/company/iiit-bangalore"><i className="fab fa-linkedin"></i></a></li>
-								<li><a href="https://www.youtube.com/user/iiitbmedia"><i className="fab fa-youtube-square"></i></a></li>
-							</ul>
-						</div>
-						<div className="col-sm-4 col-md-4 col-lg-4 display-none">
-							<div className="footer-info">
-								<a className="footer-info__01" href="#">Policy</a>
-								<a className="footer-info__02" href="#">Terms Of use</a>
-							</div>
-						</div>
+						</div>						
 					</div>
 				</div>
 			</div>
