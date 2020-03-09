@@ -64,6 +64,32 @@ export default function HeaderLinks(props) {
         <CustomDropdown
           noLiPadding
           navDropdown
+          buttonText="People"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          // buttonIcon={Apps}
+          dropdownList={[
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Administration</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Faculty</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Office Staff</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Alumni</a>
+            </Link>,
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          navDropdown
           buttonText="Administration"
           buttonProps={{
             className: classes.navLink,
@@ -100,15 +126,20 @@ export default function HeaderLinks(props) {
           // buttonIcon={Apps}
           dropdownList={[
             <Link href="/components">
-              <a className={classes.dropdownLink}>All components</a>
+              <a className={classes.dropdownLink}>Courses</a>
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Departments</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Curriculum</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Time Table</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Conversion Formula</a>
+            </Link>
           ]}
         />
       </ListItem>
@@ -124,15 +155,20 @@ export default function HeaderLinks(props) {
           // buttonIcon={Apps}
           dropdownList={[
             <Link href="/components">
-              <a className={classes.dropdownLink}>All components</a>
+              <a className={classes.dropdownLink}>Board of Governors</a>
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Senate</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Director</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Finance Committee</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Building and Works Committee</a>
+            </Link>
           ]}
         />
       </ListItem>
@@ -140,7 +176,7 @@ export default function HeaderLinks(props) {
         <CustomDropdown
           noLiPadding
           navDropdown
-          buttonText="People"
+          buttonText="Life @IIITKota"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
@@ -148,39 +184,53 @@ export default function HeaderLinks(props) {
           // buttonIcon={Apps}
           dropdownList={[
             <Link href="/components">
-              <a className={classes.dropdownLink}>All components</a>
+              <a className={classes.dropdownLink}>Library</a>
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
-          ]}
-        />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          navDropdown
-          buttonText="Life@IIITKota"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent",
-          }}
-          // buttonIcon={Apps}
-          dropdownList={[
             <Link href="/components">
-              <a className={classes.dropdownLink}>All components</a>
+              <a className={classes.dropdownLink}>IT Infrastructure</a>
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Computer Labs</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Canteen</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Medical</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Dining Services</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Institute Events</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Hostels</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Committees</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Sports</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Achivements</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Students Club</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Students Fests</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Rules & Discipline</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Committees</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Sports</a>
+            </Link>
           ]}
         />
       </ListItem>

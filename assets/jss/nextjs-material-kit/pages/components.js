@@ -7,7 +7,8 @@ const componentsStyle = {
     textAlign: "left"
   },
   title: {
-    fontSize: "4.2rem",
+    marginTop: "30px",
+    fontSize: "1.7rem",
     fontWeight: "600",
     display: "inline-block",
     position: "relative"
