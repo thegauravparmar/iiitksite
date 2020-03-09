@@ -29,7 +29,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1583749555147");
+            injectCss(link, link.href.split("?")[0] + "?unix=1583752331719");
           });
       }
     }
@@ -37,10 +37,10 @@
 
 /***/ }),
 
-/***/ "./components/Footer/footer.css":
-/*!**************************************!*\
-  !*** ./components/Footer/footer.css ***!
-  \**************************************/
+/***/ "./components/Footer/style.css":
+/*!*************************************!*\
+  !*** ./components/Footer/style.css ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -66,7 +66,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1583749631589");
+            injectCss(link, link.href.split("?")[0] + "?unix=1583752723393");
           });
       }
     }
