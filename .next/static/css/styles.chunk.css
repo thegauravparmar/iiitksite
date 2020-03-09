@@ -1298,5 +1298,25 @@ ul.footer-app li {
 ul.footer-app li img {
     max-width: 110px
 }
+.widget-title:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background:#8d8d8d;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.widget-title:after {
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: #007acc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 /*# sourceMappingURL=styles.chunk.css.map*/

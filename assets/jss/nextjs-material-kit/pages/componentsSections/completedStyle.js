@@ -1,12 +1,15 @@
 import { container } from "assets/jss/nextjs-material-kit.js";
+import { Widgets } from "@material-ui/icons";
 
 const completedStyle = {
   section: {
-    padding: "70px 0"
+    paddingTop: "30px",
+    paddingBottom: "0",
   },
   container: {
     ...container,
-    textAlign: "center !important"
+    // textAlign: "center !important"
+   paddingBottom: "0px"
   }
 };
 

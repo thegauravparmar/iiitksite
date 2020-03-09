@@ -1,30 +1,23 @@
 import React from "react";
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
-
-// core components
+import Head from "next/head";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/completedStyle.js";
-
+import "./SectionCompletedExamples.css"
 const useStyles = makeStyles(styles);
-
 export default function SectionCompletedExamples() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
       <div className={classes.container}>
+        <Head>
+          {/* <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> */}
+        </Head>
         <GridContainer>
-          <GridItem xs={100} sm={100} md={100}>
-            <h2>Welcome to Indian Institute of Information Technology, Kota</h2>
-            <h4>
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you{"'"}re good to
-              go. More importantly, looking at them will give you a picture of
-              what you can build with this powerful kit.
-            </h4>
+          <GridItem xs={100} sm={50} md={50}>
+            <b><h3 className="text-left"><strong>Welcome to Indian Institute of Information Technology, Kota</strong></h3></b>
+            <div className="widget-title"></div>
           </GridItem>
         </GridContainer>
       </div>

@@ -67,13 +67,14 @@ export default function Components(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         {/* <SectionBasics /> */}
         {/* <SectionNavbars /> */}
-        {/* <SectionTabs /> */}
+      
         {/* <SectionPills /> */}
         {/* <SectionNotifications /> */}
         {/* <SectionTypography /> */}
         {/* <SectionJavascript /> */}
         <SectionCompletedExamples />
           <SectionCarousel />
+          <SectionTabs />
         {/* <SectionLogin /> */}
         {/* <GridItem md={12} className={classes.textCenter}>
           <Link href="/login">
@@ -84,7 +85,7 @@ export default function Components(props) {
             </a>
           </Link>
         </GridItem> */}
-        <SectionExamples />
+        {/* <SectionExamples /> */}
         {/* <SectionDownload /> */}
       </div>
       <Footer />
