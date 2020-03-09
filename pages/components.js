@@ -72,8 +72,8 @@ export default function Components(props) {
         {/* <SectionNotifications /> */}
         {/* <SectionTypography /> */}
         {/* <SectionJavascript /> */}
-        {/* <SectionCarousel /> */}
         <SectionCompletedExamples />
+          <SectionCarousel />
         {/* <SectionLogin /> */}
         {/* <GridItem md={12} className={classes.textCenter}>
           <Link href="/login">

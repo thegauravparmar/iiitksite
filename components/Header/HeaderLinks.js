@@ -50,13 +50,9 @@ export default function HeaderLinks(props) {
             <Link href="/components">
               <a className={classes.dropdownLink}>IIITK Calender</a>
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              IIIT(PPP) Act
-            </a>
+             <Link href="/components">
+             <a className={classes.dropdownLink}>IIIT(PPP) Act</a>
+           </Link>,
           ]}
         />
       </ListItem>
@@ -244,13 +240,13 @@ export default function HeaderLinks(props) {
           <CloudDownload className={classes.icons} /> Download
         </Button>
       </ListItem> */}
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         {/* <Tooltip title="Delete">
           <IconButton aria-label="Delete">
             <DeleteIcon />
           </IconButton>
         </Tooltip> */}
-        <Tooltip
+        {/* <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
           placement={"top"}
@@ -299,7 +295,7 @@ export default function HeaderLinks(props) {
             <i className={classes.socialIcons + " fab fa-instagram"} />
           </Button>
         </Tooltip>
-      </ListItem>
+      </ListItem> */}
     </List>
   );
 }
