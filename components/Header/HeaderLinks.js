@@ -167,7 +167,7 @@ export default function HeaderLinks(props) {
           buttonText="Life@IIITKota"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: "transparent",
           }}
           // buttonIcon={Apps}
           dropdownList={[
