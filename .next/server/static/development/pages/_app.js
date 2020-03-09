@@ -137,25 +137,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "cardSubtitle", function() { return cardSubtitle; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
 
-
-/*!
-
- =========================================================
- * NextJS Material Kit - v1.0.0 based on Material Kit - v2.0.2 and Material Kit React - v1.8.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/nextjs-material-kit
- * Copyright 2019 Creative Tim (https://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/nextjs-material-kit/blob/master/LICENSE.md)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-// ##############################
-// // // Variables - Styles that are used on more than one component
-// #############################
 const drawerWidth = 260;
 const transition = {
   transition: "all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1)"
@@ -1128,24 +1109,6 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "C:\\Users\\Omkar\\Documents\\GitHub\\iiitksite\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-/*!
-
-=========================================================
-* NextJS Material Kit v1.0.0 based on Material Kit Free - v2.0.2 (Bootstrap 4.0.0 Final Edition) and Material Kit React v1.8.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/nextjs-material-kit
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/nextjs-material-kit/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
 
 
 
@@ -1159,7 +1122,7 @@ next_router__WEBPACK_IMPORTED_MODULE_5___default.a.events.on("routeChangeStart",
     path: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 16
     },
     __self: undefined
   }), document.getElementById("page-transition"));
@@ -1176,20 +1139,11 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_3___default.a {
   componentDidMount() {
     let comment = document.createComment(`
 
-=========================================================
-* NextJS Material Kit v1.0.0 based on Material Kit Free - v2.0.2 (Bootstrap 4.0.0 Final Edition) and Material Kit React v1.8.0
-=========================================================
+<<<<<<< HEAD
 
-* Product Page: https://www.creative-tim.com/product/nextjs-material-kit
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/nextjs-material-kit/blob/master/LICENSE.md)
 
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
+=======
+>>>>>>> da3efd0537a6341ac6d73ec9df828bd7b297bd7b
 `);
     document.insertBefore(comment, document.documentElement);
   }
@@ -1218,25 +1172,25 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_3___default.a {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79
+        lineNumber: 54
       },
       __self: this
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 80
+        lineNumber: 55
       },
       __self: this
     }, __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81
+        lineNumber: 56
       },
       __self: this
-    }, "Indian Institute of Information Technology, Kota")), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+    }, "Indian Institite Of Information Technology Kota")), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83
+        lineNumber: 58
       },
       __self: this
     })));

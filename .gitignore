@@ -25,4 +25,9 @@ yarn-error.log*
 
 # package
 /dist
+<<<<<<< HEAD
 /.next
+=======
+# /.next
+node_modules
+>>>>>>> da3efd0537a6341ac6d73ec9df828bd7b297bd7b

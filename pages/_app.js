@@ -30,8 +30,11 @@ export default class MyApp extends App {
   componentDidMount() {
     let comment = document.createComment(`
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> da3efd0537a6341ac6d73ec9df828bd7b297bd7b
 `);
     document.insertBefore(comment, document.documentElement);
   }
