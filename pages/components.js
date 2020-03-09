@@ -85,7 +85,7 @@ export default function Components(props) {
             </a>
           </Link>
         </GridItem> */}
-        <SectionExamples />
+        {/* <SectionExamples /> */}
         {/* <SectionDownload /> */}
       </div>
       <Footer />

@@ -9,15 +9,13 @@ import LocationOn from "@material-ui/icons/LocationOn";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
-
 import image1 from "assets/img/bg.jpg";
 import image2 from "assets/img/bg2.jpg";
+import Head from "next/head";
+import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/tabsStyle.js";
 import image3 from "assets/img/bg3.jpg";
-
-import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/carouselStyle.js";
-
+// import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/carouselStyle.js";
 const useStyles = makeStyles(styles);
-
 export default function SectionCarousel() {
   const classes = useStyles();
   const settings = {
@@ -29,10 +27,15 @@ export default function SectionCarousel() {
     autoplay: true
   };
   return (
+    <div>
+    <Head> 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    </Head>
+    <div className="d-inline">   
     <div className={classes.section}>
       <div className={classes.container}>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
+          <GridItem xs={12} sm={12} md={6} className={classes.marginAuto}>
             <Card carousel>
               <Carousel {...settings}>
                 <div>
@@ -71,9 +74,12 @@ export default function SectionCarousel() {
           </GridItem>
         </GridContainer>
       </div>
+      </div>
+      </div>
+      <div className="d-inline">
       <div className={classes.container}>
-      <GridContainer>
-          <GridItem xs={100} sm={100} md={100}>
+      <GridContainer >
+          <GridItem xs={12} sm={12} md={6}>
             <h4 className="text-right">
               The kit comes with three pre-built pages to help you get started
               faster. You can change the text and images and you{"'"}re good to
@@ -83,6 +89,8 @@ export default function SectionCarousel() {
           </GridItem>
         </GridContainer>
       </div>
+      </div>
+    
     </div>
   );
 }
