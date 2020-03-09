@@ -50,9 +50,9 @@ export default function HeaderLinks(props) {
             <Link href="/components">
               <a className={classes.dropdownLink}>IIITK Calender</a>
             </Link>,
-             <Link href="/components">
-             <a className={classes.dropdownLink}>IIIT(PPP) Act</a>
-           </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>IIIT(PPP) Act</a>
+            </Link>,
           ]}
         />
       </ListItem>
@@ -114,6 +114,29 @@ export default function HeaderLinks(props) {
         <CustomDropdown
           noLiPadding
           navDropdown
+          buttonText="Admission"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          // buttonIcon={Apps}
+          dropdownList={[
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Procedure</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Fees</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Scholarship</a>
+            </Link>,
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          navDropdown
           buttonText="Academics"
           buttonProps={{
             className: classes.navLink,
@@ -143,7 +166,7 @@ export default function HeaderLinks(props) {
         <CustomDropdown
           noLiPadding
           navDropdown
-          buttonText="Research"
+          buttonText="Placements"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
@@ -151,19 +174,19 @@ export default function HeaderLinks(props) {
           // buttonIcon={Apps}
           dropdownList={[
             <Link href="/components">
-              <a className={classes.dropdownLink}>Board of Governors</a>
+              <a className={classes.dropdownLink}>Placement Procedure</a>
             </Link>,
             <Link href="/components">
-              <a className={classes.dropdownLink}>Senate</a>
+              <a className={classes.dropdownLink}>Placement Statistics</a>
             </Link>,
             <Link href="/components">
-              <a className={classes.dropdownLink}>Director</a>
+              <a className={classes.dropdownLink}>Internship</a>
             </Link>,
             <Link href="/components">
-              <a className={classes.dropdownLink}>Finance Committee</a>
+              <a className={classes.dropdownLink}>Our Recruiters</a>
             </Link>,
             <Link href="/components">
-              <a className={classes.dropdownLink}>Building and Works Committee</a>
+              <a className={classes.dropdownLink}>Training & Placement Cell</a>
             </Link>
           ]}
         />
@@ -246,7 +269,7 @@ export default function HeaderLinks(props) {
             <DeleteIcon />
           </IconButton>
         </Tooltip> */}
-        {/* <Tooltip
+      {/* <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
           placement={"top"}

@@ -26,7 +26,7 @@ export default function SectionCarousel() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false
+    autoplay: true
   };
   return (
     <div className={classes.section}>
@@ -68,6 +68,18 @@ export default function SectionCarousel() {
                 </div>
               </Carousel>
             </Card>
+          </GridItem>
+        </GridContainer>
+      </div>
+      <div className={classes.container}>
+      <GridContainer>
+          <GridItem xs={100} sm={100} md={100}>
+            <h4 className="text-right">
+              The kit comes with three pre-built pages to help you get started
+              faster. You can change the text and images and you{"'"}re good to
+              go.More importantly, looking at them will give you a picture of
+              what you can build with this powerful kit.
+            </h4>
           </GridItem>
         </GridContainer>
       </div>
