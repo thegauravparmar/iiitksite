@@ -314,7 +314,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/CircularProgress */ "@material-ui/core/CircularProgress");
 /* harmony import */ var _material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var assets_jss_nextjs_material_kit_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! assets/jss/nextjs-material-kit.js */ "./assets/jss/nextjs-material-kit.js");
-var _jsxFileName = "C:\\Users\\TheGauravParmar\\Desktop\\iiitksite\\components\\PageChange\\PageChange.js";
+var _jsxFileName = "C:\\Users\\Omkar\\Documents\\GitHub\\iiitksite\\components\\PageChange\\PageChange.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -389,23 +389,6 @@ function PageChange(props) {
     __self: this
   }, "Loading page contents for: ", props.path)));
 }
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-module.exports = _interopRequireDefault;
 
 /***/ }),
 
@@ -566,7 +549,7 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
 exports.__esModule = true;
 exports.Container = Container;
@@ -606,12 +589,15 @@ class App extends _react.default.Component {
     var {
       router,
       Component,
-      pageProps
+      pageProps,
+      __N_SSG,
+      __N_SSP
     } = this.props;
-    var url = createUrl(router);
-    return _react.default.createElement(Component, Object.assign({}, pageProps, {
-      url: url
-    }));
+    return _react.default.createElement(Component, Object.assign({}, pageProps, // we don't add the legacy URL prop if it's using non-legacy
+    // methods like getStaticProps and getServerSideProps
+    !(__N_SSG || __N_SSP) ? {
+      url: createUrl(router)
+    } : {}));
   }
 
 }
@@ -689,6 +675,23 @@ function createUrl(router) {
 
 /***/ }),
 
+/***/ "./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault;
+
+/***/ }),
+
 /***/ "./pages/_app.js":
 /*!***********************!*\
   !*** ./pages/_app.js ***!
@@ -712,7 +715,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var components_PageChange_PageChange_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! components/PageChange/PageChange.js */ "./components/PageChange/PageChange.js");
 /* harmony import */ var assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! assets/scss/nextjs-material-kit.scss?v=1.0.0 */ "./assets/scss/nextjs-material-kit.scss?v=1.0.0");
 /* harmony import */ var assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "C:\\Users\\TheGauravParmar\\Desktop\\iiitksite\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\Omkar\\Documents\\GitHub\\iiitksite\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
