@@ -31,7 +31,7 @@ export default function SectionTypography() {
           <div className={classes.title}>
             <h2>Typography</h2>
           </div>
-          <GridContainer>
+          {/* <GridContainer>
             <div className={classes.typo}>
               <div className={classes.note}>Header 1</div>
               <h1>The Life of Material Kit</h1>
@@ -139,7 +139,7 @@ export default function SectionTypography() {
                 <Small>Use {'"Small"'} tag for the headers</Small>
               </h2>
             </div>
-          </GridContainer>
+          </GridContainer> */}
         </div>
         <div className={classes.space50} />
         <div id="images">

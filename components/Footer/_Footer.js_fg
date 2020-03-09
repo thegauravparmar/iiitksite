@@ -1,0 +1,207 @@
+import React from "react";
+import PropTypes from "prop-types";
+import classNames from "classnames";
+import { List, ListItem, Container } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import Favorite from "@material-ui/icons/Favorite";
+import styles from "assets/jss/nextjs-material-kit/components/footerStyle.js";
+const useStyles = makeStyles(styles);
+
+export default function Footer(props) {
+  const classes = useStyles();
+  const { whiteFont } = props;
+  const footerClasses = classNames({
+    [classes.footer]: true,
+    [classes.footerWhiteFont]: whiteFont
+  });
+  const aClasses = classNames({
+    [classes.a]: true,
+    [classes.footerWhiteFont]: whiteFont
+  });
+  return (
+    <footer class="wrapp_footer">
+      <div class="footer_box_01">
+        <div class="container">
+          <div class="row">
+            <div clas="col-sm-3 col-md-3 col-lg-3">
+              <a href="#" class="footer - logo">
+                {/* <img src={includes/images/IIITB_logo.png} alt={}> */}
+              </a>
+              <ul class="widget_contact">
+                <li>
+                  <h4 class="widget_contact__title">Institute’s address:</h4>
+                  <p class="widget - contact__text">26/C, Electronics City, Hosur Road Bengaluru -
+                                560100</p>
+                </li>
+                {/* <li>
+                    <h4 class="widget-contact__title">Google map link:</h4>
+                    <p class="widget-contact__text"><a href="" target={_blank"></a></p>
+                </li> */}
+                <li>
+                  <h4 class="widget - contact__title">Office Hours:</h4>
+                  <p class="widget - contact__text">Monday – Friday (8:00 am to 5:00 pm)</p>
+                </li>
+                <li>
+                  <h4 class="widget - contact__title">Telephone:</h4>
+                  <p class="widget - contact__text">+91 80 4140 7777/ 2852 7627</p>
+                </li>
+              </ul>
+            </div>
+            <div clas="col-sm-3 col-md-3 col-lg-3">
+              <div class="widget - link">
+                <h3 class="widget - title">Quick Links</h3>
+                <ul class="widget - list">
+                  <li><a href="media">Media</a></li>
+                  <li><a href="blogs">Blogs</a></li>
+                  <li><a href="placements">Placements</a></li>
+                  <li><a href="careers">Careers</a></li>
+                  <li><a href="tenders">Tenders</a></li>
+                  <li><a href="donatecontribute">Donate/Contribute</a></li>
+                  <li><a href="my - iiitb">My IIITB</a></li>
+                  <li><a href="contact - us">Contact Us</a></li>
+                  <li><a href="sitemap">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+            <div clas="col-sm-3 col-md-3 col-lg-3">
+              <div class="widget - link">
+                {/* <h3 class="widget-title" style={margin-top: 18px;"></h3> */}
+                <ul class="widget - list">
+                  <li><a href="newsletters">Newsletters</a></li>
+                  <li><a href="right - to - information">Right to Information</a></li>
+                  <li><a href="nirf">NIRF</a></li>
+                  <li><a href="annual - reports">Annual Reports</a></li>
+                  <li><a href="privacy - policy">Privacy Policy</a></li>
+                  <li><a href="feedback - iiitb">Feedback @ IIITB</a></li>
+                  <li><a href="library - collection">Library Collection</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+              <div class="widget - link">
+                <h3 class="widget - title">Newsletter Sign Up</h3>
+                <form method="post" id="email_subscriber" novalidate="novalidate">
+                  <div class="form-group footer-subscribe">
+                    <input type="email" placeholder="Subscribe with Email" name="newsletter_email"
+                      id="newsletter_email" class="form - control" />
+                    <input type="hidden" id="curl" name="curl" value="https://www.iiitb.ac.in/" />
+                    <input type="hidden" name="csrf_test_name"
+                      value="1a644ca8c7f3233f2caff7a4120ea989" />
+                    <button class="butn theme newsletter"><span>Join</span></button>
+                  </div>
+                  <p class="spam_message" style="display: none;"></p>
+
+
+
+
+
+                  <strong class="widget-title" style="display: block;padding-top:35px;color:#fff;">Alumni
+                            Sign Up</strong>
+                  <div method="post" id="alumni_signup" novalidate="novalidate">
+                    <div class="form-group footer-subscribe">
+                      <a class="butn theme" href="https://alumni.iiitb.ac.in/"
+                        style="position: inherit;" target="_blank"><span>Click here</span></a>
+                    </div>
+                    <p class="spam-message" style="display: none;"></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer - box - 02">
+        <div class="container">
+          <div class="row" >
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <p class="copy - info">© 2020 IIIT Bangalore. All Rights Reserved</p>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 text-center">
+              <ul class="social - list - 01">
+                <li><a href="https://www.facebook.com/IIIT-Bangalore-152653471481338/"><i
+                  class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://twitter.com/iiitb_official"><i
+                  class="fab fa-twitter-square"></i></a></li>
+                <li style="display:none;"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/iiit-bangalore"><i
+                  class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.youtube.com/user/iiitbmedia"><i
+                  class="fab fa-youtube-square"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4" style="display: none;">
+              <div class="footer - info">
+                <a class="footer - info__01" href="#">Policy</a>
+                <a class="footer - info__02" href="#">Terms Of use</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    // <footer class="wrapp - footer}>
+    //   <div class="footer - box - 01}>
+    //     <div class="container}>
+    //       <div class="row}></div>
+    //       <List class="classes.list}>
+    //         <ListItem class="classes.inlineBlock}>
+    //           <a
+    //             href="https://www.creative-tim.com/?ref=njsmk-footer"
+    //             class="classes.block}
+    //             target="_blank"
+    //           >
+    //             Devingers
+    //           </a>
+    //         </ListItem>
+    //         <ListItem class="classes.inlineBlock}>
+    //           <a
+    //             href="https://www.creative-tim.com/presentation?ref=njsmk-footer"
+    //             class="classes.block}
+    //             target="_blank"
+    //           >
+    //             About us
+    //           </a>
+    //         </ListItem>
+    //         <ListItem class="classes.inlineBlock}>
+    //           <a
+    //             href="http://blog.creative-tim.com/?ref=njsmk-footer"
+    //             class="classes.block}
+    //             target="_blank"
+    //           >
+    //             Blog
+    //           </a>
+    //         </ListItem>
+    //         <ListItem class="classes.inlineBlock}>
+    //           <a
+    //             href="https://www.creative-tim.com/license?ref=njsmk-footer"
+    //             class="classes.block}
+    //             target="_blank"
+    //           >
+    //             Licenses
+    //           </a>
+    //         </ListItem>
+    //       </List>
+    //     </div>
+    //     <div class="classes.right}>
+    //       &copy; {1900 + new Date().getYear()} , made with{" "}
+    //       <Favorite class="classes.icon} /> by{" "}
+    //       <a
+    //         href="https://www.creative-tim.com?ref=njsmk-footer"
+    //         class="aClasses}
+    //         target="_blank"
+    //       >
+    //         Devingers
+    //       </a>{" "}
+    //       for a better web.
+    //     </div>
+
+    //   </div>
+    // </footer>
+  );
+}
+
+Footer.propTypes = {
+  whiteFont: PropTypes.bool
+};

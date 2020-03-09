@@ -1,91 +1,55 @@
-/*eslint-disable*/
-import React from "react";
-// nodejs library to set properties for components
-import PropTypes from "prop-types";
-// nodejs library that concatenates classes
-import classNames from "classnames";
-// material-ui core components
-import { List, ListItem } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import React from 'react';
+import Head from 'next/head';
 
-// @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
+import './footer.css';
 
-import styles from "assets/jss/nextjs-material-kit/components/footerStyle.js";
+export default function Footer(params) {
+    return <div>
+        <Head>
+            <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel='stylesheet' type='text/css' />
+            <link href='https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.min.css' rel='stylesheet' type='text/css' />
+        </Head>
+        <footer>
+            <div className="mt-5 pt-5 pb-5 footer">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-5 col-xs-12 about-company">
+                            <h2>IIIT Kota</h2>
+                            <p className="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+                            <p><a href="#"><i className="fa fa-facebook-square mr-1"></i></a><a href="#"><i className="fa fa-linkedin-square"></i></a></p>
+                        </div>
+                        <div className="col-lg-3 col-xs-12 links">
+                            <h4 className="mt-lg-0 mt-sm-3">Links</h4>
+                            <ul className="m-0 p-0">
+                                <li>- <a href="#">Lorem ipsum</a></li>
+                                <li>- <a href="#">Nam mauris velit</a></li>
+                                <li>- <a href="#">Etiam vitae mauris</a></li>
+                                <li>- <a href="#">Fusce scelerisque</a></li>
+                                <li>- <a href="#">Sed faucibus</a></li>
+                                <li>- <a href="#">Mauris efficitur nulla</a></li>
+                                <li>- <a href="#">Lorem ipsum</a></li>
+                                <li>- <a href="#">Nam mauris velit</a></li>
+                                <li>- <a href="#">Etiam vitae mauris</a></li>
+                                <li>- <a href="#">Fusce scelerisque</a></li>
+                                <li>- <a href="#">Sed faucibus</a></li>
+                                <li>- <a href="#">Mauris efficitur nulla</a></li>
+                            </ul>
+                        </div>
 
-const useStyles = makeStyles(styles);
-
-export default function Footer(props) {
-  const classes = useStyles();
-  const { whiteFont } = props;
-  const footerClasses = classNames({
-    [classes.footer]: true,
-    [classes.footerWhiteFont]: whiteFont
-  });
-  const aClasses = classNames({
-    [classes.a]: true,
-    [classes.footerWhiteFont]: whiteFont
-  });
-  return (
-    <footer className={footerClasses}>
-      <div className={classes.container}>
-        <div className={classes.left}>
-          <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Creative Tim
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
-          </List>
-        </div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=njsmk-footer"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
-        </div>
-      </div>
-    </footer>
-  );
+                        <div className="col-lg-4 col-xs-12 location">
+                            <h4 className="mt-lg-0 mt-sm-4">Location</h4>
+                            <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+                            <p className="mb-0"><i className="fa fa-phone mr-3"></i>(541) 754-3010</p>
+                            <p><i className="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col copyright">
+                            <p className=""><small className="text-white-50">© 2019. All Rights Reserved.</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 }
-
-Footer.propTypes = {
-  whiteFont: PropTypes.bool
-};

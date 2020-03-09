@@ -225,7 +225,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/CircularProgress */ "./node_modules/@material-ui/core/esm/CircularProgress/index.js");
 /* harmony import */ var assets_jss_nextjs_material_kit_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! assets/jss/nextjs-material-kit.js */ "./assets/jss/nextjs-material-kit.js");
 
-var _jsxFileName = "C:\\Users\\Omkar\\Desktop\\iiitkota\\components\\PageChange\\PageChange.js";
+var _jsxFileName = "C:\\Users\\Omkar\\Documents\\GitHub\\iiitksite\\components\\PageChange\\PageChange.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
  // @material-ui/core components
 
@@ -19433,7 +19433,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Omkar\\Desktop\\iiitkota\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\Omkar\\Documents\\GitHub\\iiitksite\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 /*!
@@ -19520,7 +19520,7 @@ var MyApp = /*#__PURE__*/function (_App) {
           lineNumber: 81
         },
         __self: this
-      }, "NextJS Material Kit by Creative Tim")), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
+      }, "Indian Institute of Information Technology, Kota")), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 83

@@ -38,6 +38,7 @@ const footerStyle = {
       color: "#FFFFFF"
     }
   },
+
   container,
   list: {
     marginBottom: "0",
@@ -54,6 +55,6 @@ const footerStyle = {
     height: "18px",
     position: "relative",
     top: "3px"
-  }
+  },
 };
 export default footerStyle;

@@ -331,7 +331,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var assets_jss_nextjs_material_kit_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! assets/jss/nextjs-material-kit.js */ "./assets/jss/nextjs-material-kit.js");
 
-var _jsxFileName = "C:\\Users\\Omkar\\Desktop\\iiitkota\\components\\PageChange\\PageChange.js";
+var _jsxFileName = "C:\\Users\\Omkar\\Documents\\GitHub\\iiitksite\\components\\PageChange\\PageChange.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
  // @material-ui/core components
 
@@ -1125,7 +1125,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! assets/scss/nextjs-material-kit.scss?v=1.0.0 */ "./assets/scss/nextjs-material-kit.scss?v=1.0.0");
 /* harmony import */ var assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(assets_scss_nextjs_material_kit_scss_v_1_0_0__WEBPACK_IMPORTED_MODULE_7__);
 
-var _jsxFileName = "C:\\Users\\Omkar\\Desktop\\iiitkota\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\Omkar\\Documents\\GitHub\\iiitksite\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 /*!
@@ -1233,7 +1233,7 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_3___default.a {
         lineNumber: 81
       },
       __self: this
-    }, "NextJS Material Kit by Creative Tim")), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+    }, "Indian Institute of Information Technology, Kota")), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 83

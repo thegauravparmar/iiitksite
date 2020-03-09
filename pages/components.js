@@ -55,7 +55,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>Indian Institute of Information Technology, Kota</h1>
                 <h3 className={classes.subtitle}>
-                An Institute of National Importance under an Act of Parliament.
+                  An Institute of National Importance under an Act of Parliament.
                 </h3>
               </div>
             </GridItem>
@@ -64,17 +64,17 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
+        {/* <SectionBasics /> */}
+        {/* <SectionNavbars /> */}
+        {/* <SectionTabs /> */}
+        {/* <SectionPills /> */}
+        {/* <SectionNotifications /> */}
         <SectionTypography />
-        <SectionJavascript />
-        <SectionCarousel />
+        {/* <SectionJavascript /> */}
+        {/* <SectionCarousel /> */}
         <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
+        {/* <SectionLogin /> */}
+        {/* <GridItem md={12} className={classes.textCenter}>
           <Link href="/login">
             <a className={classes.link}>
               <Button color="primary" size="lg" simple>
@@ -82,9 +82,9 @@ export default function Components(props) {
               </Button>
             </a>
           </Link>
-        </GridItem>
+        </GridItem> */}
         <SectionExamples />
-        <SectionDownload />
+        {/* <SectionDownload /> */}
       </div>
       <Footer />
     </div>

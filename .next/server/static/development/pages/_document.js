@@ -1136,7 +1136,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_styles__WEBPACK_IMPORTED_MODULE_4__);
 
 
-var _jsxFileName = "C:\\Users\\Omkar\\Desktop\\iiitkota\\pages\\_document.js";
+var _jsxFileName = "C:\\Users\\Omkar\\Documents\\GitHub\\iiitksite\\pages\\_document.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 

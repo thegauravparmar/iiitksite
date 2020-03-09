@@ -97,7 +97,7 @@ export default function HeaderLinks(props) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Apps}
+          // buttonIcon={Apps}
           dropdownList={[
             <Link href="/components">
               <a className={classes.dropdownLink}>All components</a>
@@ -116,12 +116,12 @@ export default function HeaderLinks(props) {
         <CustomDropdown
           noLiPadding
           navDropdown
-          buttonText="Components"
+          buttonText="Research"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Apps}
+          // buttonIcon={Apps}
           dropdownList={[
             <Link href="/components">
               <a className={classes.dropdownLink}>All components</a>
@@ -137,6 +137,54 @@ export default function HeaderLinks(props) {
         />
       </ListItem>
       <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          navDropdown
+          buttonText="People"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          // buttonIcon={Apps}
+          dropdownList={[
+            <Link href="/components">
+              <a className={classes.dropdownLink}>All components</a>
+            </Link>,
+            <a
+              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Documentation
+            </a>
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          navDropdown
+          buttonText="Life@IIITKota"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          // buttonIcon={Apps}
+          dropdownList={[
+            <Link href="/components">
+              <a className={classes.dropdownLink}>All components</a>
+            </Link>,
+            <a
+              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Documentation
+            </a>
+          ]}
+        />
+      </ListItem>
+      {/* <ListItem className={classes.listItem}>
         <Button
           href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
           color="transparent"
@@ -145,13 +193,13 @@ export default function HeaderLinks(props) {
         >
           <CloudDownload className={classes.icons} /> Download
         </Button>
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
-        {/*<Tooltip title="Delete">
+        {/* <Tooltip title="Delete">
           <IconButton aria-label="Delete">
             <DeleteIcon />
           </IconButton>
-        </Tooltip>*/}
+        </Tooltip> */}
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"

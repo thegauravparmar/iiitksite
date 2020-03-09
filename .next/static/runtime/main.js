@@ -6434,7 +6434,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Omkar\\Desktop\\iiitkota\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Omkar\\Documents\\GitHub\\iiitksite\\.next");
       return error;
     }
   };
