@@ -13,9 +13,9 @@ export default function Footer(params) {
 			<div className="footer-box-01">
 				<div className="container">
 					<div className="row">
-						<div className="col-sm-3 col-md-3 col-lg-3">
-							<a href="" className="footer-logo">
-								<img src=".../assets/img/apple-icon.png" alt="abcde" />
+						<div className="col-12 col-sm-3">
+							<a href="" className="footer-logo ">
+								<img src="/apple-icon.png" alt="abcde" width="120" />
 							</a>
 							<ul className="widget-contact">
 								<li>
@@ -32,12 +32,12 @@ export default function Footer(params) {
 								</li>
 							</ul>
 						</div>
-						<div className="col-sm-3 col-md-3 col-lg-3">
+						<div className="col-12 col-sm-3">
 							<div className="widget-link">
 								
 							</div>
 						</div>
-						<div className="col-sm-3 col-md-3 col-lg-3">
+						<div className="col-12 col-sm-3">
 							<div className="widget-link">
 							<h3 className="widget-title mt2">Quick Links</h3>
 								<ul className="widget-list">

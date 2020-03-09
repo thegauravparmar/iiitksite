@@ -24,7 +24,7 @@
 }
 
 .wrapp-footer .social-list-01 a:hover i {
-    color: #f6bf00
+    color: #014e8f
 }
 
 .footer-box-01 {
@@ -101,7 +101,7 @@
     content: '';
     width: 60px;
     height: 2px;
-    background: #ffc500;
+    background: #014e8f;
     position: absolute;
     bottom: 0;
     left: 0
@@ -137,11 +137,11 @@
     font-family: Font Awesome\ 5 Free;
     color: #939393;
     padding-right: 8px;
-    color: #ffc600
+    color: #014e8f
 }
 
 .widget-list li a:hover {
-    color: #ffc600
+    color: #014e8f
 }
 
 .copy-info {
@@ -236,12 +236,12 @@
     color: #fff;
     padding: 5px 18px;
     line-height: 15px;
-    background: #ffc500;
+    background: #014e8f;
     cursor: pointer
 }
 
 .footer-subscribe .butn:hover {
-    background: #014e8f
+    background: #000
 }
 
 .footer-subscribe .butn span {
