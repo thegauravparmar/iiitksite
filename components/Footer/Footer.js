@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import './style.css';
+import "./style.css"
 
 
 export default function Footer(params) {

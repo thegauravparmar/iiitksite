@@ -1298,6 +1298,108 @@ ul.footer-app li {
 ul.footer-app li img {
     max-width: 110px
 }
+
+.gap.less-gap, .less-gap, .pg-inn {
+    padding: 8px 15px!important
+}
+
+.customboxes {
+    background: #055897;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    min-height: 240px;
+    float: left;
+    margin: 20px
+}
+.centerpart {
+    text-align: center;
+}
+.whyjoin
+{
+    color:#ffc500;
+}
+.course-wrapper {
+    padding: 15px 0 15px!important
+}
+
+.gap {
+    padding: 56px 0 56px
+}
+
+.inner-page-wrapper .container .cor-con-mid {
+    padding: 14px 0!important
+}
+
+.ho-ev-link-full h4 {
+    color: #015483;
+    text-transform: uppercase
+}
+
+#home-area ul li {
+    color: #fff
+}
+
+.inner-page-wrapper a {
+    color: #0056b3
+}
+
+.aboutus-box-body-content p {
+    font: 400 22px/24px 'Marck Script', cursive;
+    font-style: italic
+}
+
+.page-img {
+    top: 34%;
+    position: absolute;
+    left: 8%
+}
+
+.single-item-text h4 {
+    padding-top: 6px!important
+}
+.iconic
+{
+    height: 40px;
+    width: 40px;
+}
+.home-list li {
+    line-height: 28px;
+    font-size: 20px
+}
+
+.single-item-text h4 {
+    font-size: 22px!important
+}
+
+.desktop-mode {
+    display: block
+}
+
+.mobile-mode {
+    display: block
+}
+
+.testi-title p {
+    font-size: 27px
+}
+
+.testi-desc p {
+    font-size: 20px
+}
+
+.gap.remove-gap, .remove-gap {
+    padding-top: 22px
+}
+
+.inner-page-wrapper th {
+    background: #015483;
+    color: #fff
+}
+
 .widget-title:before {
     content: '';
     width: 100%;

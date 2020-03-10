@@ -18,6 +18,7 @@ import Parallax from "components/Parallax/Parallax.js";
 import SectionBasics from "pages-sections/Components-Sections/SectionBasics.js";
 import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js";
 import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
+import SectionBlog from "pages-sections/Components-Sections/SectionBlog.js";
 import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
 import SectionNotifications from "pages-sections/Components-Sections/SectionNotifications.js";
 import SectionTypography from "pages-sections/Components-Sections/SectionTypography.js";
@@ -25,6 +26,7 @@ import SectionJavascript from "pages-sections/Components-Sections/SectionJavascr
 import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
 import SectionCompletedExamples from "pages-sections/Components-Sections/SectionCompletedExamples.js";
 import SectionLogin from "pages-sections/Components-Sections/SectionLogin.js";
+import SectionWhy from "pages-sections/Components-Sections/SectionWhy.js";
 import SectionExamples from "pages-sections/Components-Sections/SectionExamples.js";
 import SectionDownload from "pages-sections/Components-Sections/SectionDownload.js";
 
@@ -50,6 +52,7 @@ export default function Components(props) {
         {...rest}
       />
       <head>
+      <script data-account="n7X2ZqbSse" src="https://cdn.userway.org/widget.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
       </head>
@@ -106,6 +109,8 @@ export default function Components(props) {
         <SectionCompletedExamples />
         <SectionCarousel />
         <SectionTabs />
+        <SectionWhy/>
+        <SectionBlog/>
         {/* <SectionLogin /> */}
         {/* <GridItem md={12} className={classes.textCenter}>
           <Link href="/login">

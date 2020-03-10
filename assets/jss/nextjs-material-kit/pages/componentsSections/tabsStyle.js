@@ -8,6 +8,9 @@ const tabsStyle = {
   container,
   textCenter: {
     textAlign: "center"
+  },
+  markraj: {
+    height: "400px",
   }
 };
 

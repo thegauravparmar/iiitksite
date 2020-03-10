@@ -9,11 +9,11 @@ import LocationOn from "@material-ui/icons/LocationOn";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
+import image1 from "assets/img/Admin-and-Academic-Block.png";
+import image2 from "assets/img/Directors-Residence.png";
 import Head from "next/head";
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/tabsStyle.js";
-import image3 from "assets/img/bg3.jpg";
+import image3 from "assets/img/Girls-Hostel.png";
 // import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/carouselStyle.js";
 const useStyles = makeStyles(styles);
 export default function SectionCarousel() {
@@ -39,12 +39,12 @@ export default function SectionCarousel() {
 								<Carousel {...settings}>
 									<div>
 										<img src={image1} alt="First slide" className="slick-image" />
-										<div className="slick-caption">
-											<h4>
+										{/* <div className="slick-caption">
+											{/* <h4>
 												<LocationOn className="slick-icons" />
                       							Yellowstone National Park, United States
-                    						</h4>
-										</div>
+                    						</h4> 
+											</div> */}
 									</div>
 									<div>
 										<img
@@ -52,32 +52,31 @@ export default function SectionCarousel() {
 											alt="Second slide"
 											className="slick-image"
 										/>
-										<div className="slick-caption">
+										{/* <div className="slick-caption">
 											<h4>
 												<LocationOn className="slick-icons" />
                       							Somewhere Beyond, United States
                     						</h4>
-										</div>
+										</div> */}
 									</div>
 									<div>
 										<img src={image3} alt="Third slide" className="slick-image" />
-										<div className="slick-caption">
+										{/* <div className="slick-caption">
 											<h4>
 												<LocationOn className="slick-icons" />
                       							Yellowstone National Park, United States
                     						</h4>
-										</div>
+										</div> */}
 									</div>
 								</Carousel>
 							</Card>
 						</GridItem>
 						<GridItem xs={12} sm={12} md={6}>
-							<h4 className="text-right">
-								The kit comes with three pre-built pages to help you get started
-              					faster. You can change the text and images and you{"'"}re good to
-              					go.More importantly, looking at them will give you a picture of
-             					what you can build with this powerful kit.
-            				</h4>
+							<p mt-0>
+							To address the challenges faced by the Indian IT industry and growth of the domestic IT market, the Ministry of Human Resource Development (MHRD), Government of India intends to establish twenty Indian Institutes of Information Technology(IIIT), on a Not-for-profit Public Private Partnership (N-PPP) basis. The partners in setting up the IllTs would be the Ministry of Human Resource Development (MHRD), Governments of the respective States where each lllT will be established, and the industry.
+
+On the same line INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, PUNE (IIITP) is newly established Educational Institute by the Ministry of Human Resources Development, Government of India and few industry partners as Not-for-profit Public Private Partnership (N-PPP) Institution.
+            				</p>
 						</GridItem>
 					</GridContainer>
 				</div>
