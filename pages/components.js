@@ -29,7 +29,7 @@ import SectionExamples from "pages-sections/Components-Sections/SectionExamples.
 import SectionDownload from "pages-sections/Components-Sections/SectionDownload.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/components.js";
-
+import './style.css';
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
@@ -37,7 +37,7 @@ export default function Components(props) {
   const { ...rest } = props;
   return (
     <div>
-   
+
       <Header
         brand="IIIT KOTA"
         rightLinks={<HeaderLinks />}
@@ -49,6 +49,10 @@ export default function Components(props) {
         }}
         {...rest}
       />
+      <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+      </head>
       <Parallax image={require("assets/img/background.png")}>
         <div className={classes.container}>
           <GridContainer>
@@ -62,19 +66,46 @@ export default function Components(props) {
             </GridItem>
           </GridContainer>
         </div>
+
       </Parallax>
+      <div className="social-icon">
+        <div className="vertical-wrapper-fb">
+          <div className="vertical-content1">
+            <p><a href="https://www.facebook.com/IIITKotaOffice/" target="_blank"><img alt="facebook"
+              src="/facebook.png" /></a></p>
+          </div>
+        </div>
+        <div className="vertical-wrapper-twit">
+          <div className="vertical-content1">
+            <p><a href="https://twitter.com/IIITKotaOffice" target="_blank"><img alt="twitter"
+              src="https://www.iiitb.ac.in/includes/images/twit.png" /></a></p>
+          </div>
+        </div>
+        <div className="vertical-wrapper-link">
+          <div className="vertical-content1">
+            <p><a href="https://www.linkedin.com/school/iiitkota/" target="_blank"><img alt="linkedIn"
+              src="https://www.iiitb.ac.in/includes/images/linked.jpg" /></a></p>
+          </div>
+        </div>
+        <div className="vertical-wrapper-you">
+          <div className="vertical-content1">
+            <p><a href="https://www.instagram.com/iiitkotaoffice/" target="_blank"><img alt="instagram"
+              src="/instagram.png" width="30" /></a></p>
+          </div>
+        </div>
+      </div>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         {/* <SectionBasics /> */}
         {/* <SectionNavbars /> */}
-      
+
         {/* <SectionPills /> */}
         {/* <SectionNotifications /> */}
         {/* <SectionTypography /> */}
         {/* <SectionJavascript /> */}
         <SectionCompletedExamples />
-          <SectionCarousel />
-          <SectionTabs />
+        <SectionCarousel />
+        <SectionTabs />
         {/* <SectionLogin /> */}
         {/* <GridItem md={12} className={classes.textCenter}>
           <Link href="/login">

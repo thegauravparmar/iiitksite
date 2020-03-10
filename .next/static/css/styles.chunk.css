@@ -1318,5 +1318,33 @@ ul.footer-app li img {
     bottom: 0;
     left: 0;
 }
+.vertical-wrapper-fb {
+  position: fixed;
+  right: 98%;
+  top: 30%;
+  z-index: 9;
+}
+
+.vertical-wrapper-twit {
+  position: fixed;
+  right: 98%;
+  top: 33.9%;
+  z-index: 9;
+}
+
+.vertical-wrapper-link {
+  position: fixed;
+  right: 98%;
+  top: 37.8%;
+  z-index: 9;
+}
+
+.vertical-wrapper-you {
+  position: fixed;
+  right: 98%;
+  top: 41.6%;
+  z-index: 9;
+}
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/
