@@ -157,9 +157,8 @@ button.slick-arrow.slick-next {
 .slick-prev {
   left: 0;
   &::before {
-    content: "\f053";
+    // background-image: url("../../img/chevron-left-solid.svg");
     font-weight: 600;
-    font-family: Font Awesome\ 5 Free;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -177,7 +176,7 @@ button.slick-arrow.slick-next {
   &::before {
     content: "\f054";
     font-weight: 600;
-    font-family: Font Awesome\ 5 Free;
+    font-family: Font awesome\5 Free;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -195,7 +194,6 @@ button.slick-arrow.slick-next {
 }
 .slick-dots {
   margin-top: 0;
-  margin-bottom: 1rem;
   position: absolute;
   bottom: 5px;
   // margin-right: 15%;

@@ -94,7 +94,7 @@ var defaultFont = {
   fontWeight: "300",
   lineHeight: "1.5em"
 };
-var primaryColor = "#9c27b0";
+var primaryColor = "#E2E292";
 var warningColor = "#ff9800";
 var dangerColor = "#f44336";
 var successColor = "#4caf50";

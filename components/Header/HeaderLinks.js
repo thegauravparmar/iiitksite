@@ -35,22 +35,22 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link href="/ex">
+            <Link href="/about_us/explore_iiit">
               <a className={classes.dropdownLink}>Explore IIITK</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/about_us/governing_body">
               <a className={classes.dropdownLink}>Governing Body</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/about_us/partnerships">
               <a className={classes.dropdownLink}>Partnerships</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/about_us/vission_mission">
               <a className={classes.dropdownLink}>Vision and Mission</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/about_us/calender">
               <a className={classes.dropdownLink}>IIITK Calender</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/about_us/ppp_act">
               <a className={classes.dropdownLink}>IIIT(PPP) Act</a>
             </Link>,
           ]}
@@ -67,16 +67,16 @@ export default function HeaderLinks(props) {
           }}
           // buttonIcon={Apps}
           dropdownList={[
-            <Link href="/components">
-              <a className={classes.dropdownLink}>Administration</a>
-            </Link>,
-            <Link href="/components">
+            // <Link href="">
+            //   <a className={classes.dropdownLink}>Administration</a>
+            // </Link>,
+            <Link href="people/faculty">
               <a className={classes.dropdownLink}>Faculty</a>
             </Link>,
-            <Link href="/components">
+            <Link href="people/office_staff">
               <a className={classes.dropdownLink}>Office Staff</a>
             </Link>,
-            <Link href="/components">
+            <Link href="people/alumni">
               <a className={classes.dropdownLink}>Alumni</a>
             </Link>,
           ]}
@@ -92,19 +92,19 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link href="/components">
+            <Link href="admistration/board_of_governors">
               <a className={classes.dropdownLink}>Board of Governors</a>
             </Link>,
-            <Link href="/components">
+            <Link href="admistration/senate">
               <a className={classes.dropdownLink}>Senate</a>
             </Link>,
-            <Link href="/components">
+            <Link href="admistration/director">
               <a className={classes.dropdownLink}>Director</a>
             </Link>,
-            <Link href="/components">
+            <Link href="admistration/finance_committee">
               <a className={classes.dropdownLink}>Finance Committee</a>
             </Link>,
-            <Link href="/components">
+            <Link href="admistration/building_work_comittee">
               <a className={classes.dropdownLink}>Building and Works Committee</a>
             </Link>
           ]}
