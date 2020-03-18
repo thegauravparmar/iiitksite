@@ -1638,7 +1638,7 @@ ul.footer-app li img {
   }
   h5{
     text-decoration: none !important;
-    color: #000 !important;
+    
   }
   a{
     text-decoration: none !important;
@@ -1646,7 +1646,7 @@ ul.footer-app li img {
   span
   {
     text-decoration: none !important;
-    color: #000 !important;
+   
   }
 .widget-title:before {
     content: '';

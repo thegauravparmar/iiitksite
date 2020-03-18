@@ -39,7 +39,7 @@ export default function Components(props) {
         changeColorOnScroll={{
           height: 50,
           color: "white",
-          background: "black"
+         
         }}
         {...rest}
       />
