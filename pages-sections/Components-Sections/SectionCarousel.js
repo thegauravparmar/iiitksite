@@ -14,6 +14,11 @@ import image2 from "assets/img/Directors-Residence.png";
 import Head from "next/head";
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/tabsStyle.js";
 import image3 from "assets/img/Girls-Hostel.png";
+import image4 from "assets/img/3.jpg";
+import image5 from "assets/img/4.jpeg";
+import image6 from "assets/img/8.jpg";
+import image7 from "assets/img/children.jpeg";
+import image8 from "assets/img/yoga.jpg";
 // import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/carouselStyle.js";
 const useStyles = makeStyles(styles);
 export default function SectionCarousel() {
@@ -39,7 +44,7 @@ export default function SectionCarousel() {
 							<Card carousel>
 								<Carousel {...settings}>
 									<div>
-										<img src={image1} alt="First slide" className="slick-image" />
+										<img src={image4} alt="First slide" className="slick-image" />
 										{/* <div className="slick-caption">
 											{/* <h4>
 												<LocationOn className="slick-icons" />
@@ -49,7 +54,7 @@ export default function SectionCarousel() {
 									</div>
 									<div>
 										<img
-											src={image2}
+											src={image5}
 											alt="Second slide"
 											className="slick-image"
 										/>
@@ -61,7 +66,33 @@ export default function SectionCarousel() {
 										</div> */}
 									</div>
 									<div>
-										<img src={image3} alt="Third slide" className="slick-image" />
+										<img
+											src={image6}
+											alt="Second slide"
+											className="slick-image"
+										/>
+										{/* <div className="slick-caption">
+											<h4>
+												<LocationOn className="slick-icons" />
+                      							Somewhere Beyond, United States
+                    						</h4>
+										</div> */}
+									</div>
+									<div>
+										<img
+											src={image7}
+											alt="Second slide"
+											className="slick-image"
+										/>
+										{/* <div className="slick-caption">
+											<h4>
+												<LocationOn className="slick-icons" />
+                      							Somewhere Beyond, United States
+                    						</h4>
+										</div> */}
+									</div>
+									<div>
+										<img src={image8} alt="Third slide" className="slick-image" />
 										{/* <div className="slick-caption">
 											<h4>
 												<LocationOn className="slick-icons" />
