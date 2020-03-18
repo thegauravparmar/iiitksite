@@ -1,26 +1,16 @@
-/*eslint-disable*/
 import React from "react";
 import Link from "next/link";
-
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
-
-// @material-ui/icons
 import { Apps, CloudDownload } from "@material-ui/icons";
 import DeleteIcon from "@material-ui/icons/Delete";
 import IconButton from "@material-ui/core/IconButton";
-
-// core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
-
 import styles from "assets/jss/nextjs-material-kit/components/headerLinksStyle.js";
-
 const useStyles = makeStyles(styles);
-
 export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
@@ -70,13 +60,13 @@ export default function HeaderLinks(props) {
             // <Link href="">
             //   <a className={classes.dropdownLink}>Administration</a>
             // </Link>,
-            <Link href="people/faculty">
+            <Link href="/people/faculty">
               <a className={classes.dropdownLink}>Faculty</a>
             </Link>,
-            <Link href="people/office_staff">
+            <Link href="/people/office_staff">
               <a className={classes.dropdownLink}>Office Staff</a>
             </Link>,
-            <Link href="people/alumni">
+            <Link href="/people/alumni">
               <a className={classes.dropdownLink}>Alumni</a>
             </Link>,
           ]}
@@ -92,19 +82,19 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link href="admistration/board_of_governors">
+            <Link href="/admistration/board_of_governors">
               <a className={classes.dropdownLink}>Board of Governors</a>
             </Link>,
-            <Link href="admistration/senate">
+            <Link href="/admistration/senate">
               <a className={classes.dropdownLink}>Senate</a>
             </Link>,
-            <Link href="admistration/director">
+            <Link href="/admistration/director">
               <a className={classes.dropdownLink}>Director</a>
             </Link>,
-            <Link href="admistration/finance_committee">
+            <Link href="/admistration/finance_committee">
               <a className={classes.dropdownLink}>Finance Committee</a>
             </Link>,
-            <Link href="admistration/building_work_comittee">
+            <Link href="/admistration/building_work_comittee">
               <a className={classes.dropdownLink}>Building and Works Committee</a>
             </Link>
           ]}
@@ -121,13 +111,13 @@ export default function HeaderLinks(props) {
           }}
           // buttonIcon={Apps}
           dropdownList={[
-            <Link href="/components">
+            <Link href="/Admission/procedure">
               <a className={classes.dropdownLink}>Procedure</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/Admission/procedure">
               <a className={classes.dropdownLink}>Fees</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/Admission/procedure">
               <a className={classes.dropdownLink}>Scholarship</a>
             </Link>,
           ]}
@@ -144,19 +134,19 @@ export default function HeaderLinks(props) {
           }}
           // buttonIcon={Apps}
           dropdownList={[
-            <Link href="/components">
+            <Link href="/academics/courses">
               <a className={classes.dropdownLink}>Courses</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/academics/departments">
               <a className={classes.dropdownLink}>Departments</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/academics/curriculum">
               <a className={classes.dropdownLink}>Curriculum</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/academics/time_table">
               <a className={classes.dropdownLink}>Time Table</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/academics/conversion_formula">
               <a className={classes.dropdownLink}>Conversion Formula</a>
             </Link>
           ]}

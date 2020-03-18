@@ -44,16 +44,31 @@ export default function LandingPage(props) {
                     </GridContainer>
                 </div>
             </Parallax>
+
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
-                    <p></p>
-                    <ProductSection />
-                    {/* <TeamSection />
-                    <WorkSection /> */}
-                </div>
-            </div>
-            <Footer />
+                    <div className="para">
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
+                        <p>All Content Here!!</p>
 
+                        {/* <ProductSection /> */}
+                        {/* <TeamSection />
+                    <WorkSection /> */}
+                    </div>
+                </div>
+                <Footer />
+            </div>
         </div>
     );
 }
