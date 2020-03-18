@@ -1,13 +1,7 @@
 import React from "react";
-// nodejs library that concatenates classes
 import classNames from "classnames";
-// react components for routing our app without refresh
 import Link from "next/link";
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
-// core components
-
 import Header from "components/Header/Header.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Footer from "components/Footer/Footer.js";
@@ -15,7 +9,6 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
-// sections for this page
 import SectionBasics from "pages-sections/Components-Sections/SectionBasics.js";
 import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js";
 import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
@@ -30,17 +23,14 @@ import SectionLogin from "pages-sections/Components-Sections/SectionLogin.js";
 import SectionWhy from "pages-sections/Components-Sections/SectionWhy.js";
 import SectionExamples from "pages-sections/Components-Sections/SectionExamples.js";
 import SectionDownload from "pages-sections/Components-Sections/SectionDownload.js";
-
 import styles from "assets/jss/nextjs-material-kit/pages/components.js";
 import './style.css';
 const useStyles = makeStyles(styles);
-
 export default function Components(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
     <div>
-
       <Header
         brand="IIIT KOTA"
         rightLinks={<HeaderLinks />}
@@ -53,7 +43,7 @@ export default function Components(props) {
         {...rest}
       />
       <head>
-     <div className="access"> <script data-account="n7X2ZqbSse" src="https://cdn.userway.org/widget.js"></script></div>
+        {/* <div className="access"> <script data-account="n7X2ZqbSse" src="https://cdn.userway.org/widget.js"></script></div> */}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
         <script
@@ -63,9 +53,9 @@ export default function Components(props) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/fontawesome.min.css"></link>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"></script>
       </head>
-      <Parallax image={require("assets/img/background.jpg")}>
+      <Parallax image={require("assets/img/bg2.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
@@ -78,7 +68,6 @@ export default function Components(props) {
             </GridItem>
           </GridContainer>
         </div>
-
       </Parallax>
       <div className="icon-bar">
         <a href="#" className="facebook"><i className="fab fa-facebook"></i></a>
@@ -132,10 +121,10 @@ export default function Components(props) {
         {/* <SectionTypography /> */}
         {/* <SectionJavascript /> */}
         <SectionCompletedExamples />
-        <SectionCarousel />
+        <SectionCarousel /><br/><br/>
         <SectionTabs />
         <SectionWhy />
-        {/* <SectionBlog /> */}
+        <SectionBlog />
         {/* <SectionLogin /> */}
         {/* <GridItem md={12} className={classes.textCenter}>
           <Link href="/login">

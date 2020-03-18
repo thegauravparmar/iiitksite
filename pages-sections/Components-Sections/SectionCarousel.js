@@ -35,7 +35,7 @@ export default function SectionCarousel() {
 			<div className={classes.section}>
 				<div className={classes.container}>
 					<GridContainer>
-						<GridItem xs={12} sm={12} md={7} className={classes.marginAuto}>
+						<GridItem xs={12} sm={12} md={5} className={classes.marginAuto}>
 							<Card carousel>
 								<Carousel {...settings}>
 									<div>
@@ -72,8 +72,8 @@ export default function SectionCarousel() {
 								</Carousel>
 							</Card>
 						</GridItem>
-						<GridItem xs={12} sm={12} md={5}>
-							<p><br/>
+						<GridItem xs={12} sm={12} md={7}>
+							<p className="maindescrpt"><br/>
 								To address the challenges faced by the Indian IT industry and growth of the domestic IT market, the Ministry of Human Resource Development (MHRD), Government of India intends to establish twenty Indian Institutes of Information Technology(IIIT), on a Not-for-profit Public Private Partnership (N-PPP) basis. The partners in setting up the IllTs would be the Ministry of Human Resource Development (MHRD), Governments of the respective States where each lllT will be established, and the industry.
 
 								On the same line INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, PUNE (IIITP) is newly established Educational Institute by the Ministry of Human Resources Development, Government of India and few industry partners as Not-for-profit Public Private Partnership (N-PPP) Institution.

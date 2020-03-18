@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import "./style.css";
+import "./style.css"
 
 
 export default function Footer(params) {
@@ -35,8 +35,8 @@ export default function Footer(params) {
 						<div className="col-12 col-sm-3">
 							<div className="widget-link">
 							
-                            <h3 className="widget-title mt2">Location</h3>
-                            <p className="widget-contact__text"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d444.90525107731656!2d75.81081539996529!3d26.86405112386001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea3495775ef99a25!2sIndian%20Institute%20of%20Information%20Technology%2C%20Kota!5e0!3m2!1sen!2sin!4v1583758002596!5m2!1sen!2sin" width="250px" height="300px" frameBorder="0" allowFullScreen=""></iframe></p>
+                            <h3 class="widget-title mt2">Location</h3>
+                            <p class="widget-contact__text"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d444.90525107731656!2d75.81081539996529!3d26.86405112386001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea3495775ef99a25!2sIndian%20Institute%20of%20Information%20Technology%2C%20Kota!5e0!3m2!1sen!2sin!4v1583758002596!5m2!1sen!2sin" width="250px" height="300px" frameborder="0" allowfullscreen=""></iframe></p>
                         
 							</div>
 						</div>

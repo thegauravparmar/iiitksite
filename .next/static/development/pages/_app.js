@@ -94,7 +94,7 @@ var defaultFont = {
   fontWeight: "300",
   lineHeight: "1.5em"
 };
-var primaryColor = "#9c27b0";
+var primaryColor = "#E2E292";
 var warningColor = "#ff9800";
 var dangerColor = "#f44336";
 var successColor = "#4caf50";
@@ -218,10 +218,8 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
- // @material-ui/core components
 
 
- // core components
 
 
 var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["makeStyles"])({
@@ -251,38 +249,38 @@ function PageChange(props) {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 31
     },
     __self: this
   }, __jsx("div", {
     className: classes.wrapperDiv,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 32
     },
     __self: this
   }, __jsx("div", {
     className: classes.iconWrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 33
     },
     __self: this
   }, __jsx(_material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: classes.progress,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 34
     },
     __self: this
   })), __jsx("h4", {
     className: classes.title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 36
     },
     __self: this
-  }, "Loading page contents for: ", props.path)));
+  }, "Welcome!!")));
 }
 
 /***/ }),

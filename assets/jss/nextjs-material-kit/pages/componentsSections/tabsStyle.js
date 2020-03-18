@@ -11,9 +11,6 @@ const tabsStyle = {
   },
   markraj: {
     height: "400px",
-  },
-  p: {
-  'font-size': "20px"
   }
 };
 

@@ -26,12 +26,17 @@ export default function SectionTabs() {
             <GridItem xs={12} sm={12} md={8}>
             <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"/>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+{/* <link href="./bootstrap.min.css" rel="stylesheet" type="text/css" /> */}
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<script src="./sectionscroll.js"></script>
+<link href="./bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="./site.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="./jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
  <h3 >News & Events</h3>
  <div className="widget-title"></div>
-      <div className="container cta-100 ">
+      <div className="container  ">
         <div className="container">
           <div className="row blog">
             <div className="col-md-12">
@@ -220,7 +225,7 @@ export default function SectionTabs() {
       </div>
             </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
-                      <h3>
+                    <h3>
                         Notice
               </h3>   <div className="widget-title"></div>
                       <div className="quicktabs-main" id="quicktabs-container-home_page_tabs"><div id="quicktabs-tabpage-home_page_tabs-0" className="quicktabs-tabpage">
@@ -233,7 +238,7 @@ export default function SectionTabs() {
 
                               <ul className="arrow_list">
 
-                                <marquee direction="up" loop="true" onMouseOver="this.stop();" onMouseOut="this.start();" height="300px" className="mt-0 mb-0" >
+                                <marquee behavior="scroll" direction="up"  onMouseOver="this.stop();" onmouseout="this.start();" height="300px"  >
                                   <li><div className="views-field views-field-title">
                                     <span className="field-content">
                                       <a href="#">Academic Calendar for I/II/III/IV Year (A. Y. 2019-20)</a></span>
@@ -246,6 +251,86 @@ export default function SectionTabs() {
                         </div>
                       </div>
                       </div>
+                    {/* <div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-xs-12">
+								<ul class="demo1">
+									<li class="news-item">
+										<table cellpadding="4">
+											<tr>
+												<td><img src="images/1.png" width="60" class="img-circle" /></td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+											</tr>
+										</table>
+									</li>
+									<li class="news-item">
+										<table cellpadding="4">
+											<tr>
+												<td><img src="images/2.png" width="60" class="img-circle" /></td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+											</tr>
+										</table>
+									</li>
+									<li class="news-item">
+										<table cellpadding="4">
+											<tr>
+												<td><img src="images/3.png" width="60" class="img-circle" /></td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+											</tr>
+										</table>
+									</li>
+									<li class="news-item">
+										<table cellpadding="4">
+											<tr>
+												<td><img src="images/4.png" width="60" class="img-circle" /></td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+											</tr>
+										</table>
+									</li>
+									<li class="news-item">
+										<table cellpadding="4">
+											<tr>
+												<td><img src="images/5.png" width="60" class="img-circle" /></td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+											</tr>
+										</table>
+									</li>
+									<li class="news-item">
+										<table cellpadding="4">
+											<tr>
+												<td><img src="images/6.png" width="60" class="img-circle" /></td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+											</tr>
+										</table>
+									</li>
+									<li class="news-item">
+										<table cellpadding="4">
+											<tr>
+												<td><img src="images/7.png" width="60" class="img-circle" /></td>
+												<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis enim... <a href="#">Read more...</a></td>
+											</tr>
+										</table>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="panel-footer">
+
+					</div>
+				</div>
+			</div>
+			<sectionscroll />
+		
+	
+
+</div></div> */}
                     </GridItem>
           </GridContainer>
         </div>

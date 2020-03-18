@@ -1,6 +1,7 @@
-
-.gap.less-gap, .less-gap, .pg-inn {
-    padding: 8px 15px!important
+.gap.less-gap,
+.less-gap,
+.pg-inn {
+  padding: 8px 15px !important;
 }
 
 .customboxes {
@@ -16,7 +17,7 @@
     margin: 20px
 }
 .centerpart {
-    text-align: center;
+  text-align: center;
 }
 .whyjoin
 {
@@ -24,15 +25,15 @@
   background-color: #006609;   
 }
 .course-wrapper {
-    padding: 15px 0 15px!important
+  padding: 15px 0 15px !important;
 }
 
 .gap {
-    padding: 56px 0 56px
+  padding: 56px 0 56px;
 }
 
 .inner-page-wrapper .container .cor-con-mid {
-    padding: 14px 0!important
+  padding: 14px 0 !important;
 }
 
 .ho-ev-link-full h4 {
@@ -41,7 +42,7 @@
 }
 
 #home-area ul li {
-    color: #fff
+  color: #fff;
 }
 
 .inner-page-wrapper a {
@@ -49,51 +50,51 @@
 }
 
 .aboutus-box-body-content p {
-    font: 400 22px/24px 'Marck Script', cursive;
-    font-style: italic
+  font: 400 22px/24px "Marck Script", cursive;
+  font-style: italic;
 }
 
 .page-img {
-    top: 34%;
-    position: absolute;
-    left: 8%
+  top: 34%;
+  position: absolute;
+  left: 8%;
 }
 
 .single-item-text h4 {
-    padding-top: 6px!important
+  padding-top: 6px !important;
 }
-.iconic
-{
-    height: 40px;
-    width: 40px;
+.iconic {
+  height: 40px;
+  width: 40px;
 }
 .home-list li {
-    line-height: 28px;
-    font-size: 20px
+  line-height: 28px;
+  font-size: 20px;
 }
 
 .single-item-text h4 {
-    font-size: 22px!important
+  font-size: 22px !important;
 }
 
 .desktop-mode {
-    display: block
+  display: block;
 }
 
 .mobile-mode {
-    display: block
+  display: block;
 }
 
 .testi-title p {
-    font-size: 27px
+  font-size: 27px;
 }
 
 .testi-desc p {
-    font-size: 20px
+  font-size: 20px;
 }
 
-.gap.remove-gap, .remove-gap {
-    padding-top: 22px
+.gap.remove-gap,
+.remove-gap {
+  padding-top: 22px;
 }
 
 .inner-page-wrapper th {
@@ -170,10 +171,10 @@
   }
   .mt{
     float: left;
-    /* margin-top: -20px;
-    padding-top: 20px; */
-}
-  .bg-blue-ui {
+    margin-top: -20px;
+    padding-top: 20px; 
+} 
+   .bg-blue-ui {
     background-color: #708198 !important;
   }
   figure img{width:300px;}
@@ -186,16 +187,16 @@
     left: 0;
     top: -50px;
     height: 50%;
-  }
+  } 
   
   
-  /* The colour of the indicators */
+   The colour of the indicators 
   
-  .blog .carousel-indicators li {
-    background: #708198;
-    /* border-radius: 50%;
+   .blog .carousel-indicators li {
+    background: #708198; 
+    border-radius: 50%;
     width: 8px;
-    height: 8px; */
+    height: 8px;
   }
   
   .blog .carousel-indicators .active {
@@ -207,7 +208,7 @@
   
   .item-carousel-blog-block {
     outline: medium none;
-    /* padding: 15px; */
+    padding: 15px;
   }
   
   .item-box-blog {
@@ -294,3 +295,30 @@
   .btn.bg-blue-ui.white.read:hover {
     box-shadow: 0px 5px 15px inset #4d5f77;
   }
+
+  .whysec{
+    display: inline-block;
+   text-align:center;
+   margin-right:10px;
+   height:300px;
+   }
+   .maindescrpt{
+     font-size: 16px;
+   }
+   .mainsec
+   {
+   background-image:linear-gradient(to right,#ffafbd, #ffc3a0);
+   }
+   h2{
+   margin-bottom:0px;
+   margin-top: 10px;
+   text-decoration: none;
+   }
+   img{
+     margin-bottom: 10px;
+   }
+   .descript{
+     width: 200px;
+     text-align: left;
+   }
+  

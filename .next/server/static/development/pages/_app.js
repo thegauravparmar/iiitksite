@@ -186,7 +186,7 @@ const defaultFont = {
   fontWeight: "300",
   lineHeight: "1.5em"
 };
-const primaryColor = "#9c27b0";
+const primaryColor = "#E2E292";
 const warningColor = "#ff9800";
 const dangerColor = "#f44336";
 const successColor = "#4caf50";
@@ -323,10 +323,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
- // @material-ui/core components
 
 
- // core components
 
 
 const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])({
@@ -356,38 +354,38 @@ function PageChange(props) {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 31
     },
     __self: this
   }, __jsx("div", {
     className: classes.wrapperDiv,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 32
     },
     __self: this
   }, __jsx("div", {
     className: classes.iconWrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 33
     },
     __self: this
   }, __jsx(_material_ui_core_CircularProgress__WEBPACK_IMPORTED_MODULE_2___default.a, {
     className: classes.progress,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 34
     },
     __self: this
   })), __jsx("h4", {
     className: classes.title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 36
     },
     __self: this
-  }, "Loading page contents for: ", props.path)));
+  }, "Welcome!!")));
 }
 
 /***/ }),

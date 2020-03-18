@@ -1,3 +1,4 @@
+// npm install next react react-dom
 const withPlugins = require("next-compose-plugins");
 const withImages = require("next-images");
 const withSass = require("@zeit/next-sass");

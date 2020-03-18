@@ -1,8 +1,7 @@
 .widget-title:before {
     content: '';
     width: 0px;
-    height: 2px;
-    background:#8d8d8d;
+    height: 0px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -13,7 +12,7 @@
     content: '';
     width: 70px;
     height: 3px;
-    background: #006609;
+    background: #007acc;
     position: absolute;
     bottom: 0;
     left: 0;

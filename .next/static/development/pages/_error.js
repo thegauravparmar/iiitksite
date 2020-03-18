@@ -3258,7 +3258,7 @@ var _error = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ 8:
+/***/ 2:
 /*!**********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CTheGauravParmar%5CDocuments%5CGitHub%5Ciiitksite%5Cpages%5C_error.js ***!
   \**********************************************************************************************************************************************************/
@@ -3281,5 +3281,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map

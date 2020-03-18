@@ -90,9 +90,9 @@
 
 .widget-title:before {
     content: '';
-    width: opx;
-    height: 1px;
-    background: rgba(255, 255, 255, .2);
+    width: 0px;
+    height: 0px;
+    background:#fff;
     position: absolute;
     bottom: 0;
     left: 0;
