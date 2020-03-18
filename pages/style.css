@@ -25,3 +25,11 @@
   top: 41.6%;
   z-index: 9;
 }
+
+.icon-bar {
+  z-index: 9999;
+}
+
+.access {
+height:10px
+}

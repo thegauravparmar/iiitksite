@@ -10,7 +10,7 @@ import Build from "@material-ui/icons/Build";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import CustomTabs from "components/CustomTabs/CustomTabs.js";
-
+import "./style.css";
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/tabsStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -23,206 +23,230 @@ export default function SectionTabs() {
         <div id="nav-tabs">
           {/* <h3>Navigation Tabs</h3> */}
           <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
-              <h3>
-                <small>News & Events</small>
-              </h3>
-              <Head>
-              <link rel="stylesheet" href="https://www.iiitb.ac.in/includes/css/icons.min.css"/>
-              <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-              <link rel="stylesheet" href="https://www.iiitb.ac.in/includes/css/color.css" title="color" />
-                <script src="https://www.iiitb.ac.in/includes/js/jquery.min.js"></script>
-              </Head>
-              
-              {/* <!---  ROW 2 Starts ---> */}
-              <section>
-                <div classNameName="gap theme-bg-layer opc9">
-                  <div classNameName="container">
-                     {/* <!-- Sec Title --> */}
-                    <div classNameName="tem-sec remove-ext5 text-center">
-                      <div classNameName="row">
-                        <div classNameName="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
-                          <div className="MultiCarousel-inner">
-                            <div className="item newitems news-events">
-                              <div className="tm-bx">
-                                <div className="tm-thmb">
-                                  <a href="news-events/call-for-applicationsresearch-programs"><img alt="Call for Applications-Resear" src="includefiles/newsevents/small/Admissions_MS_PhD.JPG" />
+            <GridItem xs={12} sm={12} md={8}>
+            <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"/>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-                                  </a>
-                                  <div className="scl2">
-                                    <a className="theme-bg" href="" title="Facebook" onclick="#"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="theme-bg" href="" title="Twitter" onclick="#"><i className="fab fa-twitter"></i></a>
-                                    <a className="theme-bg" href="#" title="Google Plus" onclick="#"><i className="fab fa-linkedin"></i></a>
-                                  </div>
-                                </div>
-                                <a href="news-events/call-for-applicationsresearch-programs"><div className="tm-inf">
-                                  <h4>Call for Applications-R</h4>
-                                  <span className="theme-clr">IIIT Bangalore invites applications for its research degree programs <div className="readmore">Read More...</div></span>
-                                </div>
-                                </a>
-                              </div>
-                            </div>
-                            <div className="item newitems news-events">
-                              <div className="tm-bx">
-                                <div className="tm-thmb">
-                                  <a href="news-events/workshop-on-cyber-crime-and-forensics-2"><img alt="workshop on Cyber Crime and " src="includefiles/newsevents/small/SRI_1976.JPG" /></a>
-                                  <div className="scl2">
-                                    <a className="theme-bg" href="" title="Facebook" onclick="#"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="theme-bg" href="" title="Twitter" onclick="#"><i className="fab fa-twitter"></i></a>
-                                    <a className="theme-bg" href="#" title="Google Plus" onclick="#"><i className="fab fa-linkedin"></i></a>
-                                  </div>
-                                </div>
-                                <a href="news-events/workshop-on-cyber-crime-and-forensics-2"><div className="tm-inf">
-                                  <h4>workshop on "Cyber Crim</h4>
-                                  <span className="theme-clr">IIIT Bangalore conducted a two-day workshop on "Cyber Crime and Forensics" on 14-15 F <div className="readmore">Read More...</div></span>
-                                </div></a>
-                              </div>
-                            </div>
-                            <div className="item newitems news-events">
-                              <div className="tm-bx">
-                                <div className="tm-thmb">
-                                  <a href="news-events/celebration-of-republic-day"><img alt="Celebration of Republic Day" src="includefiles/newsevents/small/Untitled-11.jpg" /></a>
-                                  <div className="scl2">
-                                    <a className="theme-bg" href="" title="Facebook" onclick="#"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="theme-bg" href="" title="Twitter" onclick="#"><i className="fab fa-twitter"></i></a>
-                                    <a className="theme-bg" href="#" title="Google Plus" onclick="#"><i className="fab fa-linkedin"></i></a>
-                                  </div>
-                                </div>
-                                <a href="news-events/celebration-of-republic-day"><div className="tm-inf">
-                                  <h4>Celebration of Republic</h4>
-                                  <span className="theme-clr">We celebrated 71st Republic Day on January 26, 2020 <div className="readmore">Read More...</div></span>
-                                </div></a>
-                              </div>
-                            </div>
-                            <div className="item newitems news-events">
-                              <div className="tm-bx">
-                                <div className="tm-thmb">
-                                  <a href="news-events/extension-of-mou-between-iiitb-and-nimhans"><img alt="Extension of MoU between III" src="includefiles/newsevents/small/MoU-1.jpg" /></a>
-                                  <div className="scl2">
-                                    <a className="theme-bg" href="" title="Facebook" onclick="#"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="theme-bg" href="" title="Twitter" onclick="#"><i className="fab fa-twitter"></i></a>
-                                    <a className="theme-bg" href="#" title="Google Plus" onclick="#"><i className="fab fa-linkedin"></i></a>
-                                  </div>
-                                </div>
-                                <a href="news-events/extension-of-mou-between-iiitb-and-nimhans"><div className="tm-inf">
-                                  <h4>Extension of MoU betwee</h4>
-                                  <span className="theme-clr">Extension of MoU between IIIT Bangalore and NIMHANS <div className="readmore">Read More...</div></span>
-                                </div></a>
-                              </div>
-                            </div>
-                            <div className="item newitems news-events">
-                              <div className="tm-bx">
-                                <div className="tm-thmb">
-                                  <a href="news-events/inclusive-stem-confluence-2020"><img alt="Inclusive Stem Confluence 20" src="includefiles/newsevents/small/I_Stem_Confluence.jpg" /></a>
-                                  <div className="scl2">
-                                    <a className="theme-bg" href="" title="Facebook" onclick="#"><i className="fab fa-facebook"></i></a>
-                                    <a className="theme-bg" href="" title="Twitter" onclick="#"><i className="fab fa-twitter"></i></a>
-                                    <a className="theme-bg" href="#" title="Google Plus" onclick="#"><i className="fab fa-linkedin"></i></a>
-                                  </div>
-                                </div>
-                                <a href="news-events/inclusive-stem-confluence-2020"><div className="tm-inf">
-                                  <h4>Inclusive Stem Confluen</h4>
-                                  <span className="theme-clr">The Inclusive STEM Confluence 2020 was conducted at IIIT Bangalore during 17-18 Janua <div className="readmore">Read More...</div></span>
-                                </div></a>
-                              </div>
-                            </div>
-                            <div className="item newitems news-events">
-                              <div className="tm-bx">
-                                <div className="tm-thmb">
-                                  <a href="news-events/fairwork-foundation-report"><img alt="Fairwork Foundation Report" src="includefiles/newsevents/small/fairwork.jpg" /></a>
-                                  <div className="scl2">
-                                    <a className="theme-bg" href="" title="Facebook" onclick="#"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="theme-bg" href="" title="Twitter" onclick="#"><i className="fab fa-twitter"></i></a>
-                                    <a className="theme-bg" href="#" title="Google Plus" onclick="#"><i className="fab fa-linkedin"></i></a>
-                                  </div>
-                                </div>
-                                <a href="news-events/fairwork-foundation-report"><div className="tm-inf">
-                                  <h4>Fairwork Foundation Rep</h4>
-                                  <span className="theme-clr">As the lead India investigator for the Fairwork Foundation's effort to ensure fair la <div className="readmore">Read More...</div></span>
-                                </div></a>
-                              </div>
-                            </div>
-                            <div className="item newitems news-events">
-                              <div className="tm-bx">
-                                <div className="tm-thmb">
-                                  <a href="news-events/meeting-with-bill-gates"><img alt="Meeting with Bill Gates" src="includefiles/newsevents/small/bill-gates-meet.jpg" /></a>
-                                  <div className="scl2">
-                                    <a className="theme-bg" href="" title="Facebook" onclick="#"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="theme-bg" href="" title="Twitter" onclick="#"><i className="fab fa-twitter"></i></a>
-                                    <a className="theme-bg" href="#" title="Google Plus" onclick="#"><i className="fab fa-linkedin"></i></a>
-                                  </div>
-                                </div>
-                                <a href="news-events/meeting-with-bill-gates"><div className="tm-inf">
-                                  <h4>Meeting with Bill Gates</h4>
-                                  <span className="theme-clr">The MOSIP team, on 30th October 2019, had the pleasure of providing Bill Gates  <div className="readmore">Read More...</div></span>
-                                </div></a>
-                              </div>
-                            </div>
-                            <div className="item newitems news-events">
-                              <div className="tm-bx">
-                                <div className="tm-thmb">
-                                  <a href="news-events/congratulations-2"><img alt="Congratulations" src="includefiles/newsevents/small/congratulations.jpg" /></a>
-                                  <div className="scl2">
-                                    <a className="theme-bg" href="" title="Facebook" onclick="#"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="theme-bg" href="" title="Twitter" onclick="#"><i className="fab fa-twitter"></i></a>
-                                    <a className="theme-bg" href="#" title="Google Plus" onclick="#"><i className="fab fa-linkedin"></i></a>
-                                  </div>
-                                </div>
-                                <a href="news-events/congratulations-2"><div className="tm-inf">
-                                  <h4>Congratulations</h4>
-                                  <span className="theme-clr">Sridhar Varadharajan, Preeti Mudliar and Balaji Parthasarathy have been awarded INR 1 <div className="readmore">Read More...</div></span>
-                                </div></a>
-                              </div>
-                            </div>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+ <h3 >News & Events</h3>
+ <div className="widget-title"></div>
+      <div className="container cta-100 ">
+        <div className="container">
+          <div className="row blog">
+            <div className="col-md-12">
+              <div id="blogCarousel" className="carousel slide container-blog" data-ride="carousel">
+              
+               
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-4" >
+                        <div class="item-box-blog">
+                          <div class="item-box-blog-image">
+                           
+                            
+                         
+                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"/> </figure>
                           </div>
-                          <button className="btn btn-primary leftLst arrow-keys"><i className="fa fa-angle-left"></i></button>
-                          <button className="btn btn-primary rightLst arrow-keys"><i className="fa fa-angle-right"></i></button>
+                          <div class="item-box-blog-body">
+                          
+                            <div class="item-box-blog-heading">
+                              <a href="#" tabindex="0">
+                                <h5>News Title</h5>
+                              </a>
+                            </div>
+                           
+                            
+                            <div class="item-box-blog-text">
+                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4" >
+                        <div class="item-box-blog">
+                          <div class="item-box-blog-image">
+                        
+                            
+                          
+                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"/> </figure>
+                          </div>
+                          <div class="item-box-blog-body">
+                           
+                            <div class="item-box-blog-heading">
+                              <a href="#" tabindex="0">
+                                <h5>News Title</h5>
+                              </a>
+                            </div>
+                         
+                            <div class="item-box-blog-data" styleName="padding: px 15px;">
+                             
+                            </div>
+                        
+                            <div class="item-box-blog-text">
+                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                          
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4" >
+                        <div class="item-box-blog">
+                          <div class="item-box-blog-image">
+                           
+                            
+                          
+                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"/> </figure>
+                          </div>
+                          <div class="item-box-blog-body">
+                        
+                            <div class="item-box-blog-heading">
+                              <a href="#" tabindex="0">
+                                <h5>News Title</h5>
+                              </a>
+                            </div>
+                           
+                            <div class="item-box-blog-data" styleName="padding: px 15px;">
+                             
+                            </div>
+                         
+                            <div class="item-box-blog-text">
+                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                            
+                          </div>
                         </div>
                       </div>
                     </div>
+                    
                   </div>
-                </div>
-              </section>
-              <script src="https://www.iiitb.ac.in/includes/js/bootstrap.min.js"></script>
-              <script src="https://www.iiitb.ac.in/includes/js/perfect-scrollbar.min.js"></script>
-              <script src="https://www.iiitb.ac.in/includes/js/owl.carousel.min.js"></script>
-              <script src="https://www.iiitb.ac.in/includes/js/jquery.validate.min.js"></script>
-              <script src="https://www.iiitb.ac.in/includes/js/scroll-up.min.js"></script>
-              <script src="https://www.iiitb.ac.in/includes/js/custom-scripts.js?v=546.21"></script>
-              <script src="https://www.iiitb.ac.in/includes/js/jquery.liMarquee.js"></script>
-              <script src="https://www.iiitb.ac.in/includes/javascripts/common.js?v=546.21"></script>
-              <script src="https://cdn.userway.org/widget.js"></script>
-
-              <script src="https://www.iiitb.ac.in/includes/javascripts/index.js?v=546.21"></script>
-            </GridItem>
-            <GridItem xs={12} sm={12} md={6}>
-              <h3>
-                <small>Notice</small>
-              </h3>
-              <div class="quicktabs-main" id="quicktabs-container-home_page_tabs"><div id="quicktabs-tabpage-home_page_tabs-0" class="quicktabs-tabpage">
-                <div class="quicktabs-block-title"></div>
-                <div><div class="views-element-container">
-                  <div class="js-view-dom-id-b90a02cd170013f05730e526493cc7457ecb50baf953d879b1fc9b17df0a99e8">
-
-
-                    <div class="notice-list">
-
-                      <ul class="arrow_list">
-
-                        <marquee direction="up" loop="true" onmouseover="this.stop();" onmouseout="this.start();" height="300px" className="mt-0 mb-0" >
-                          <li><div class="views-field views-field-title">
-                            <span class="field-content">
-                              <a href="#">Academic Calendar for I/II/III/IV Year (A. Y. 2019-20)</a></span>
-                          </div></li><li><div class="views-field views-field-title"><span class="field-content">
-                            <a href="#">Fee Structure for B. Tech. first year students (A. Y. 2019-20)</a></span></div></li></marquee>
-                      </ul>
+                 
+                  <div class="carousel-item ">
+                    <div class="row">
+                      <div class="col-md-4" >
+                        <div class="item-box-blog">
+                          <div class="item-box-blog-image">
+                            
+                            
+                           
+                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"/> </figure>
+                          </div>
+                          <div class="item-box-blog-body">
+                       
+                            <div class="item-box-blog-heading">
+                              <a href="#" tabindex="0">
+                                <h5>News Title</h5>
+                              </a>
+                            </div>
+                           
+                            
+                            <div class="item-box-blog-text">
+                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4" >
+                        <div class="item-box-blog">
+                          <div class="item-box-blog-image">
+                            
+                            
+                            
+                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"/> </figure>
+                          </div>
+                          <div class="item-box-blog-body">
+                            
+                            <div class="item-box-blog-heading">
+                              <a href="#" tabindex="0">
+                                <h5>News Title</h5>
+                              </a>
+                            </div>
+                          
+                             
+                            <div class="item-box-blog-text">
+                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
+                            </div>
+                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4" >
+                        <div class="item-box-blog">
+                          <div class="item-box-blog-image">
+                           
+                            
+                           
+                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"/> </figure>
+                          </div>
+                          <div class="item-box-blog-body">
+                          
+                            <div class="item-box-blog-heading">
+                              <a href="#" tabindex="0">
+                                <h5>News Title</h5>
+                              </a>
+                            </div>
+                           
+                              
+                            <div class="item-box-blog-text">
+                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
+                            </div>
+                             <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                           
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                   
                   </div>
+               
                 </div>
-                </div>
+                <ol class="carousel-indicators">
+                  <li data-target="#blogCarousel" data-slide-to="0" class="active fab fa-angle-right"></li>
+                  <li data-target="#blogCarousel" data-slide-to="1"></li>
+                </ol>
               </div>
-              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
             </GridItem>
+                    <GridItem xs={12} sm={12} md={4}>
+                      <h3>
+                        Notice
+              </h3>   <div className="widget-title"></div>
+                      <div className="quicktabs-main" id="quicktabs-container-home_page_tabs"><div id="quicktabs-tabpage-home_page_tabs-0" className="quicktabs-tabpage">
+                        <div className="quicktabs-block-title"></div>
+                        <div><div className="views-element-container">
+                          <div className="js-view-dom-id-b90a02cd170013f05730e526493cc7457ecb50baf953d879b1fc9b17df0a99e8">
+
+
+                            <div className="notice-list">
+
+                              <ul className="arrow_list">
+
+                                <marquee direction="up" loop="true" onMouseOver="this.stop();" onMouseOut="this.start();" height="300px" className="mt-0 mb-0" >
+                                  <li><div className="views-field views-field-title">
+                                    <span className="field-content">
+                                      <a href="#">Academic Calendar for I/II/III/IV Year (A. Y. 2019-20)</a></span>
+                                  </div></li><li><div className="views-field views-field-title"><span className="field-content">
+                                    <a href="#">Fee Structure for B. Tech. first year students (A. Y. 2019-20)</a></span></div></li></marquee>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      </div>
+                    </GridItem>
           </GridContainer>
         </div>
       </div>

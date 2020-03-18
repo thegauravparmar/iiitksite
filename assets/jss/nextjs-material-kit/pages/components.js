@@ -9,6 +9,7 @@ const componentsStyle = {
   title: {
     marginTop: "30px",
     fontSize: "1.7rem",
+    color: "#ffffff",
     fontWeight: "600",
     display: "inline-block",
     position: "relative"
@@ -16,6 +17,7 @@ const componentsStyle = {
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "510px",
+    color: "#ffffff",
     margin: "10px 0 0"
   },
   main: {
