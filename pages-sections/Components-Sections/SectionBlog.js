@@ -11,7 +11,7 @@ export default function Footer(params) {
             <div className="gap remove-gap mrg-05">
                 <div className="container">
                     <div className="sec-tl text-center">
-                        <h2 itemProp="headline">Blog Posts</h2>
+                        <h2 itemprop="headline">Blog Posts</h2>
                         <span>A reflection of the diverse mix of thinking minds on the campus</span>
                     </div>
                     <div className="blog-wrap3 remove-ext3 blogs-home">

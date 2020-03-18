@@ -3,7 +3,7 @@ import { container } from "assets/jss/nextjs-material-kit.js";
 const tabsStyle = {
   section: {
     background: "#EEEEEE",
-    padding: "0"
+    padding: "70px 0"
   },
   container,
   textCenter: {
@@ -11,9 +11,6 @@ const tabsStyle = {
   },
   markraj: {
     height: "400px",
-  },
-  p: {
-  'font-size': "20px"
   }
 };
 
