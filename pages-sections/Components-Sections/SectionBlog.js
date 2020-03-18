@@ -20,44 +20,44 @@ export default function Footer(params) {
                     <div className="blog-wrap3 remove-ext3 blogs-home">
                         <div className="row">
                             <div className="col-md-4 col-sm-12 blog"> 
-                                <div className="story-box3">
-                                    <div className="story-img"/>
-                                        <a href="blogs/how-to-improve-data-speeds" title=""><img src="https://www.iiitb.ac.in/includefiles/blogs/medium/speep-internet1.jpg" alt=""/></a>
-                                            <span className="story-date"><a href="blogs/how-to-improve-data-speeds" title="">20<i>Dec</i></a></span>
+                                <div className="">
+                                    <div className=""/>
+                                        <a href="#" title=""><img className="blogimg"  src="http://www.iiitkota.ac.in/uploads/file-1561439764054.jpg" alt=""/></a>
+                                            <span className="date"><a href="#" title="">21 June 19</a></span>
                                     </div>
-                                        <div className="story-info3">
+                                        <div className="">
                                             
-                                            <h4><a href="blogs/how-to-improve-data-speeds" title="">How to improve data speeds</a></h4>
-                                            <p>Mobile broadband subscriptions in India are expected to surpass voice-only 2G services very soon—4G LTE subscriptions account for 50% of mobile subscriptions. As per the recent Ericsson Mobility Report, 4G LT</p>
-                                            <a href="blogs/how-to-improve-data-speeds" title="">View Detail<i className="fas fa-arrow-right"></i></a>
+                                            <h5><a href="#" title="">5TH INTERNATIONAL YOGA DAY CELEBRATION</a></h5>
+                                            <p>5th International Yoga Day Celebrated on 21st June 2019. Some other competitive activities also conducted among children.</p>
+                                            <a href="#" title="">View Detail<i className="fas fa-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 
                                 <div className="col-md-4 col-sm-12 blog">
-                                    <div className="story-box3">
-                                        <div className="story-img">
-                                            <a href="blogs/your-chance-to-shape-the-worlds-digital-future-is-here" title=""><img src="https://www.iiitb.ac.in/includefiles/blogs/medium/Worlds-Digital-Future-is-Here!1.jpg" alt=""/></a>
-                                                <span className="story-date"><a href="blogs/your-chance-to-shape-the-worlds-digital-future-is-here" title="">20<i>Aug</i></a></span>
+                                    <div className="">
+                                        <div className="">
+                                            <a href="#" title=""><img className="blogimg" src="http://www.iiitkota.ac.in/uploads/file-1561439616864.jpeg" alt=""/></a>
+                                                <span className="date"><a href="#" title="">10 June 19</a></span>
                                     </div>
-                                            <div className="story-info3">
+                                            <div className="">
                                                
-                                                <h4><a href="blogs/your-chance-to-shape-the-worlds-digital-future-is-here" title="">Your Chance to Shape the World's Digital Future is Here!</a></h4>
-                                                <p>Technology has pervaded every aspect of our daily lives and things that were once in the realm of science fiction books have now become a reality. Not only has technology changed the way we live but also the</p>
-                                                <a className="post-btn" href="blogs/your-chance-to-shape-the-worlds-digital-future-is-here" title="">View Detail<i className="fas fa-arrow-right"></i></a>
+                                                <h5><a href="#" title="">ANTI TERRORISM OATH</a></h5>
+                                                <p>IIIT Kota faculty and staff members took an Anti Terrorism oath on 10th June 2019.</p>
+                                                <a className="post-btn" href="#" title="">View Detail<i className="fas fa-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-md-4 col-sm-12 blog">
-                                        <div className="story-box3">
-                                            <div className="story-img">
-                                                <a href="blogs/monitoring-net-neutrality-a-challenge" title=""><img src="https://www.iiitb.ac.in/includefiles/blogs/medium/Monitoring-Net-Neutrality.jpg" alt=""/></a>
-                                                    <span className="story-date"><a href="blogs/monitoring-net-neutrality-a-challenge" title="">20<i>Aug</i></a></span>
+                                        <div className="">
+                                            <div className="">
+                                                <a href="#" title=""><img className="blogimg" src="http://www.iiitkota.ac.in/uploads/file-1556786797665.JPEG" alt=""/></a>
+                                                    <span className="date"><a href="#" title="">20 Aug 19</a></span>
                                     </div>
-                                                <div className="story-info3">
+                                                <div className="">
                                                   
-                                                    <h4><a href="blogs/monitoring-net-neutrality-a-challenge" title="">Monitoring Net Neutrality: A Challenge</a></h4>
-                                                    <p>Author: V. Sridhar, Professor, IIIT Bangalore and Kartik Raja, CEO of Phimetrics...</p>
-                                                    <a className="post-btn" href="blogs/monitoring-net-neutrality-a-challenge" title="">View Detail<i className="fas fa-arrow-right"></i></a>
+                                                    <h5><a href="#" title="">IIIT KOTA ORGANIZED MICROSOFT GLOBAL AZURE BOOTCAMP 2019 IN ASSOCIATION WITH JAIPUR.</a></h5>
+                                                    <p>We had three speakers, 1. Yash Bhutoria, Associate Data engineer at Celebal Technologies spoke about Building Android Apps without...</p>
+                                                    <a className="post-btn" href="#" title="">View Detail<i className="fas fa-arrow-right"></i></a>
                                                 </div>
                                             </div>
                                         </div>
