@@ -5,12 +5,17 @@
   z-index: 9;
 }
 .para {
-  padding-top: 100px;
+  padding-top: 80px;
   align-items: center;
-  color: blue;
+  color: black;
+  font-size: 300px;
+  padding-bottom: 60px;
+  @media (max-width: 830px) {
+    font-size: 10px;
+  }
 }
 a {
-  font-size: large;
+  font-size: 20px;
   color: black;
 }
 

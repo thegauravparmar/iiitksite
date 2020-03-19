@@ -2,7 +2,7 @@ import { container } from "assets/jss/nextjs-material-kit.js";
 
 const tabsStyle = {
   section: {
-    background: "#EEEEEE",
+    background: "#ffffff",
     padding: "70px 0"
   },
   container,

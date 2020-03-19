@@ -9,9 +9,10 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
-import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
+import ProductSection from "pages-sections/LandingPage-Sections/partnerships.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
+import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js"
+import SectionTypography from "pages-sections/Components-Sections/SectionTypography.js";
 import "./style.css"
 const dashboardRoutes = [];
 const useStyles = makeStyles(styles);

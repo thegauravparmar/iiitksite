@@ -34,7 +34,7 @@ export default function HeaderLinks(props) {
             <Link href="/about_us/partnerships">
               <a className={classes.dropdownLink}>Partnerships</a>
             </Link>,
-            <Link href="/about_us/vission_mission">
+            <Link href="/about_us/vision_mission">
               <a className={classes.dropdownLink}>Vision and Mission</a>
             </Link>,
             <Link href="/about_us/calender">
@@ -114,10 +114,10 @@ export default function HeaderLinks(props) {
             <Link href="/Admission/procedure">
               <a className={classes.dropdownLink}>Procedure</a>
             </Link>,
-            <Link href="/Admission/procedure">
+            <Link href="/Admission/fees">
               <a className={classes.dropdownLink}>Fees</a>
             </Link>,
-            <Link href="/Admission/procedure">
+            <Link href="/Admission/scholership">
               <a className={classes.dropdownLink}>Scholarship</a>
             </Link>,
           ]}
@@ -163,19 +163,19 @@ export default function HeaderLinks(props) {
           }}
           // buttonIcon={Apps}
           dropdownList={[
-            <Link href="/components">
+            <Link href="/placements/placement_procedure">
               <a className={classes.dropdownLink}>Placement Procedure</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/placements/placement_statistics">
               <a className={classes.dropdownLink}>Placement Statistics</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/placements/internship">
               <a className={classes.dropdownLink}>Internship</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/placements/recruiters">
               <a className={classes.dropdownLink}>Our Recruiters</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/placements/training_placement">
               <a className={classes.dropdownLink}>Training & Placement Cell</a>
             </Link>
           ]}
@@ -192,52 +192,46 @@ export default function HeaderLinks(props) {
           }}
           // buttonIcon={Apps}
           dropdownList={[
-            <Link href="/components">
+            <Link href="/life/library">
               <a className={classes.dropdownLink}>Library</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/infrastructure">
               <a className={classes.dropdownLink}>IT Infrastructure</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/computer_labs">
               <a className={classes.dropdownLink}>Computer Labs</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/canteen">
               <a className={classes.dropdownLink}>Canteen</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/medical">
               <a className={classes.dropdownLink}>Medical</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/dining_services">
               <a className={classes.dropdownLink}>Dining Services</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/events">
               <a className={classes.dropdownLink}>Institute Events</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/hostels">
               <a className={classes.dropdownLink}>Hostels</a>
             </Link>,
-            <Link href="/components">
-              <a className={classes.dropdownLink}>Committees</a>
-            </Link>,
-            <Link href="/components">
+            <Link href="/life/sports">
               <a className={classes.dropdownLink}>Sports</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/achivements">
               <a className={classes.dropdownLink}>Achivements</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/clubs">
               <a className={classes.dropdownLink}>Students Club</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/fests">
               <a className={classes.dropdownLink}>Students Fests</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/life/rules">
               <a className={classes.dropdownLink}>Rules & Discipline</a>
             </Link>,
-            <Link href="/components">
-              <a className={classes.dropdownLink}>Committees</a>
-            </Link>,
-            <Link href="/components">
+            <Link href="/life/sports">
               <a className={classes.dropdownLink}>Sports</a>
             </Link>
           ]}

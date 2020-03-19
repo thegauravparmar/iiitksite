@@ -9,10 +9,9 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
-import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
+import ProductSection from "pages-sections/LandingPage-Sections/Governing_BodySection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
-import "./style.css"
 const dashboardRoutes = [];
 const useStyles = makeStyles(styles);
 export default function LandingPage(props) {
@@ -32,7 +31,7 @@ export default function LandingPage(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
+            <Parallax image={require("assets/img/landing-bg.jpg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
