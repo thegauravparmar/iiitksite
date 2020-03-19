@@ -14,12 +14,12 @@ const productStyle = {
   title: {
     ...title,
     textAlign: "center",
-    marginBottom: "1rem",
-    marginTop: "20px",
+    marginBottom: "3rem",
+    marginTop: "3rem",
     minHeight: "20px",
     textDecoration: "none",
-    fontSize: "25px ",
-    "@media (max-width: 8300px)": {
+    fontSize: "30px ",
+    "@media (max-width: 830px)": {
       // textAlign: "left",
       fontSize: "20px ",
     }

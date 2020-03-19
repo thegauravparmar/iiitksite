@@ -49,11 +49,11 @@ export default function LandingPage(props) {
 
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
-                    <div className="para">
-                        <ExploreSection />
-                        {/* <TeamSection />
+                    {/* <div className="para"> */}
+                    <ExploreSection />
+                    {/* <TeamSection />
                     <WorkSection /> */}
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
             <Footer />

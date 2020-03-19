@@ -82,19 +82,16 @@ export default function HeaderLinks(props) {
             color: "transparent"
           }}
           dropdownList={[
-            <Link href="/admistration/board_of_governors">
-              <a className={classes.dropdownLink}>Board of Governors</a>
-            </Link>,
-            <Link href="/admistration/senate">
-              <a className={classes.dropdownLink}>Senate</a>
-            </Link>,
-            <Link href="/admistration/director">
+            <Link href="/administration/director">
               <a className={classes.dropdownLink}>Director</a>
             </Link>,
-            <Link href="/admistration/finance_committee">
+            <Link href="/administration/senate">
+              <a className={classes.dropdownLink}>Senate</a>
+            </Link>,
+            <Link href="/administration/finance_committee">
               <a className={classes.dropdownLink}>Finance Committee</a>
             </Link>,
-            <Link href="/admistration/building_work_comittee">
+            <Link href="/administration/building_work_comittee">
               <a className={classes.dropdownLink}>Building and Works Committee</a>
             </Link>
           ]}

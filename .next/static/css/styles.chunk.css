@@ -1295,133 +1295,45 @@ ul.footer-app li {
 ul.footer-app li img {
     max-width: 110px
 }
-.gap.less-gap,
-.less-gap,
-.pg-inn {
-  padding: 8px 15px !important;
+/* @font-face {
+  font-family: Poppins-Regular;
+  src: url("./tableassets/fonts/poppins/Poppins-Regular.ttf");
 }
-
-.customboxes {
-  background: #055897;
-  color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  font-family: Lato, sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  min-height: 240px;
-  float: left;
-  margin: 20px;
-}
-.centerpart {
-  text-align: center;
-}
-.whyjoin {
-  color: #ffc500;
-}
-.course-wrapper {
-  padding: 15px 0 15px !important;
-}
-
-.gap {
-  padding: 56px 0 56px;
-}
-
-.inner-page-wrapper .container .cor-con-mid {
-  padding: 14px 0 !important;
-}
-
-.ho-ev-link-full h4 {
-  color: #015483;
-  text-transform: uppercase;
-}
-
-#home-area ul li {
-  color: #fff;
-}
-
-.inner-page-wrapper a {
-  color: #0056b3;
-}
-
-.aboutus-box-body-content p {
-  font: 400 22px/24px "Marck Script", cursive;
-  font-style: italic;
-}
-
-.page-img {
-  top: 34%;
-  position: absolute;
-  left: 8%;
-}
-
-.single-item-text h4 {
-  padding-top: 6px !important;
-}
-.iconic {
-  height: 40px;
-  width: 40px;
-}
-.home-list li {
-  line-height: 28px;
-  font-size: 20px;
-}
-
-.single-item-text h4 {
-  font-size: 22px !important;
-}
-
-.desktop-mode {
-  display: block;
-}
-
-.mobile-mode {
-  display: block;
-}
-
-.testi-title p {
-  font-size: 27px;
-}
-
-.testi-desc p {
-  font-size: 20px;
-}
-
-.gap.remove-gap,
-.remove-gap {
-  padding-top: 22px;
-}
-
-.inner-page-wrapper th {
-  background: #015483;
-  color: #fff;
-}
-
-.widget-title:before {
-    content: '';
-    width: 100%;
-    height: 2px;
-    background:#8d8d8d;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.widget-title:after {
-    content: '';
-    width: 70px;
-    height: 3px;
-    background: #007acc;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('./tableassets/fonts/poppins/Poppins-Bold.ttf');
+} */
 .vertical-wrapper-fb {
   position: fixed;
   right: 98%;
   top: 30%;
   z-index: 9;
+}
+.para {
+  padding-top: 80px;
+  align-items: center;
+  color: black;
+  font-size: 300px;
+  padding-bottom: 60px;
+  @media (max-width: 830px) {
+    font-size: 10px;
+  }
+}
+a {
+  font-size: 20px;
+  color: black;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+a:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .vertical-wrapper-twit {
@@ -1473,6 +1385,205 @@ ul.footer-app li img {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+/* table styles */
+
+.limiter {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  padding-top: 80px;
+  color: #3c4858;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.container-table100 {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  padding-left: 33px;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+.wrap-table100 {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  width: 960px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  width: 100%;
+  display: table;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .table {
+    display: block;
+  }
+}
+
+.tablerow {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  display: table-row;
+  /* background: #fff; */
+}
+
+.tablerow.header {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  color: #ffffff;
+  background: #85858a;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .tablerow {
+    display: block;
+  }
+
+  .tablerow.header {
+    padding: 0;
+    height: 0px;
+  }
+
+  .tablerow.header .cell {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    display: none;
+  }
+
+  .tablerow .cell:before {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    /* font-family: Poppins-Bold; */
+    font-size: 12px;
+    color: #808080;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: unset !important;
+
+    margin-bottom: 13px;
+    content: attr(data-title);
+    min-width: 98px;
+    display: block;
+  }
+}
+
+.cell {
+  display: table-cell;
+}
+
+@media screen and (max-width: 768px) {
+  .cell {
+    display: block;
+  }
+}
+
+.tablerow .cell {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  /* font-family: Poppins-Regular; */
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.2;
+  font-weight: unset !important;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.tablerow.header .cell {
+  /* font-family: Poppins-Regular; */
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset !important;
+
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.tablerow .cell:nth-child(1) {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  width: 360px;
+  padding-left: 40px;
+}
+
+.tablerow .cell:nth-child(2) {
+  width: 160px;
+}
+
+.tablerow .cell:nth-child(3) {
+  width: 250px;
+}
+
+.tablerow .cell:nth-child(4) {
+  width: 190px;
+}
+
+.table,
+.tablerow {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  width: 100% !important;
+}
+
+.tablerow:hover {
+  background-color: #ececff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .tablerow {
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 18px;
+    padding-top: 30px;
+    padding-right: 15px;
+    margin: 0;
+  }
+
+  .tablerow .cell {
+    border: none;
+    padding-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .tablerow .cell:nth-child(1) {
+    padding-left: 30px;
+  }
+
+  .tablerow .cell {
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+    font-weight: unset !important;
+  }
+
+  .table,
+  .tablerow,
+  .cell {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    width: 100% !important;
+  }
 }
 
 .vertical-wrapper-fb {
