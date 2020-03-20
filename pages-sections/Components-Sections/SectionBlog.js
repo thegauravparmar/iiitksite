@@ -18,7 +18,55 @@ export default function Footer(params) {
                         <span>A reflection of the diverse mix of thinking minds on the campus</span>
                     </div><br/><br/>
                     <div className="blog-wrap3 remove-ext3 blogs-home">
-                        <div className="row">
+                    <div class="row">
+                              <div class="col-md-4" >
+                                <div class="item-box-blog2">
+                                  <div class="item-box-blog-image2">
+                                    <figure>  <a href="#" title=""><img src="http://www.iiitkota.ac.in/uploads/file-1561439616864.jpeg" alt="" /></a></figure>
+                                    <span><a href="#" title="" className="date">10 June 19</a></span>
+                                     
+                                    <div className="item-box-blog-heading">
+
+                                      <h5><a href="#" title="" tabindex="0">ANTI TERRORISM OATH</a></h5></div><div className="item-box-blog-text2">
+                                      <p className="newsdata1">IIIT Kota faculty and staff members took an Anti Terrorism oath on 10th June 2019.</p>
+                                      <a className="post-btn1" href="#" title="" >View Detail<i className="fas fa-arrow-right"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-4" >
+                                <div class="item-box-blog2">
+                                  <div class="item-box-blog-image2">
+                                    <figure>  <a href="#" title=""><img  src="http://www.iiitkota.ac.in/uploads/file-1561439764054.jpg" alt="" /></a></figure>
+                                    <span><a href="#" title="" className="date">21 June 19</a></span>
+                                     
+                                    <div className="item-box-blog-heading">
+
+                                      <h5><a href="#" title="" tabindex="0">5TH INTERNATIONAL YOGA DAY CELEBRATION</a></h5></div><div className="item-box-blog-text2">
+                                      <p className="newsdata1">5th International Yoga Day Celebrated on 21st June 2019. Some other competitive activities also conducted among children.</p>
+                                      <a className="post-btn1" href="#" title="">View Detail <i className="fas fa-arrow-right"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4" >
+                                <div class="item-box-blog2">
+                                  <div class="item-box-blog-image2">
+                                    <figure>  <a href="#" title=""><img  src="http://www.iiitkota.ac.in/uploads/file-1556786797665.JPEG" alt="" /></a></figure>
+                                    <span><a href="#" title="" className="date">20 Aug 19</a></span>
+                                     
+                                    <div className="item-box-blog-heading">
+
+                                      <h5><a href="#" title="" tabindex="0">IIIT KOTA ORGANIZED MICROSOFT GLOBAL AZURE BOOTCAMP 2019</a></h5></div><div className="item-box-blog-text2">
+                                      <p className="newsdata1">We had three speakers, 1. Yash Bhutoria, Associate Data engineer at Celebal Technologies spoke about Building Android Apps without...</p>
+                                      <a className="post-btn1" href="#" title="">View Detail <i className="fas fa-arrow-right"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        {/* <div className="row">
                             <div className="col-md-4 col-sm-12 blog"> 
                                 <div className="">
                                     <div className=""/>
@@ -61,7 +109,7 @@ export default function Footer(params) {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             </div>

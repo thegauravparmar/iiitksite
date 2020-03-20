@@ -56,7 +56,7 @@ export default function Components(props) {
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js"></script>
       </head>
-      <Parallax image={require("assets/img/bg2.jpg")}>
+      <Parallax image={require("assets/img/IctsNLCw8c.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>

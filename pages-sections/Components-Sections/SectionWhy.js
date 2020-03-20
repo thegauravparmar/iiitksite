@@ -18,7 +18,7 @@ export default function Footer(params) {
                             <div class="col-12"><center><img src="https://img.icons8.com/ios-filled/500/000000/book.png" height="70px" width="140px"/></center></div>
                         </div>
                         <div class="row">
-                            <div class="col-12"><h3 class="pt-4">Broad Academic Philosophy</h3></div>
+                            <div class="col-12 whyhead"><h3 class="pt-4">Broad Academic Philosophy</h3></div>
                         </div>
                         <div class="row">
                             <div class="col-12"><p>Academics here are completely industry oriented from the very start. The curriculum is revised after many
@@ -32,7 +32,7 @@ export default function Footer(params) {
                             <div class="col-12"><center><img src="https://img.icons8.com/pastel-glyph/500/000000/pen-1.png" height="70px" width="140px"/></center></div>
                         </div>
                         <div class="row">
-                            <div class="col-12"><h3 class="pt-4">Practice Oriented Learning</h3></div>
+                            <div class="col-12 whyhead"><h3 class="pt-4">Practice Oriented Learning</h3></div>
                         </div>
                         <div class="row">
                             <div class="col-12"><p>IIIT Kota always focuses on learning by doing, whether it be in technological or in cultural fields. We have
@@ -46,7 +46,7 @@ export default function Footer(params) {
                             <div class="col-12"><center><img src="https://img.icons8.com/ios-filled/500/000000/deadlift.png" height="70px" width="140px"/></center></div>
                         </div>
                         <div class="row">
-                            <div class="col-12"><h3 class="pt-4">Strong Foundation</h3></div>
+                            <div class="col-12 whyhead"><h3 class="pt-4">Strong Foundation</h3></div>
                         </div>
                         <div class="row">
                             <div class="col-12"><p>MNIT Jaipur being the mentor institute of iiitkota, made a strong foundation both in terms of culture and
@@ -61,7 +61,7 @@ export default function Footer(params) {
                             <div class="col-12"><center><img src="https://img.icons8.com/ios-filled/500/000000/conference-call.png" height="70px" width="140px"/></center></div>
                         </div>
                         <div class="row">
-                            <div class="col-12"><h3 class="pt-4">Excellent Alumni Base</h3></div>
+                            <div class="col-12 whyhead"><h3 class="pt-4">Excellent Alumni Base</h3></div>
                         </div>
                         <div class="row">
                             <div class="col-12"><p>From CMU to Amazon, our alumnus has conquered far lands with great heights.</p></div>
@@ -74,7 +74,7 @@ export default function Footer(params) {
                             <div class="col-12"><center><img src="https://img.icons8.com/ios-filled/500/000000/women-age-group-5.png" height="70px" width="140px"/></center></div>
                         </div>
                         <div class="row">
-                            <div class="col-12"><h3 class="pt-4">Women Empowerment</h3></div>
+                            <div class="col-12 whyhead"><h3 class="pt-4">Women Empowerment</h3></div>
                         </div>
                         <div class="row">
                             <div class="col-12"><p>IIIT Kota has always striven to provide equal opportunities for both genders in every aspect possible.

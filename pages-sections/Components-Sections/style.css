@@ -185,7 +185,7 @@
   
   .blog .carousel-indicators {
     left: 0;
-    top: -50px;
+    top: 0px;
     height: 50%;
   } 
   
@@ -193,7 +193,7 @@
    The colour of the indicators 
   
    .blog .carousel-indicators li {
-    background: #708198; 
+    background: #F5F5F5 !important; 
     border-radius: 50%;
     width: 8px;
     height: 8px;
@@ -216,15 +216,24 @@
     text-align: center;
     z-index: 4;
     padding: 20px;
+    overflow: hidden;
   }
-  
+  .item-box-blog2 {
+    border: 1px solid #dadada;
+    text-align: center;
+    z-index: 4;
+    padding: 20px;
+    overflow: hidden;
+    height: 500px;
+  }
   .item-box-blog-image {
     position: relative;
+    overflow: hidden;
   }
   
   .item-box-blog-image figure img {
     width: 100%;
-    height: auto;
+    height: 150px;
   }
   
   .item-box-blog-date {
@@ -256,14 +265,16 @@
   }
   
   .item-heading-blog a h5 {
-    margin: 0;
+    margin-top: 8px;
     line-height: 1;
     text-decoration:none;
+    color:black !important;
     transition: color 0.3s;
   }
   
   .item-box-blog-heading a {
       text-decoration: none;
+      color:black !important;
   }
   
   .item-box-blog-data p {
@@ -275,10 +286,19 @@
   }
   
   .item-box-blog-text {
-    max-height: 100px;
+    max-height: 200px;
     overflow: hidden;
+    width: 280px;
+    text-align: center;
+    
   }
-  
+  .post-btn{
+    color:#006609 !important;
+    
+  }
+  .date{
+    color:#006609 !important;
+  }
   .mt-10 {
     float: left;
     margin-top: -10px;
@@ -349,4 +369,17 @@
   {
     text-decoration: none !important;
    
+  }
+
+  .whyhead
+  {
+    color: #006609 !important;
+  }
+  .item-box-blog-image2 figure img {
+    width: 100%;
+    height: 200px;
+  }
+  .post-btn1{
+    color:#006609 !important;
+    
   }
