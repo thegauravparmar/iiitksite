@@ -3,8 +3,13 @@ import { container, title } from "assets/jss/nextjs-material-kit.js";
 
 import imagesStyles from "assets/jss/nextjs-material-kit/imagesStyles.js";
 const productStyle = {
+  subhead: {
+    fontSize: "20px",
+    color: "#205514",
+    fontWeight: 'bold'
+  },
   des: {
-    padding: "70px 0",
+    paddingTop: "70px"
 
   },
   section: {
@@ -21,11 +26,15 @@ const productStyle = {
     fontSize: "30px ",
     "@media (max-width: 830px)": {
       // textAlign: "left",
-      fontSize: "20px ",
+      fontSize: "32px ",
     }
   },
   description: {
-    color: "#999"
+    color: "#999",
+    fontSize: "17px",
+    color: "#44593F",
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    textAlign: "left"
   },
 
   container,

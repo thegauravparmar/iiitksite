@@ -19,16 +19,18 @@ export default function ProductSection() {
                     <GridItem xs={12} sm={12} md={20}>
 
                         <h5 className={classes.description}>
-                            The overall management and administration of the affairs of the Institute is vested in the Governing Body which shall consists of not less than of  7(seven) members  and not more than 17(seventeen) members.  The Governing Body has representation from Government, (both GoI  & GoK), Industry, Academia and alumni.
-          </h5>
+                            The overall management and administration of the affairs of the Institute is vested in the Governing Body which consists of 12(twelve) members. The Governing Body has representation from Government, (both GoI  & GoRJ), Industry and Academia.</h5>
+                        <div className={classes.space50} />
+
                         <p className={classes.title}>Chairman</p>
                     </GridItem>
                 </GridContainer>
-                <div className={classes.space50} />
+            </div>
+            <div className={classes.space50} />
+            <div className={classes.section}>
                 <div id="images">
                     <center>
                         <GridItem xs={12} sm={2}>
-                            <h4>Rounded Raised</h4>
                             <img
                                 src={image}
                                 alt="..."
@@ -45,21 +47,17 @@ export default function ProductSection() {
                         </GridItem>
                     </center>
                 </div>
-                <div className={classes.space50} />
-
             </div>
             <div className={classes.section}>
                 <GridContainer justify="center">
                     <GridItem xs={12} sm={12} md={8}>
                         <p className={classes.title}>Member Secreatory</p>
-
                     </GridItem>
                 </GridContainer>
                 <div className={classes.space50} />
                 <div id="images">
                     <center>
                         <GridItem xs={12} sm={2}>
-                            <h4>Rounded Raised</h4>
                             <img
                                 src={image}
                                 alt="..."
@@ -76,8 +74,6 @@ export default function ProductSection() {
                         </GridItem>
                     </center>
                 </div>
-                <div className={classes.space50} />
-
             </div>
             <div className={classes.section}>
                 <GridContainer justify="center">
@@ -85,8 +81,6 @@ export default function ProductSection() {
                         <p className={classes.title}>Members</p>
                     </GridItem>
                 </GridContainer>
-
-                <div className={classes.space50} />
                 <div id="images">
                     <GridContainer>
                         <GridItem xs={12} sm={2}>
@@ -259,6 +253,9 @@ export default function ProductSection() {
                     </GridContainer>
                     <GridContainer />
                 </div>
+                <div className={classes.space50} />
+                <div className={classes.space50} />
+                <div className={classes.space50} />
                 <div className={classes.space50} />
             </div>
         </div>

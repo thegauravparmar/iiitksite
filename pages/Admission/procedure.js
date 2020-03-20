@@ -10,6 +10,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
+import ExploreSection from "pages-sections/LandingPage-Sections/ExploreSection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 import "./style.css"
@@ -32,7 +33,8 @@ export default function LandingPage(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
+
+            <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
@@ -47,25 +49,11 @@ export default function LandingPage(props) {
 
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
-                    <div className="para">
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
+                    {/* <div className="para"> */}
 
-                        {/* <ProductSection /> */}
-                        {/* <TeamSection />
+                    {/* <TeamSection />
                     <WorkSection /> */}
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
             <Footer />

@@ -9,7 +9,7 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
-import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
+import ProductSection from "pages-sections/LandingPage-Sections/DirectorSection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 import "./style.css"
@@ -32,37 +32,26 @@ export default function LandingPage(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
+            <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Explore IIIT</h1>
-                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">About Us</a>&emsp;|&emsp;<a href="#">Explore IIIT</a></p>
+                            <h1 className={classes.title}>Director</h1>
+                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">About Us</a>&emsp;|&emsp;<a href="#">Director</a></p>
                             <br />
-
                         </GridItem>
                     </GridContainer>
                 </div>
             </Parallax>
-
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
+                    <div className="main">
+                        <h1 ><span>DIRECTOR'S </span>PAGE</h1>
+                        <div class="seperator"></div>
+                    </div>
                     <div className="para">
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-                        <p>All Content Here!!</p>
-
-                        {/* <ProductSection /> */}
+                        <img src="/director.png" className="director" />
+                        <ProductSection />
                         {/* <TeamSection />
                     <WorkSection /> */}
                     </div>

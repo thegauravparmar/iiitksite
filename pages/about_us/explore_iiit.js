@@ -34,7 +34,7 @@ export default function LandingPage(props) {
                 {...rest}
             />
 
-            <Parallax image={require("assets/img/landing-bg.jpg")}>
+            <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
@@ -49,11 +49,9 @@ export default function LandingPage(props) {
 
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
-                    {/* <div className="para"> */}
-                    <ExploreSection />
-                    {/* <TeamSection />
-                    <WorkSection /> */}
-                    {/* </div> */}
+                    <div className="para">
+                        <ExploreSection />
+                    </div>
                 </div>
             </div>
             <Footer />

@@ -9,7 +9,7 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
-import ProductSection from "pages-sections/LandingPage-Sections/Governing_BodySection.js";
+import GoverningSection from "pages-sections/LandingPage-Sections/Governing_BodySection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 const dashboardRoutes = [];
@@ -31,7 +31,7 @@ export default function LandingPage(props) {
                 }}
                 {...rest}
             />
-            <Parallax image={require("assets/img/landing-bg.jpg")}>
+            <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
@@ -46,13 +46,10 @@ export default function LandingPage(props) {
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
                     <p></p>
-                    <ProductSection />
-                    {/* <TeamSection />
-                    <WorkSection /> */}
+                    <GoverningSection />
                 </div>
             </div>
             <Footer />
-
         </div>
     );
 }

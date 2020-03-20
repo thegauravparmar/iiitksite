@@ -36,8 +36,8 @@ export default function LandingPage(props) {
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Senate</h1>
-                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">Administration</a>&emsp;|&emsp;<a href="#">Senate</a></p>
+                            <h1 className={classes.title}>Building and Work Comitee</h1>
+                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">Administration</a>&emsp;|&emsp;<a href="#">Building and Work Comitee</a></p>
                             <br />
 
                         </GridItem>
@@ -48,7 +48,7 @@ export default function LandingPage(props) {
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
                     <div className="main">
-                        <h1 ><span>SENATE </span> MEMBERS</h1>
+                        <h1 ><span>BUILDING AND WORK</span>COMMITEE MEMBERS</h1>
                         <div class="seperator"></div>
                     </div>                    <div className="limiter">
                         <div className="container-table100">
@@ -67,72 +67,6 @@ export default function LandingPage(props) {
 						</div>
                                     </div>
 
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
                                     <div className="tablerow">
                                         <div className="cell" data-title="Name">
                                             Vincent Williamson

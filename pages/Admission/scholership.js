@@ -32,12 +32,12 @@ export default function LandingPage(props) {
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
+            <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Explore IIIT</h1>
-                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">About Us</a>&emsp;|&emsp;<a href="#">Explore IIIT</a></p>
+                            <h1 className={classes.title}>Scholerships</h1>
+                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">About Us</a>&emsp;|&emsp;<a href="#">Scholerships</a></p>
                             <br />
 
                         </GridItem>

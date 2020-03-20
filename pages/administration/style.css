@@ -17,7 +17,7 @@
   align-items: center;
   color: black;
   font-size: 300px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   @media (max-width: 830px) {
     font-size: 10px;
   }
@@ -101,10 +101,12 @@ a:hover {
   padding-top: 80px;
   color: #3c4858;
   font-size: 30px;
-  text-align: center;
+  /* text-align: center; */
+  padding-left: 15px;
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
   margin-bottom: 3rem;
+  padding-bottom: 60px;
 }
 
 .container-table100 {
@@ -158,6 +160,9 @@ a:hover {
 @media screen and (max-width: 768px) {
   .title {
     font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
   }
 
   .tablerow {
@@ -287,4 +292,34 @@ a:hover {
     font-family: "Roboto Slab", "Times New Roman", serif;
     width: 100% !important;
   }
+}
+.director {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.main h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 7px;
+  color: #252525;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.main h1 span {
+  font-weight: 900;
+  letter-spacing: 8px;
+  margin-bottom: 100px;
+}
+.main .seperator {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 15%;
+  margin: 0 auto;
 }

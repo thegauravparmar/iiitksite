@@ -20,10 +20,10 @@ export default function Footer(params) {
 							<ul className="widget-contact">
 								<li>
 									<h4 className="widget-contact__title">Address:</h4>
-									<p className="widget-contact__text">Indian Institute of Information Technology, Kota,<br/>MNIT Campus<br />Jaipur - 302017</p>
+									<p className="widget-contact__text">Indian Institute of Information Technology, Kota,<br />MNIT Campus<br />Jaipur - 302017</p>
 								</li>
 								<li>
-								<h4 className="widget-contact__title">Telephone:</h4>
+									<h4 className="widget-contact__title">Telephone:</h4>
 									<p className="widget-contact__text">0141-2715071</p>
 								</li>
 								<li>
@@ -34,20 +34,20 @@ export default function Footer(params) {
 						</div>
 						<div className="col-12 col-sm-3">
 							<div className="widget-link">
-							
-                            <h3 class="widget-title mt2">Location</h3>
-                            <p class="widget-contact__text"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d444.90525107731656!2d75.81081539996529!3d26.86405112386001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea3495775ef99a25!2sIndian%20Institute%20of%20Information%20Technology%2C%20Kota!5e0!3m2!1sen!2sin!4v1583758002596!5m2!1sen!2sin" width="250px" height="300px" frameborder="0" allowfullscreen=""></iframe></p>
-                        
+
+								<h3 class="widget-title mt2">Location</h3>
+								<p class="widget-contact__text"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d444.90525107731656!2d75.81081539996529!3d26.86405112386001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea3495775ef99a25!2sIndian%20Institute%20of%20Information%20Technology%2C%20Kota!5e0!3m2!1sen!2sin!4v1583758002596!5m2!1sen!2sin" width="250px" height="300px" frameborder="0" allowfullscreen=""></iframe></p>
+
 							</div>
 						</div>
 						<div className="col-12 col-sm-3">
 							<div className="widget-link">
-							
+
 							</div>
 						</div>
 						<div className="col-sm-3 col-md-3 col-lg-3">
 							<div className="widget-link">
-							<h3 className="widget-title mt2">Quick Links</h3>
+								<h3 className="widget-title mt2">Quick Links</h3>
 								<ul className="widget-list">
 									<li><a href="media">Recruitment</a></li>
 									<li><a href="blogs">Tender Invitations</a></li>
@@ -70,7 +70,7 @@ export default function Footer(params) {
 					<div className="row ">
 						<div className="col-12  text-center ">
 							<p className="copy-info">Copyright &copy; 2018 - All Rights Reserved - IIIT Kota</p>
-						</div>						
+						</div>
 					</div>
 				</div>
 			</div>
