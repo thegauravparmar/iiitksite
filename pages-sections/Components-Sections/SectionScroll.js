@@ -1,11 +1,13 @@
-//</script><script type="text/babel">
+
+
 import React from 'react';
-var ReactDOM = require('react-dom');
+
+
 const {useState, useEffect} = React;
-const height = 500
+const height = 300
 
 const Maquree = ({title, text}) => {
-    const [pos,setPos] = useState(500);   
+    const [pos,setPos] = useState(400);   
     const [run, setRun] = useState(true);
     const scrollEff = () => {
         if(run) setPos(p=>p<height? p+1: -height);        
@@ -29,28 +31,40 @@ const Maquree = ({title, text}) => {
     
     const styles = {
         position: "relative", 
-        fontSize: "1em",
-        bottom: pos + "px"
+        fontSize: "14px",
+        bottom: pos + "px",
+        textDecoration: "none",
+        listStyle: "none",
+        
     };
-    
+
     return (
-        <h1 style={styles} 
-            onMouseEnter={onMouseEnter} 
-            onMouseLeave={onMouseLeave} 
-        ><mark>{title}</mark> {text}</h1>
+        <div class="item-box-blog3 col-md-12" >
+        <div style={styles}
+        onMouseEnter={onMouseEnter}
+        onMouseLeave={onMouseLeave}>
+        <li><div>
+            <a href="#">Academic Calendar (A. Y. 2019-20)</a>
+        </div></li>
+        <br />
+        <li><div >
+            <a href="#">Fee Structure for B. Tech. (A. Y. 2019-20)</a></div>  <br /></li>
+        <li><div>
+
+            <a href="#">Academic Calendar for I/II/III/IV Year (A. Y. 2019-20)</a>
+        </div></li>  <br /><li><div >
+            <a href="#">Fee Structure for B. Tech. first year students (A. Y. 2019-20)</a></div>  <br /></li>
+        <li><div>
+
+            <a href="#">Academic Calendar for I/II/III/IV Year (A. Y. 2019-20)</a>
+        </div></li><br /><li><div >
+            <a href="#">Fee Structure for B. Tech. first year students (A. Y. 2019-20)</a></div></li></div> </div>
     )
-    
 }
 
-const App = () => {
-    return (
-        <div className="container">
-            <Maquree title="" text=" <a>Learn to code for FREE! </a>" />     
-             <Maquree title="" text=" <a>Learn to code for FREE! </a>" />   
-              <Maquree title="" text=" <a>Learn to code for FREE! </a>" />   
-               <Maquree title="" text=" <a>Learn to code for FREE! </a>" />   
-        </div>
-    );  
-}
-// export default ReactDOM.render (<App />, document.getElementById("app"));
+export default function SectionScroll(params) {
+    return <div>
+        <Maquree />
+    </div>
 
+}

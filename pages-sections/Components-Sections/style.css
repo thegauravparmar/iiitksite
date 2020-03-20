@@ -217,6 +217,7 @@
     z-index: 4;
     padding: 20px;
     overflow: hidden;
+    height:400px;
   }
   .item-box-blog2 {
     border: 1px solid #dadada;
@@ -283,6 +284,7 @@
   
   .item-box-blog-data p i {
     font-size: 12px;
+    padding-bottom: 10px;
   }
   
   .item-box-blog-text {
@@ -382,4 +384,18 @@
   .post-btn1{
     color:#006609 !important;
     
+  }
+  .item-box-blog3 {
+    border: 1px solid #dadada;
+    text-align: left;
+    color: #006609 !important;
+    z-index: 4;
+    padding: 5px;
+    overflow: hidden;
+    height:400px;
+  }
+  .item-box-blog3.a{
+    
+    color: #006609 !important;
+   text-decoration:none;
   }

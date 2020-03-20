@@ -29,7 +29,7 @@ const headerLinksStyle = theme => ({
         display: "block",
         height: "1px",
         marginLeft: "15px",
-        backgroundColor: "#e5e5e5"
+        backgroundColor: "#C5C5C5"
       }
     }
   },
@@ -49,8 +49,8 @@ const headerLinksStyle = theme => ({
     margin: "0px",
     display: "inline-flex",
     "&:hover,&:focus": {
-      color: "inherit",
-      background: "rgba(200, 200, 200, 0.2)"
+      color: "#006609",
+      background: "#d7d7d7"
     },
     [theme.breakpoints.down("sm")]: {
       width: "calc(100% - 30px)",
@@ -96,7 +96,7 @@ const headerLinksStyle = theme => ({
   },
   navLinkActive: {
     color: "inherit",
-    backgroundColor: "rgba(255, 255, 255, 0.1)"
+    backgroundColor: "#94BB83"
   },
   icons: {
     width: "20px",
@@ -110,7 +110,7 @@ const headerLinksStyle = theme => ({
   },
   dropdownLink: {
     "&,&:hover,&:focus": {
-      color: "inherit",
+      color: "#000",
       textDecoration: "none",
       display: "block",
       padding: "10px 20px",

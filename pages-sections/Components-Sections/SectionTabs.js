@@ -12,9 +12,10 @@ import GridItem from "components/Grid/GridItem.js";
 import CustomTabs from "components/CustomTabs/CustomTabs.js";
 import "./style.css";
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/tabsStyle.js";
-import "./SectionScroll.js"
-const useStyles = makeStyles(styles);
 
+const useStyles = makeStyles(styles);
+import SectionScroll from "./SectionScroll.js";
+// import SectionScroll from "./SectionScroll.js";
 
 
 export default function SectionTabs() {
@@ -142,14 +143,19 @@ export default function SectionTabs() {
               <h3>
                 Notice
                         </h3>
-              <body class="bg-gray-500">
+
+                       
+              {/* <body class="bg-gray-500">
                 <pre id="test"></pre>
                 <div id="app"><div class="flex justify-center mt-4">Loading ....</div></div>
                 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
                 <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
                 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-              </body>
-              {/* </h3>   <div className="widget-title"></div>
+              </body> */}
+               <div className="widget-title"></div>
+               <SectionScroll/>
+              {/*
+             
                       <div className="quicktabs-main" id="quicktabs-container-home_page_tabs"><div id="quicktabs-tabpage-home_page_tabs-0" className="quicktabs-tabpage">
                         <div className="quicktabs-block-title"></div>
                         <div><div className="views-element-container">
