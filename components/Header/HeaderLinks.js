@@ -166,14 +166,14 @@ export default function HeaderLinks(props) {
             <Link href="/placements/placement_statistics">
               <a className={classes.dropdownLink}>Placement Statistics</a>
             </Link>,
-            <Link href="/placements/internship">
+            <Link href="/placements/internships">
               <a className={classes.dropdownLink}>Internship</a>
             </Link>,
             <Link href="/placements/recruiters">
               <a className={classes.dropdownLink}>Our Recruiters</a>
             </Link>,
-            <Link href="/placements/training_placement">
-              <a className={classes.dropdownLink}>Training & Placement Cell</a>
+            <Link href="/placements/training_placement_cell">
+              <a className={classes.dropdownLink}>Contact T&P</a>
             </Link>
           ]}
         />

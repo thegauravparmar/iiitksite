@@ -52,7 +52,7 @@ export default function Footer(params) {
 									<li><a href="media">Recruitment</a></li>
 									<li><a href="blogs">Tender Invitations</a></li>
 									<li><a href="placements">Facilities</a></li>
-									<li><a href="careers">Web Masters</a></li>
+									<li><a href="/footer/webmasters">Web Masters</a></li>
 									<li><a href="tenders">Annual Reports</a></li>
 									<li><a href="donatecontribute">Photo Gallery</a></li>
 									<li><a href="my-iiitb">Holidays</a></li>

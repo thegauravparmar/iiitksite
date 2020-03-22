@@ -1299,6 +1299,18 @@ ul.footer-app li img {
   margin-top: 100px;
   padding-top: 100px;
 }
+.description {
+  font-family: "Raleway", sans-serif !important;
+}
+.subhead {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 30px !important;
+}
+.main {
+  margin-top: 10px !important;
+  font-family: "Raleway", sans-serif !important;
+}
 
 /* @font-face {
   font-family: Poppins-Regular;
@@ -1400,7 +1412,6 @@ a:hover {
 }
 
 .title {
-  padding-top: 80px;
   color: #3c4858;
   font-size: 30px;
   /* text-align: center; */
@@ -1456,7 +1467,7 @@ a:hover {
 .tablerow.header {
   font-family: "Roboto Slab", "Times New Roman", serif;
   color: #ffffff;
-  background: #85858a;
+  background: #50c878;
 }
 
 @media screen and (max-width: 768px) {
@@ -1485,7 +1496,7 @@ a:hover {
     font-family: "Roboto Slab", "Times New Roman", serif;
     /* font-family: Poppins-Bold; */
     font-size: 12px;
-    color: #808080;
+    color: #f0fff0;
     line-height: 1.2;
     text-transform: uppercase;
     font-weight: unset !important;
@@ -1557,7 +1568,7 @@ a:hover {
 }
 
 .tablerow:hover {
-  background-color: #ececff;
+  background-color: #f0fff0;
   cursor: pointer;
 }
 
@@ -1624,276 +1635,6 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   width: 15%;
   margin: 0 auto;
-}
-
-.vertical-wrapper-fb {
-  position: fixed;
-  right: 98%;
-  top: 30%;
-  z-index: 9;
-}
-.para {
-  padding-top: 80px;
-  align-items: center;
-  color: black;
-  font-size: 300px;
-  padding-bottom: 60px;
-  @media (max-width: 830px) {
-    font-size: 10px;
-  }
-}
-a {
-  font-size: 20px;
-  color: black;
-}
-
-.vertical-wrapper-twit {
-  position: fixed;
-  right: 98%;
-  top: 33.9%;
-  z-index: 9;
-}
-
-.vertical-wrapper-link {
-  position: fixed;
-  right: 98%;
-  top: 37.8%;
-  z-index: 9;
-}
-
-.vertical-wrapper-you {
-  position: fixed;
-  right: 98%;
-  top: 41.6%;
-  z-index: 9;
-}
-.goToTop.showGototop {
-  transform: scale(1);
-}
-
-.goToTop {
-  bottom: 100px;
-  width: 50px;
-  height: 50px;
-  background: #89c9b9;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  z-index: 999;
-  display: inline-block;
-  position: fixed;
-  bottom: 50px;
-  right: 30px;
-  z-index: 310;
-  transform: scale(0);
-  float: right;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-/* horizontal grid style */
-ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-.main {
-  width: 100%;
-  background: white;
-  padding-top: 100px;
-}
-.main h1 {
-  width: 100%;
-  text-align: center;
-  font-family: "Raleway", Arial, sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  letter-spacing: 7px;
-  color: #252525;
-  text-align: center;
-  padding-bottom: 30px;
-}
-.main h1 span {
-  font-weight: 900;
-  letter-spacing: 8px;
-}
-.main h1 a {
-  text-decoration: none;
-  color: #252525;
-  text-align: center;
-}
-.main .seperator {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  width: 15%;
-  margin: 0 auto;
-}
-.main h2 {
-  text-align: center;
-  font-family: "Raleway", Arial, sans-serif;
-  font-weight: 200;
-  font-size: 22px;
-  margin-top: 25px;
-  line-height: 30px;
-  color: #454545;
-  margin-left: 7%;
-  margin-right: 7%;
-}
-.main section {
-  width: 100%;
-  max-width: 1233px;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding-bottom: 45px;
-}
-.main section ul {
-  overflow: hidden;
-  *zoom: 1;
-  width: 92.3%;
-  margin: 0 3.85%;
-  max-width: 1233px;
-}
-.main section ul li {
-  float: left;
-  margin-right: -100%;
-  width: 100%;
-}
-.main section ul li h3 {
-  width: 100%;
-  margin-left: 17px;
-  /* text-align: center; */
-  font-family: "Raleway", Arial, sans-serif;
-  font-weight: 900;
-  font-size: 26px;
-  color: #454545;
-}
-.main section ul li p {
-  /* text-align: center; */
-  margin-left: 5%;
-  margin-right: 5%;
-  /* text-align: center; */
-  font-family: Arial, sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  margin-top: 8px;
-  line-height: 20px;
-  color: #454545;
-}
-.main section ul li img {
-  display: block;
-  width: 100%;
-  max-width: 351px;
-  margin: 0 auto;
-}
-.main section ul li:nth-child(1n + 1) {
-  margin-left: 0%;
-  margin-bottom: 3.85%;
-  clear: both;
-  overflow: hidden;
-  *zoom: 1;
-}
-
-@media screen and (min-width: 460px) {
-  .main h2 {
-    font-size: 26px;
-    line-height: 33px;
-    margin-left: 7%;
-    margin-right: 7%;
-  }
-
-  .main section ul li p {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .main section ul li h3 {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 550px) {
-  .main h2 {
-    font-size: 28px;
-    line-height: 38px;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .main section ul li p {
-    font-size: 14px;
-  }
-
-  .main section ul li h3 {
-    font-size: 24px;
-  }
-}
-@media screen and (min-width: 700px) {
-  .main h2 {
-    font-size: 30px;
-    line-height: 38px;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-
-  .main section {
-    margin-top: 30px;
-  }
-
-  .main section ul li p {
-    font-size: 16px;
-  }
-
-  .main section {
-    padding-bottom: 25px;
-  }
-
-  .main section ul li {
-    float: left;
-    margin-right: -100%;
-    width: 30.77%;
-  }
-  .main section ul li:nth-child(3n + 1) {
-    margin-left: 0%;
-    margin-bottom: 3.85%;
-    clear: both;
-    overflow: hidden;
-    *zoom: 1;
-  }
-  .main section ul li:nth-child(3n + 2) {
-    margin-left: 34.62%;
-    margin-bottom: 3.85%;
-    clear: none;
-  }
-  .main section ul li:nth-child(3n + 3) {
-    margin-left: 69.23%;
-    margin-bottom: 3.85%;
-    clear: none;
-  }
-}
-@media screen and (min-width: 900px) {
-  .main h2 {
-    font-size: 32px;
-    line-height: 48px;
-    max-width: 800px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  section ul li p {
-    font-size: 18px;
-  }
-
-  .main section ul li h3 {
-    font-size: 28px;
-  }
 }
 
 

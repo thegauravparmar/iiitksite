@@ -12,26 +12,31 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
     const classes = useStyles();
     return (
-        <div className={classes.section}>
-            <GridContainer justify="center">
-                <GridItem xs={12} sm={12} md={12}>
-                    <h2 className={classes.title}>Dr. Udaykumar R Yaragatti </h2>
-                    <p className={classes.description}>
-                        <div className={classes.subhead}>Udaykumar R Yaragatti is currently the Director of the Malaviya National Institute of Technology, Jaipur and Indian Institute of Information Technology, Kota and Professor (on-lien) at the Department of Electrical and Electronics, National Institute of Technology Karnataka.</div><br></br>
+        <div>
+            <head>
+                <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+            </head>
+
+            <div className={classes.section}>
+                <GridContainer justify="center">
+                    <GridItem xs={12} sm={12} md={12}>
+                        <h2 className={classes.title}>Dr. Udaykumar R Yaragatti </h2>
+                        <p className={classes.description}>
+                            <div className={classes.subhead}>Udaykumar R Yaragatti is currently the Director of the Malaviya National Institute of Technology, Jaipur and Indian Institute of Information Technology, Kota and Professor (on-lien) at the Department of Electrical and Electronics, National Institute of Technology Karnataka.</div><br></br>
 
                         He currently serves as an Associate Editor for the IEEE ACCESS Journal. He is a Senior Member of IEEE, Life Member, ISTE; Life Member, SESI; Life Member, IE; Fellow, ISLE.
                        <br></br><br></br>
 
-                        <div className={classes.subhead}> Academic qualifications</div> <br></br>
+                            <div className={classes.subhead}> Academic qualifications</div> <br></br>
 
                         He earned his BTech and MTech degree from NITK Surathkal in 1984 and 1990 respectively. He completed his PhD from IIT Bombay in the year 2000.<br></br><br></br>
 
-                        <div className={classes.subhead}>  Area of Intrest</div> <br></br>
+                            <div className={classes.subhead}>  Area of Intrest</div> <br></br>
                         Prof. Udaykumar R Yaragatti's area of interest includes Renewable Energy Resources, Power Electronics, Energy Management and Smart Grid. He has done expertise in areas like Power Electronics, Electrical & Electronics Engineering, Inverters, Renewable Energy Technologies, Power Quality, Distributed Generation, Photovoltaics, Electrical Engineering, Power Generation and Energy Conversion.<br></br><br></br>
-                        <div className={classes.subhead}>Professional experience</div> <br></br>
+                            <div className={classes.subhead}>Professional experience</div> <br></br>
                         He has taken over the charge of the director of NIT Goa. <br></br>He has taught at institutes across the country for more than three decades. <br></br>He was the principal investigator in projects on microgrid, grid connected photovoltaic systems and DSP based embedded controller for multilevel inverters among others, funded by the ministry of human resource development. He is also a senior member of the Institute of Electrical and Electronics Engineers.
 <br></br><br></br>
-                        <div className={classes.subhead}>  Publications</div><br></br>
+                            <div className={classes.subhead}>  Publications</div><br></br>
                         1.	. Rajashekar P. Mandi and Udaykumar R. Y, “Carbon Emission Reduction by Improving Performance of Primary Air Fans in Thermal Power Plants through Energy Conservation Techniques”, International Journal of Environmental Engineering, Inderscience, Vol. 8, No. 1, pp. 54-69, 2016.
                         <br></br><br></br>
                         2.	Santoshkumar, and Udaykumar R. Y, “Development of Markov Chain-Based Queuing Model and Wireless Infrastructure for EV to Smart Meter Communication in V2G,”International Journal of Emerging Electric Power Systems, Berkeley Press, Vol. 16, No. 2, pp. 153-163, 2015.<br></br><br></br>
@@ -45,9 +50,9 @@ export default function ProductSection() {
                         10.	G.D. Kamlapur and Udaykumar R. Y, “Rural electrification in India and feasibility of Photovoltaic Solar Home Systems ”International Journal of Electrical Power & Energy Systems, Vol. 33, No. 3, pp. 594-599, 2011.<br></br><br></br>
                         11.	Sreenivasappa B. V, Udaykumar R. Y and Beig A. R, “Synchronized symmetrical bus-clamping PWM strategies for threelevel inverter: applications to low switching frequencies”, International Journal of Emerging Electric Power Systems, Berkeley Press, Vol. 12, No. 2, pp. 1-18, 2011.<br></br><br></br>
 
-                    </p>
-                </GridItem>
-            </GridContainer>
-        </div>
+                        </p>
+                    </GridItem>
+                </GridContainer>
+            </div>   </div>
     );
 }
