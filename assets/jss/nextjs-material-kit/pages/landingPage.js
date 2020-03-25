@@ -1,10 +1,11 @@
 import { container, title } from "assets/jss/nextjs-material-kit.js";
-
+import imagesStyles from "assets/jss/nextjs-material-kit/imagesStyles.js";
 const landingPageStyle = {
   container: {
     zIndex: "12",
     color: "#FFFFFF",
     ...container
+    
   },
   title: {
     ...title,
@@ -39,7 +40,8 @@ const landingPageStyle = {
       marginLeft: "10px",
       marginRight: "10px"
     }
-  }
+  },
+  
 };
 
 export default landingPageStyle;

@@ -27,7 +27,7 @@ export default function LandingPage(props) {
                 rightLinks={<HeaderLinks />}
                 fixed
                 changeColorOnScroll={{
-                    height: 400,
+                    height: 40,
                     color: "white"
                 }}
                 {...rest}
@@ -37,7 +37,7 @@ export default function LandingPage(props) {
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
                             <h1 className={classes.title}>Director</h1>
-                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">About Us</a>&emsp;|&emsp;<a href="#">Director</a></p>
+                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">Administration</a>&emsp;|&emsp;<a href="#">Director</a></p>
                             <br />
                         </GridItem>
                     </GridContainer>
@@ -49,12 +49,12 @@ export default function LandingPage(props) {
                         <h1 ><span>DIRECTOR'S </span>PAGE</h1>
                         <div class="seperator"></div>
                     </div>
-                    <div className="para">
-                        <img src="/director.png" className="director" />
-                        <ProductSection />
-                        {/* <TeamSection />
+                    {/* <div className="para"> */}
+                    <img src="/director.png" className="director" />
+                    <ProductSection />
+                    {/* <TeamSection />
                     <WorkSection /> */}
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
             <Footer />

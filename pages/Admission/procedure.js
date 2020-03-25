@@ -42,7 +42,7 @@ export default function LandingPage(props) {
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
                             <h1 className={classes.title}>Admission Procedure</h1>
-                            <a href="/components">Home</a>&emsp;|&emsp;<a href="#">Procedure</a>&emsp;|&emsp;<a href="#">Admission Procedure</a>
+                            <a href="/components">Home</a>&emsp;|&emsp;<a href="#">Admission</a>&emsp;|&emsp;<a href="#">Admission Procedure</a>
                             <br />
 
                         </GridItem>
@@ -52,7 +52,7 @@ export default function LandingPage(props) {
 
             <div className={classNames(classes.main, classes.mainRaised)}>
 
-                <div >
+                <div className="table12">
                     <div className="main">
                         <h1 ><span>ADMISSION </span>PROCEDURE</h1>
                         <div class="seperator"></div></div>
@@ -68,23 +68,23 @@ export default function LandingPage(props) {
                                         </div>
 
                                         <div class="hline2"></div>
-                                        <div class="tt1">
-                                            <h5>IIIT Kota welcomes students from
+                                        <div class="tt1 acont">
+                                            IIIT Kota welcomes students from
                                 across the country, with <br />diverse
                                 backgrounds and far-ranging
                                 talents and interests.<br />It offers admission in Btech
                                 programmes through JEE Main<br />
-                                entrance exam. </h5>
+                                entrance exam.
                                         </div>
                                         <div class="hline"></div>
                                         <div class="tt1">
                                             <div class="acont">
-                                                <p>The eligibility
+                                                The eligibility
                                                 for the admission is decided
                                     by CSAB/JoSAA. <br /><br />It currently
                                     offers two departments of
                                     engineering i.e.<br /> <b>Computer
-                                                    Science and Engineering
+                                                Science and Engineering
                                     </b> and <b>Electronics and
                                         Communication Engineering.</b><br /><br />
                                     The institute has an annual
@@ -94,7 +94,7 @@ export default function LandingPage(props) {
                                     Engineering and 64 in
                                     Electronics & Communication
                                     Engineering).
-                                </p>
+
                                             </div>
                                         </div>
                                     </div>
@@ -107,14 +107,12 @@ export default function LandingPage(props) {
                         </div>
                                         <div class="hline2"></div>
                                         <div class="tt">
-                                            <b><p>At the time of institute reporting for the admission, a
+                                            <b>At the time of institute reporting for the admission, a
                                             student has to bring the following list of original documents
-                                along with one set of photocopies.</p></b>
+                                along with one set of photocopies.</b>
 
                                             <div class="tt">
-                                                <p>
 
-                                                </p>
 
                                                 <ul>
                                                     <li> EWS Certificate (if applicable) as per JoSAA format

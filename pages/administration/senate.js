@@ -9,10 +9,9 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
-import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
+import SenateSection from "./SenateSection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
-import "./style.css"
 const dashboardRoutes = [];
 const useStyles = makeStyles(styles);
 export default function LandingPage(props) {
@@ -27,11 +26,18 @@ export default function LandingPage(props) {
                 rightLinks={<HeaderLinks />}
                 fixed
                 changeColorOnScroll={{
-                    height: 400,
+                    height: 40,
                     color: "white"
                 }}
                 {...rest}
             />
+            <head>
+                <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+                {/* <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" /> */}
+                <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet' />
+                <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+
+            </head>
             <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
@@ -44,153 +50,14 @@ export default function LandingPage(props) {
                     </GridContainer>
                 </div>
             </Parallax>
-
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
-                    <div className="main">
-                        <h1 ><span>SENATE </span> MEMBERS</h1>
-                        <div class="seperator"></div>
-                    </div>                    <div className="limiter">
-                        <div className="container-table100">
-                            <div className="wrap-table100">
-                                <div className="table">
-
-                                    <div className="tablerow header">
-                                        <div className="cell">
-                                            Name
-					                	</div>
-                                        <div className="cell">
-                                            Designation
-						</div>
-                                        <div className="cell">
-                                            Organisation
-						</div>
-                                    </div>
-
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-                                    <div className="tablerow">
-                                        <div className="cell" data-title="Name">
-                                            Vincent Williamson
-						</div>
-                                        <div className="cell" data-title="Designation">
-                                            iOS Developer
-						</div>
-                                        <div className="cell" data-title="Organisation">
-                                            Washington
-						</div>
-                                    </div>
-
-
-
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                    </div>
+                   
+                    <SenateSection />
+                    
                 </div>
             </div>
             <Footer />
-        </div>
+        </div >
     );
 }

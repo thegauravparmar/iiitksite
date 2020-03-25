@@ -56,7 +56,7 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/components" as="/components">
-      <Button className={classes.title}><img src="/apple-icon.png" width="100px"></img></Button>
+      <Button className={classes.title}><img src="/logo.png" width="100px"></img></Button>
     </Link>
   );
   return (

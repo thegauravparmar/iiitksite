@@ -39,10 +39,7 @@ export default function HeaderLinks(props) {
             </Link>,
             <Link href="/about_us/calender">
               <a className={classes.dropdownLink}>IIITK Calender</a>
-            </Link>,
-            <Link href="/about_us/ppp_act">
-              <a className={classes.dropdownLink}>IIIT(PPP) Act</a>
-            </Link>,
+            </Link>
           ]}
         />
       </ListItem>
@@ -106,15 +103,15 @@ export default function HeaderLinks(props) {
             className: classes.navLink,
             color: "transparent"
           }}
-          // buttonIcon={Apps}
+
           dropdownList={[
-            <Link href="/Admission/procedure">
+            <Link href="/admission/procedure">
               <a className={classes.dropdownLink}>Procedure</a>
             </Link>,
-            <Link href="/Admission/fees">
+            <Link href="/admission/fees">
               <a className={classes.dropdownLink}>Fees</a>
             </Link>,
-            <Link href="/Admission/scholership">
+            <Link href="/admission/scholarship">
               <a className={classes.dropdownLink}>Scholarship</a>
             </Link>,
           ]}
@@ -140,11 +137,8 @@ export default function HeaderLinks(props) {
             <Link href="/academics/curriculum">
               <a className={classes.dropdownLink}>Curriculum</a>
             </Link>,
-            <Link href="/academics/time_table">
+            <Link href="/academics/timetable">
               <a className={classes.dropdownLink}>Time Table</a>
-            </Link>,
-            <Link href="/academics/conversion_formula">
-              <a className={classes.dropdownLink}>Conversion Formula</a>
             </Link>
           ]}
         />
@@ -160,8 +154,8 @@ export default function HeaderLinks(props) {
           }}
           // buttonIcon={Apps}
           dropdownList={[
-            <Link href="/placements/placement_procedure">
-              <a className={classes.dropdownLink}>Placement Procedure</a>
+            <Link href="/placements/placement_policy">
+              <a className={classes.dropdownLink}>Placement Policy</a>
             </Link>,
             <Link href="/placements/placement_statistics">
               <a className={classes.dropdownLink}>Placement Statistics</a>
@@ -216,8 +210,8 @@ export default function HeaderLinks(props) {
             <Link href="/life/sports">
               <a className={classes.dropdownLink}>Sports</a>
             </Link>,
-            <Link href="/life/achivements">
-              <a className={classes.dropdownLink}>Achivements</a>
+            <Link href="/life/achievements">
+              <a className={classes.dropdownLink}>Achievements</a>
             </Link>,
             <Link href="/life/clubs">
               <a className={classes.dropdownLink}>Students Club</a>

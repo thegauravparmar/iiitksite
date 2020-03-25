@@ -34,13 +34,15 @@ export default function LandingPage(props) {
                 }}
                 {...rest}
             />
-
+            <head>
+                <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+            </head>
             <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Scholerships</h1>
-                            <a href="/components">Home</a>&emsp;|&emsp;<a href="#">Procedure</a>&emsp;|&emsp;<a href="#">Scholerships</a>
+                            <h1 className={classes.title}>Scholarships</h1><br></br>
+                            <a href="/components">Home</a>&emsp;|&emsp;<a href="#">Procedure</a>&emsp;|&emsp;<a href="#">Scholarships</a>
                             <br />
 
                         </GridItem>
@@ -52,7 +54,7 @@ export default function LandingPage(props) {
 
                 <div >
                     <div className="main">
-                        <h1 ><span>SCHOLERSHIPS</span></h1>
+                        <h1 ><span>SCHOLARSHIPS</span></h1>
                         <div class="seperator"></div></div>
                     <div class="content">
                         <div class="container-fluid">
@@ -74,7 +76,7 @@ export default function LandingPage(props) {
                                             Unit) scholarships. All existing and new
                                             students of IIIT Kota are advised to go
                                             through this link<br></br><br></br>
-                                                <a href="google.com" >Scholerships</a>
+                                                <a href="google.com" >Scholarships</a>
                                             </h5>
                                         </div>
                                         {/* <div class="hline"></div> */}
@@ -99,9 +101,9 @@ export default function LandingPage(props) {
                                 </div>
                                 <div class="col-12 col-md-6 mt-5">
                                     <div class="b">
-
-                                        <div class="tt">
-                                            <b><p>For any query, <br></br><br></br>
+                                        <div class="sclr">
+                                            <div class="tt">
+                                                <b><p>For any query, <br></br><br></br>
                                             Contact:<br></br>
                                             Office IIIT Kota<br></br>
                                             office@iiitkota.ac.in<br></br>
@@ -113,7 +115,7 @@ export default function LandingPage(props) {
 0141-2715075</p></b>
 
 
-                                        </div>
+                                            </div></div >
                                     </div>
                                 </div>
                             </div>

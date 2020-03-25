@@ -84,7 +84,6 @@ export default function ProductSection() {
                 <div id="images">
                     <GridContainer>
                         <GridItem xs={12} sm={2}>
-                            <h4>Rounded Image</h4>
                             <img
                                 src={image}
                                 alt="..."
@@ -99,77 +98,119 @@ export default function ProductSection() {
                                 <p>Director IIITKota</p>
                             </div>
                         </GridItem>
-                        <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                            <h4>Circle Image</h4>
-                            <img
-                                src={image}
-                                alt="..."
-                                className={classes.imgRaised +
-                                    " " +
-                                    classes.imgRounded +
-                                    " " +
-                                    classes.imgFluid}
-                            />
-                            <div className={classes.title}>
-                                <h4>Prof. Udaykumar R Yaragatti</h4>
-                                <p>Director IIITKota</p>
-                            </div>
-                        </GridItem>
-                        <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                            <h4>Rounded Raised</h4>
-                            <img
-                                src={image}
-                                alt="..."
-                                className={classes.imgRaised +
-                                    " " +
-                                    classes.imgRounded +
-                                    " " +
-                                    classes.imgFluid}
-                            />
-                            <div className={classes.title}>
-                                <h4>Prof. Udaykumar R Yaragatti</h4>
-                                <p>Director IIITKota</p>
-                            </div>
-                        </GridItem>
-                        <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                            <h4>Circle Raised</h4>
-                            <img
-                                src={image}
-                                alt="..."
-                                className={classes.imgRaised +
-                                    " " +
-                                    classes.imgRounded +
-                                    " " +
-                                    classes.imgFluid}
-                            />
-                            <div className={classes.title}>
-                                <h4>Prof. Udaykumar R Yaragatti</h4>
-                                <p>Director IIITKota</p>
-                            </div>
-                        </GridItem>
-                        <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                            <h4>Circle Raised</h4>
-                            <img
-                                src={image}
-                                alt="..."
-                                className={classes.imgRaised +
-                                    " " +
-                                    classes.imgRounded +
-                                    " " +
-                                    classes.imgFluid}
-                            />
-                            <div className={classes.title}>
-                                <h4>Prof. Udaykumar R Yaragatti</h4>
-                                <p>Director IIITKota</p>
-                            </div>
-                        </GridItem>
-
-
-                    </GridContainer>
-                    <GridContainer />
-                    <GridContainer>
                         <GridItem xs={12} sm={2}>
-                            <h4>Rounded Image</h4>
+                            <img
+                                src={image}
+                                alt="..."
+                                className={classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid}
+                            />
+                            <div className={classes.title}>
+                                <h4>Prof. Udaykumar R Yaragatti</h4>
+                                <p>Director IIITKota</p>
+                            </div>
+                        </GridItem><GridItem xs={12} sm={2}>
+                            <img
+                                src={image}
+                                alt="..."
+                                className={classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid}
+                            />
+                            <div className={classes.title}>
+                                <h4>Prof. Udaykumar R Yaragatti</h4>
+                                <p>Director IIITKota</p>
+                            </div>
+                        </GridItem><GridItem xs={12} sm={2}>
+                            <img
+                                src={image}
+                                alt="..."
+                                className={classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid}
+                            />
+                            <div className={classes.title}>
+                                <h4>Prof. Udaykumar R Yaragatti</h4>
+                                <p>Director IIITKota</p>
+                            </div>
+                        </GridItem><GridItem xs={12} sm={2}>
+                            <img
+                                src={image}
+                                alt="..."
+                                className={classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid}
+                            />
+                            <div className={classes.title}>
+                                <h4>Prof. Udaykumar R Yaragatti</h4>
+                                <p>Director IIITKota</p>
+                            </div>
+                        </GridItem><GridItem xs={12} sm={2}>
+                            <img
+                                src={image}
+                                alt="..."
+                                className={classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid}
+                            />
+                            <div className={classes.title}>
+                                <h4>Prof. Udaykumar R Yaragatti</h4>
+                                <p>Director IIITKota</p>
+                            </div>
+                        </GridItem><GridItem xs={12} sm={2}>
+                            <img
+                                src={image}
+                                alt="..."
+                                className={classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid}
+                            />
+                            <div className={classes.title}>
+                                <h4>Prof. Udaykumar R Yaragatti</h4>
+                                <p>Director IIITKota</p>
+                            </div>
+                        </GridItem><GridItem xs={12} sm={2}>
+                            <img
+                                src={image}
+                                alt="..."
+                                className={classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid}
+                            />
+                            <div className={classes.title}>
+                                <h4>Prof. Udaykumar R Yaragatti</h4>
+                                <p>Director IIITKota</p>
+                            </div>
+                        </GridItem><GridItem xs={12} sm={2}>
+                            <img
+                                src={image}
+                                alt="..."
+                                className={classes.imgRaised +
+                                    " " +
+                                    classes.imgRounded +
+                                    " " +
+                                    classes.imgFluid}
+                            />
+                            <div className={classes.title}>
+                                <h4>Prof. Udaykumar R Yaragatti</h4>
+                                <p>Director IIITKota</p>
+                            </div>
+                        </GridItem><GridItem xs={12} sm={2}>
                             <img
                                 src={image}
                                 alt="..."
@@ -184,71 +225,6 @@ export default function ProductSection() {
                                 <p>Director IIITKota</p>
                             </div>
                         </GridItem>
-                        <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                            <h4>Circle Image</h4>
-                            <img
-                                src={image}
-                                alt="..."
-                                className={classes.imgRaised +
-                                    " " +
-                                    classes.imgRounded +
-                                    " " +
-                                    classes.imgFluid}
-                            />
-                            <div className={classes.title}>
-                                <h4>Prof. Udaykumar R Yaragatti</h4>
-                                <p>Director IIITKota</p>
-                            </div>
-                        </GridItem>
-                        <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                            <h4>Rounded Raised</h4>
-                            <img
-                                src={image}
-                                alt="..."
-                                className={classes.imgRaised +
-                                    " " +
-                                    classes.imgRounded +
-                                    " " +
-                                    classes.imgFluid}
-                            />
-                            <div className={classes.title}>
-                                <h4>Prof. Udaykumar R Yaragatti</h4>
-                                <p>Director IIITKota</p>
-                            </div>
-                        </GridItem>
-                        <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                            <h4>Circle Raised</h4>
-                            <img
-                                src={image}
-                                alt="..."
-                                className={classes.imgRaised +
-                                    " " +
-                                    classes.imgRounded +
-                                    " " +
-                                    classes.imgFluid}
-                            />
-                            <div className={classes.title}>
-                                <h4>Prof. Udaykumar R Yaragatti</h4>
-                                <p>Director IIITKota</p>
-                            </div>
-                        </GridItem>
-                        <GridItem xs={12} sm={2} className={classes.marginLeft}>
-                            <h4>Circle Raised</h4>
-                            <img
-                                src={image}
-                                alt="..."
-                                className={classes.imgRaised +
-                                    " " +
-                                    classes.imgRounded +
-                                    " " +
-                                    classes.imgFluid}
-                            />
-                            <div className={classes.title}>
-                                <h4>Prof. Udaykumar R Yaragatti</h4>
-                                <p>Director IIITKota</p>
-                            </div>
-                        </GridItem>
-
 
                     </GridContainer>
                     <GridContainer />

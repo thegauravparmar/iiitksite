@@ -39,7 +39,7 @@ export default function LandingPage(props) {
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
                             <h1 className={classes.title}>Explore IIIT</h1>
-                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">About Us</a>&emsp;|&emsp;<a href="#">Explore IIIT</a></p>
+                            <p class="headd"><a href="/components">Home</a>&emsp;|&emsp;<a href="#">About Us</a>&emsp;|&emsp;<a href="#">Explore IIIT</a></p>
                             <br />
 
                         </GridItem>

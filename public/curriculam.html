@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <style>
+        #curriculumPDF {
+            width: 90vw;
+            height: 60vh;
+        }
+
+        body {
+            font-family: "Raleway", Arial, sans-serif;
+        }
+
+        .title-e-curr {
+            padding-top: 5%;
+            font-size: 35px;
+            text-align: center;
+            font-family: "Raleway", Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- <p class="title-e-curr">Curriculum</p> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="pt-2 mt-2 pt-md-3 mt-md-3">The list of all Subjects offered by IIIT-Kota under difference
+                        semester is given below. New courses might be added to these
+                        list as and when they are approved. Click below to display courses from a specific discipline.
+                    </h4>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-2 mt-2 pt-md-3 mt-md-3 text-center">
+                <div class="col-12 col-md-4 border bg-light " type="button"
+                    onclick="$('#curriculumPDF').attr('src', 'https://iiitkota.ac.in/all.pdf')">All</div>
+                <div class="col-12 col-md-4 border bg-light" type="button"
+                    onclick="$('#curriculumPDF').attr('src', 'https://iiitkota.ac.in/cse.pdf')">CSE</div>
+                <div class="col-12 col-md-4 border bg-light" type="button"
+                    onclick="$('#curriculumPDF').attr('src', 'https://iiitkota.ac.in/ece.pdf')">ECE</div>
+            </div>
+            <div class="row justify-content-center pt-2 mt-2 pt-md-3 mt-md-3">
+                <iframe id="curriculumPDF" name="curriculumPDF" src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>

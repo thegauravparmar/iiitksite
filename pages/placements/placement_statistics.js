@@ -24,7 +24,7 @@ export default function LandingPage(props) {
                 rightLinks={<HeaderLinks />}
                 fixed
                 changeColorOnScroll={{
-                    height: 400,
+                    height: 40,
                     color: "white"
                 }}
                 {...rest}
@@ -50,8 +50,8 @@ export default function LandingPage(props) {
 
                     <section id="services" class="services section-bg">
                         <div class="container">
-                            <div class="section-title">
-                                <h2>Whats the Current Stats?</h2>
+                            <div className="main">
+                                <h1 ><span>WHAT ARE THE</span> CURRENT STATS?</h1>
                                 <div class="seperator"></div>
                             </div>
                             <div class="row">

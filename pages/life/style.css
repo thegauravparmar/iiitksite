@@ -69,3 +69,10 @@ a {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.card {
+  width: 300px !important;
+  height: 400px !important;
+  overflow: hidden !important;
+  float: center !important;
+  border: solid #006609 !important;
+}

@@ -37,7 +37,7 @@ export default function LandingPage(props) {
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
                             <h1 className={classes.title}>Fees</h1>
-                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">About Us</a>&emsp;|&emsp;<a href="#">Fees</a></p>
+                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">Admission</a>&emsp;|&emsp;<a href="#">Fees</a></p>
                             <br />
 
                         </GridItem>
@@ -54,7 +54,7 @@ export default function LandingPage(props) {
                         <section>
                             <ul>
                                 <li>
-                                    <h3>INSTITUTE FEE </h3>
+                                    <h4>INSTITUTE FEE </h4>
                                     <div class="seperator"></div><br></br>
                                     <p>For detailed institute fee structure,
                                 refer the link below:<br></br>
@@ -62,13 +62,13 @@ export default function LandingPage(props) {
                                             Note: Fee structure for Gen-EWS category
                                         is same as Gen category.</div>
                                         <br></br>
-                                        1.Institute Fee Structure 2019-20<br></br>
-                                        2.Institute Fee Structure 2018-19<br></br>
-                                        3.Institute Fee Structure 2017-18<br></br>
-					 	                4.Institute Fee Structure 2016-17</p>
+                                        <a href="">1.Institute Fee Structure 2019-20</a><br></br>
+                                        <a href="">2.Institute Fee Structure 2018-19</a><br></br>
+                                        <a href="">3.Institute Fee Structure 2017-18</a><br></br>
+                                        <a href="">4.Institute Fee Structure 2016-17</a><br></br></p>
                                 </li>
                                 <li>
-                                    <h3>HOSTEL FEE</h3>
+                                    <h4>HOSTEL FEE</h4>
                                     <div class="seperator"></div><br></br>
                                     <p>For detailed hostel fee structure,
                                 refer the link below:<br></br>
@@ -77,12 +77,12 @@ export default function LandingPage(props) {
                                 payments, will be paid by student.</div>
                                         <br></br><br></br>
 
-                                1.Hostel Fee for Existing Students<br></br><br></br>
-                                2.Hostel Fee for New Students
-					</p>
+                                        <a href="">1.Hostel Fee for Existing Students</a> <br></br><br></br>
+                                        <a href=""> 2.Hostel Fee for New Students</a>
+                                    </p>
                                 </li>
                                 <li>
-                                    <h3>PROCEDURE</h3>
+                                    <h4>PROCEDURE</h4>
                                     <div class="seperator"></div><br></br>
                                     <p>All New/Existing B. Tech. students should
                                     pay fees before registration date using
@@ -96,7 +96,7 @@ export default function LandingPage(props) {
 						mode for fee payment.</p>
                                 </li>
                                 <li>
-                                    <h3>EDUCATIONAL LOAN SCHEME</h3>
+                                    <h4>EDUCATIONAL LOAN SCHEME</h4>
                                     <div class="seperator"></div><br></br>
                                     <p>Students may visit Vidya Laxmi portal for
                                     education loan. You can view, apply and
@@ -116,7 +116,7 @@ export default function LandingPage(props) {
                                 </li>
 
                                 <li>
-                                    <h3>OTHER MODE OF PAYMENT</h3>
+                                    <h4>OTHER MODE OF PAYMENT</h4>
                                     <div class="seperator"></div><br></br>
                                     <p>1. Payment through Internet Banking :
                                     Payment can be done through
@@ -130,7 +130,7 @@ export default function LandingPage(props) {
 					</p>
                                 </li>
                                 <li>
-                                    <h3>IMPORTANT</h3>
+                                    <h4>IMPORTANT</h4>
                                     <div class="seperator"></div><br></br>
                                     <p> Existing students admitted in session
                                     2016-17, should produce fresh Income

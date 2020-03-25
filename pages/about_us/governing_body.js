@@ -31,6 +31,13 @@ export default function LandingPage(props) {
                 }}
                 {...rest}
             />
+            <head>
+                <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+                {/* <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" /> */}
+                <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet' />
+                <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+
+            </head>
             <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
@@ -46,10 +53,14 @@ export default function LandingPage(props) {
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div className={classes.container}>
                     <p></p>
+                    <div class="main">
+                        {/* <h1><span>GOVERNING </span>BODY</h1> */}
+                        <div class="seperator"></div></div>
                     <GoverningSection />
+                    <div class="seperator"></div>
                 </div>
             </div>
             <Footer />
-        </div>
+        </div >
     );
 }

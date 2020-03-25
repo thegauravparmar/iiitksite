@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <style>
+        #embedPDF {
+            width: 90%;
+            height: 60vh;
+        }
+
+        @media screen and (max-width: 768px) {
+            #embedPDF {
+                width: 100%;
+                height: 100vh;
+            }
+        }
+
+        body {
+            font-family: "Raleway", Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- <h1 class="display-4 font-weight-normal text-center">Courses</h1> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="pt-2 mt-2 pt-md-3 mt-md-3">The list of all courses offered by IIIT-Kota is given below.
+                        New courses might be added to these list as and when they are
+                        approved. Click below to display courses from a specific discipline.</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 text-center">
+                    <div class="pt-2 pb-2 mt-2 mb-2 pt-md-3 pb-md-3 mt-md-3 mb-md-3 lead font-weight-bolder">B.Tech.
+                    </div>
+                    <button type="button" class="btn btn-light btn-block rounded" id="yr-one"><a
+                            href="http://iiitkota.ac.in/PDF/1-YEAR.pdf" target="embedPDF">First Year</a></button><br>
+                    <button type="button" class="btn btn-light btn-block rouned" id="yr-two"><a
+                            href="http://iiitkota.ac.in/PDF/1-YEAR.pdf" target="embedPDF">Second Year</a></button><br>
+                    <button type="button" class="btn btn-light btn-block rounded" id="yr-three"><a
+                            href="http://iiitkota.ac.in/PDF/1-YEAR.pdf" target="embedPDF">Third Year</a></button><br>
+                    <button type="button" class="btn btn-light btn-block rounded" id="yr-four"><a
+                            href="http://iiitkota.ac.in/PDF/1-YEAR.pdf" target="embedPDF">Fourth Year</a></button><br>
+                </div>
+                <div class="col-12 col-md-8 text-right">
+                    <div class="pt-2 mt-2 pt-md-3 mt-md-3"></div>
+                    <iframe id="embedPDF" name="embedPDF" src="" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+    <script>
+        var $iframe = $('#embedPDF')
+        url1 = 'http://iiitkota.ac.in/PDF/1-YEAR.pdf'
+        url2 = 'http://iiitkota.ac.in/PDF/1-YEAR.pdf'
+        url3 = 'http://iiitkota.ac.in/PDF/1-YEAR.pdf'
+        url4 = 'http://iiitkota.ac.in/PDF/1-YEAR.pdf'
+        $('#yr-one').click(() => {
+            if ($iframe.length)
+                $iframe.attr('src', url1)
+        })
+        $('#yr-two').click(() => {
+            if ($iframe.length)
+                $iframe.attr('src', url2)
+        })
+        $('#yr-three').click(() => {
+            if ($iframe.length)
+                $iframe.attr('src', url3)
+        })
+        $('#yr-four').click(() => {
+            if ($iframe.length)
+                $iframe.attr('src', url4)
+        })
+    </script>
+</body>
+
+</html>

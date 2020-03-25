@@ -40,13 +40,13 @@ export default function Components(props) {
         fixed
         color="transparent"
         changeColorOnScroll={{
-          height: 400,
+          height: 40,
           color: "white"
         }}
         {...rest}
       />
       <head>
-        {/* <div className="access"> <script data-account="n7X2ZqbSse" src="https://cdn.userway.org/widget.js"></script></div> */}
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
         <script
@@ -72,13 +72,13 @@ export default function Components(props) {
           </GridContainer>
         </div>
       </Parallax>
-      {/* <div className="icon-bar">
+      <div className="icon-bar">
         <a href="#" className="facebook"><i className="fab fa-facebook"></i></a>
         <a href="#" className="twitter"><i className="fab fa-twitter"></i></a>
         <a href="#" className="google"><i className="fab fa-google"></i></a>
         <a href="#" className="linkedin"><i className="fab fa-linkedin"></i></a>
         <a href="#" className="youtube"><i className="fab fa-youtube"></i></a>
-      </div> */}
+      </div>
 
 
       <script async src="https://static.addtoany.com/menu/page.js"></script>

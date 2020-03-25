@@ -28,17 +28,17 @@ export default function SectionTabs() {
                 <small>News & Events</small>
               </h3>
               <Head>
-              <link rel="stylesheet" href="https://www.iiitb.ac.in/includes/css/icons.min.css"/>
-              <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-              <link rel="stylesheet" href="https://www.iiitb.ac.in/includes/css/color.css" title="color" />
+                <link rel="stylesheet" href="https://www.iiitb.ac.in/includes/css/icons.min.css" />
+                <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+                <link rel="stylesheet" href="https://www.iiitb.ac.in/includes/css/color.css" title="color" />
                 <script src="https://www.iiitb.ac.in/includes/js/jquery.min.js"></script>
               </Head>
-              
+
               {/* <!---  ROW 2 Starts ---> */}
               <section>
                 <div classNameName="gap theme-bg-layer opc9">
                   <div classNameName="container">
-                     {/* <!-- Sec Title --> */}
+                    {/* <!-- Sec Title --> */}
                     <div classNameName="tem-sec remove-ext5 text-center">
                       <div classNameName="row">
                         <div classNameName="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
@@ -191,7 +191,7 @@ export default function SectionTabs() {
               <script src="https://www.iiitb.ac.in/includes/js/custom-scripts.js?v=546.21"></script>
               <script src="https://www.iiitb.ac.in/includes/js/jquery.liMarquee.js"></script>
               <script src="https://www.iiitb.ac.in/includes/javascripts/common.js?v=546.21"></script>
-              <script src="https://cdn.userway.org/widget.js"></script>
+
 
               <script src="https://www.iiitb.ac.in/includes/javascripts/index.js?v=546.21"></script>
             </GridItem>

@@ -28,12 +28,19 @@ export default function LandingPage(props) {
                 rightLinks={<HeaderLinks />}
                 fixed
                 changeColorOnScroll={{
-                    height: 400,
+                    height: 40,
                     color: "white"
                 }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/bg.jpeg")}>
+            <head>
+                <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+                {/* <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" /> */}
+                <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet' />
+                <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+
+            </head>
+            <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>

@@ -9,7 +9,10 @@
   float: none;
   margin: 0 auto;
 }
-
+a {
+  font-size: 20px;
+  color: black;
+}
 .first {
   margin-right: 10px;
 }
@@ -23,8 +26,8 @@
     font-size: 10px;
   }
 }
-a {
-  font-size: 20px;
+.headd {
+  font-size: 20px !important;
   color: black;
 }
 
@@ -133,4 +136,25 @@ ul {
   font-size: 35px !important;
   font-family: "Raleway", sans-serif !important;
   margin-top: 0 !important;
+}
+#embedPDF {
+  width: 90%;
+  height: 60vh;
+}
+
+@media screen and (max-width: 768px) {
+  #embedPDF {
+    width: 100%;
+    height: 100vh;
+  }
+}
+.iiframe {
+  margin-top: 4%;
+  width: 100%;
+  border: white thin solid;
+  height: 1000px;
+  margin-bottom: 5%;
+}
+.space {
+  padding-bottom: 5%;
 }

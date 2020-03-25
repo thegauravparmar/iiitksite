@@ -1,13 +1,7 @@
 // import { title } from "assets/jss/nextjs-material-kit.js";
 import { container, title } from "assets/jss/nextjs-material-kit.js";
-
 import imagesStyles from "assets/jss/nextjs-material-kit/imagesStyles.js";
 const productStyle = {
-  subhead: {
-    fontSize: "20px",
-    color: "#205514",
-    fontWeight: 'bold'
-  },
   des: {
     paddingTop: "70px"
 
@@ -27,13 +21,14 @@ const productStyle = {
     "@media (max-width: 830px)": {
       // textAlign: "left",
       fontSize: "32px ",
+      fontFamily: '"Raleway", sans-serif ',
     }
   },
   description: {
-    color: "#999",
-    fontSize: "17px",
-    color: "#44593F",
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    // color: "#999",
+    fontSize: "18px",
+    color: "black",
+    fontFamily: '"Raleway", sans-serif ',
     textAlign: "left"
   },
 
@@ -64,6 +59,10 @@ const productStyle = {
   },
   marginLeft: {
     marginLeft: "auto !important"
+  },
+  space: {
+    marginBottom: "5%"
+
   },
   ...imagesStyles
 };

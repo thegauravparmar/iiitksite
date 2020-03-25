@@ -36,28 +36,39 @@ export default function Footer(params) {
 							<div className="widget-link">
 
 								<h3 class="widget-title mt2">Location</h3>
-								<p class="widget-contact__text"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d444.90525107731656!2d75.81081539996529!3d26.86405112386001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea3495775ef99a25!2sIndian%20Institute%20of%20Information%20Technology%2C%20Kota!5e0!3m2!1sen!2sin!4v1583758002596!5m2!1sen!2sin" width="250px" height="300px" frameborder="0" allowfullscreen=""></iframe></p>
+								<p class="widget-contact__text"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d444.90525107731656!2d75.81081539996529!3d26.86405112386001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea3495775ef99a25!2sIndian%20Institute%20of%20Information%20Technology%2C%20Kota!5e0!3m2!1sen!2sin!4v1583758002596!5m2!1sen!2sin" width="250px" height="300px" frameBorder="0" allowFullScreen=""></iframe></p>
 
 							</div>
 						</div>
 						<div className="col-12 col-sm-3">
 							<div className="widget-link">
+							<h3 className="widget-title mt2">Quick Links</h3>
+								<ul className="widget-list">
+									<li><a href="/footer/iccw">ICCW</a></li>
+									<li><a href="/footer/holidays">Holidays</a></li>
+									<li><a href="/footer/annualreport">Annual Reports</a></li>
+									<li><a href="/footer/webmasters">Web Masters</a></li>
+									<li><a href="/footer/recruitment">Recruitment</a></li>
+									<li><a href="/footer/tender">Tender Invitations</a></li>
+									<li><a href="/footer/facilities">Facilities</a></li>
 
+									
+								</ul>
 							</div>
 						</div>
 						<div className="col-sm-3 col-md-3 col-lg-3">
 							<div className="widget-link">
 								<h3 className="widget-title mt2">Quick Links</h3>
 								<ul className="widget-list">
-									<li><a href="media">Recruitment</a></li>
-									<li><a href="blogs">Tender Invitations</a></li>
-									<li><a href="placements">Facilities</a></li>
-									<li><a href="/footer/webmasters">Web Masters</a></li>
-									<li><a href="tenders">Annual Reports</a></li>
-									<li><a href="donatecontribute">Photo Gallery</a></li>
-									<li><a href="my-iiitb">Holidays</a></li>
-									<li><a href="contact-us">Contact Us</a></li>
-									<li><a href="sitemap">Sitemap</a></li>
+									
+
+									<li><a href="/footer/photogallery">Photo Gallery</a></li>
+
+
+									<li><a href="/footer/pppact">PPP Act</a></li>
+									<li><a href="/footer/rti">RTI</a></li>
+
+									<li><a href="/footer/sitemap">Sitemap</a></li>
 								</ul>
 							</div>
 						</div>

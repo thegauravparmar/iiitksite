@@ -174,7 +174,7 @@ a:hover {
   }
 
   .tablerow.header .cell {
-    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-family: "Raleway", Arial, sans-serif !important;
     display: none;
   }
 
@@ -205,7 +205,7 @@ a:hover {
 }
 
 .tablerow .cell {
-  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-family: "Raleway", Arial, sans-serif !important;
   /* font-family: Poppins-Regular; */
   font-size: 15px;
   color: #666666;
@@ -219,18 +219,17 @@ a:hover {
 
 .tablerow.header .cell {
   /* font-family: Poppins-Regular; */
-  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-family: "Raleway", Arial, sans-serif !important;
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
   font-weight: unset !important;
-
   padding-top: 19px;
   padding-bottom: 19px;
 }
 
 .tablerow .cell:nth-child(1) {
-  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-family: "Raleway", Arial, sans-serif !important;
   width: 360px;
   padding-left: 40px;
 }
@@ -249,12 +248,16 @@ a:hover {
 
 .table,
 .tablerow {
-  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-family: "Raleway", Arial, sans-serif !important;
   width: 100% !important;
+}
+.tablerow.header:hover {
+  background-color: #50c878 !important;
+  cursor: pointer;
 }
 
 .tablerow:hover {
-  background-color: #f0fff0;
+  background-color: #f0fff0 !important;
   cursor: pointer;
 }
 
@@ -278,7 +281,7 @@ a:hover {
   }
 
   .tablerow .cell {
-    font-family: Poppins-Regular;
+    font-family: "Raleway", Arial, sans-serif !important;
     font-size: 18px;
     color: #555555;
     line-height: 1.2;
@@ -288,7 +291,7 @@ a:hover {
   .table,
   .tablerow,
   .cell {
-    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-family: "Raleway", Arial, sans-serif !important;
     width: 100% !important;
   }
 }
@@ -302,6 +305,7 @@ a:hover {
   width: 50%;
 }
 .main h1 {
+  padding-top: 5% !important;
   width: 100%;
   text-align: center;
   font-family: "Raleway", Arial, sans-serif;
@@ -321,4 +325,17 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   width: 15%;
   margin: 0 auto;
+}
+.llinks {
+  font-family: "Raleway", Arial, sans-serif !important;
+  font-size: 18px;
+  color: #123524;
+  margin-left: 20%;
+  padding-bottom: 7%;
+}
+.llinks a {
+  font-size: 18px;
+}
+#images {
+  padding-bottom: 10% !important;
 }

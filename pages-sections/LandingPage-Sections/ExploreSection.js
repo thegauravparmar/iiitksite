@@ -13,10 +13,10 @@ export default function ProductSection() {
             <GridItem xs={122} sm={122} md={12}>
                 <p className={classes.title}> IIIT Kota has been challenging and developing great minds for many years.</p>
                 <h5 className={classes.description}>
-                    Characterised by a tradition of  creating a center for imparting technical education of international standards, we are committed to excellence in education, to innovative practice and to the concept of lifelong learning.
+                    <strong> Characterised by a tradition of  creating a center for imparting technical education of international standards, we are committed to excellence in education, to innovative practice and to the concept of lifelong learning.
 
 
-                   <strong> The Indian Institute of Information Technology Kota</strong>, deemed to be a Institute of National Importance, was established in 2013 with a vision to contribute the IT world through education and research, entrepreneurship and innovation.
+                   </strong><strong>The Indian Institute of Information Technology Kota</strong>, deemed to be a Institute of National Importance, was established in 2013 with a vision to contribute the IT world through education and research, entrepreneurship and innovation.
 
                    <strong> IIIT Kota is a joint venture of the Ministry of Human Resource Development (MHRD) Govt. of India and Govt. of Rajasthan with Industry Partners in Public-Private-Partnership (PPP) mode. </strong><br></br><br></br>
                     Currently the institute is mentored by <strong>Malaviya National Institute of Technology Jaipur

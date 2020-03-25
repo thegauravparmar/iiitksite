@@ -23,17 +23,17 @@ export default function ProductSection() {
                 <div class="container-fluid ">
                     <div class="row">
                         <div class="col-md-5 rounded first p-3 my-3 border">
-                            <div className="heading"><b><p>Computer Science and Engineering</p></b></div>
+                            <div className="headig">Computer Science and Engineering</div><div className={classes.description}> 
                             <p>Department of Computer Science and Engineering started functioning since July 2013.
 
-Currently, the department offers a four-year B.Tech programme. Apart from the faculty members of the institute, the department is benefited from distinguished faculty of CSE department at MNIT Jaipur, our mentor institute. The department is in the process to get state-of-the-art labs to support the undergraduate program better.</p>
+Currently, the department offers a four-year B.Tech programme. Apart from the faculty members of the institute, the department is benefited from distinguished faculty of CSE department at MNIT Jaipur, our mentor institute. The department is in the process to get state-of-the-art labs to support the undergraduate program better.</p></div>
 
                         </div>
                         <div class="col-md-5 rounded p-3 my-3 border">
-                            <div className="heading"><b><p>Electronics and Communication Engineering</p></b></div>
+                            <div className="headig">Electronics and Communication Engineering</div><div className={classes.description}> 
                             <p>Department of Electronics and Communication Engineering started functioning since July 2015.
 
-Currently, the department offers a four-year B.Tech programme. Apart from the faculty members of the institute, the department is benefited from distinguished faculty of ECE department at MNIT Jaipur. The department is in the process to get state-of-the-art labs to support the undergraduate program better.</p>
+Currently, the department offers a four-year B.Tech programme. Apart from the faculty members of the institute, the department is benefited from distinguished faculty of ECE department at MNIT Jaipur. The department is in the process to get state-of-the-art labs to support the undergraduate program better.</p></div>
 
                         </div>
 
@@ -45,12 +45,12 @@ Currently, the department offers a four-year B.Tech programme. Apart from the fa
                 <div class="container-fluid">
 
 
-                    <div class="col-md-5 rounded p-3 my-3 border"><center>
-                        <div className="heading"><b><p>CSE and ECE Programme Advisors</p></b></div>
+                    <div class="col-md-5 rounded p-3 my-3 border"><div className={classes.description}> <center>
+                        <div className="headig">CSE and ECE Programme Advisors</div>
                         <p>First Year : Dr. Amit Kumar<br></br>
         Second Year : Dr. Vinita Tiwari<br></br>
         Third Year : Dr. Parikshit Kishor Singh<br></br>Final Year : Dr. Isha Pathak Tripathi</p>
-                    </center>
+                    </center></div>
                     </div>
 
 
@@ -58,6 +58,7 @@ Currently, the department offers a four-year B.Tech programme. Apart from the fa
 
                 </div>
                 {/* </div> */}
+                <div className={classes.space50}></div>
             </GridItem>
         </GridContainer>
         </div> </div>
