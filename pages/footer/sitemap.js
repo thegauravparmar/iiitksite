@@ -41,8 +41,8 @@ export default function LandingPage(props) {
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Training & Placement Cell</h1>
-                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">About Us</a>&emsp;|&emsp;<a href="#">Training & Placement Cell</a></p>
+                            <h1 className={classes.title}>SITE MAP</h1>
+                            <p><a href="/components">Home</a>&emsp;|&emsp;<a href="#">Sitemap</a></p>
                             <br />
                         </GridItem>
                     </GridContainer>
@@ -54,39 +54,12 @@ export default function LandingPage(props) {
                     <section id="services" class="services section-bg">
                         <div class="container">
                             <div className="main">
-                                <h1 ><span>TRAINING AND PLACEMENT </span>CELL</h1>
+                                <h1 ><span>SITEMAP</span>   </h1>
                                 <div class="seperator"></div>
                             </div>
-
-                            <div class="row ">
-                                <div class="col-md-6 col-lg-6 align-items-stretch mb-5 mb-lg-0">
-                                    <div class="icon-box icon-box-pink">
-                                        <div class="icon"></div>
-                                        <h4 class="title12">IIIT Kota Office</h4>
-                                        <p class="description">
-                                            2nd Floor, <br></br>Prabha Bhawan, <br></br>MNIT
-                                            Jaipur<br></br>
-                                            Email: placements@iiitkota.ac.in<br></br>Phone: +91-9549650767.</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6 col-lg-6 align-items-stretch mb-5 mb-lg-0 ">
-                                    <div class="icon-box icon-box-cyan">
-                                        <div class="icon"></div>
-                                        <h4 class="title12">Dr. Ashish Sharma</h4>
-                                        <p class="description">
-                                            Convenor<br></br>Training & Placement Cell <br></br>IIIT Kota<br></br>
-                                        Email: ashish@iiitkota.ac.in<br></br>Phone: +91-9549650767</p>
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-
+                            <p>Will be Generated after Host</p>
                         </div>
                     </section>
-
                 </div>
             </div>
             <Footer />

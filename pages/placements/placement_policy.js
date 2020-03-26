@@ -31,7 +31,13 @@ export default function LandingPage(props) {
                 {...rest}
             />
 
+            <head>
+                <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+                {/* <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" /> */}
+                <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet' />
+                <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
 
+            </head>
             <Parallax image={require("assets/img/bg.jpeg")}>
                 <div className={classes.container}>
                     <GridContainer>
@@ -74,16 +80,16 @@ export default function LandingPage(props) {
                         <section class="banner">
                             <div class="real">
                                 <div class="realhead">PLACEMENT POLICY FOR COMPANIES</div><br></br><ul><li> The company should fill in the Job Notification Form (JNF) and submit it to
-                            the Training and Placement Cell (TPC) as an e-mail attachment to
-                            ptp.mnit@gmail.com. The JNF serves as an introduction of the job profile
-                            for the benefit of the candidates and also informs them of the company's
+                                the Training and Placement Cell (TPC) as an e-mail attachment to
+                                ptp.mnit@gmail.com. The JNF serves as an introduction of the job profile
+                                for the benefit of the candidates and also informs them of the company's
                             requirements.</li><br></br><br></br>
-                            <li>The company will be allotted slots and dates for conducting Pre-Placement
-                            Talk (PPT)/Written Test/Online Test, with a request to confirm the same by
-                            a specified date. On failing to do so, the allotted slot may be given to other
-                            companies on their request. Request for any change in the slot can be
+                                    <li>The company will be allotted slots and dates for conducting Pre-Placement
+                                    Talk (PPT)/Written Test/Online Test, with a request to confirm the same by
+                                    a specified date. On failing to do so, the allotted slot may be given to other
+                                    companies on their request. Request for any change in the slot can be
                             entertained subject to its availability.</li><br></br><br></br>
-                            <li>The company can ask for the resumes of interested students and has the
+                                    <li>The company can ask for the resumes of interested students and has the
                             liberty to shortlist them before the beginning of the placement process.</li></ul></div>
                         </section>
                     </div>

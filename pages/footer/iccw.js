@@ -56,7 +56,7 @@ export default function LandingPage(props) {
                     <section id="services" class="services section-bg">
                         <div class="container">
                             <div className="main">
-                                <h1 ><span>Internal Complaint Committee - </span>Women</h1>
+                                <h1 ><span>INTERNAL COMPLAINT COMMITEE - </span>WOMEN</h1>
                                 <div class="seperator"></div>
                             </div>
                             <div class="info">
@@ -66,7 +66,7 @@ export default function LandingPage(props) {
                                 to this important issue amongst all concerned.
                             </div>
                             <div className="main">
-                                <h1 ><span>Sexual Harassment </span>Defined </h1>
+                                <h1 ><span>SEXUAL HARASSMENT </span>DEFINED </h1>
                                 <div class="seperator"></div>
                             </div>
                             <div class="info">
@@ -83,7 +83,7 @@ export default function LandingPage(props) {
                                 rather than the intent of the perpetrator which is to be considered.
                             </div>
                             <div className="main">
-                                <h1 ><span>Presiding Officer</span></h1>
+                                <h1 ><span>PRESIDING </span>OFFICER</h1>
                                 <div class="seperator"></div>
                             </div>
                             <div class="info"><center>

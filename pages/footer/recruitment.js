@@ -54,23 +54,23 @@ export default function LandingPage(props) {
                     <section id="services" class="services section-bg">
                         <div class="container">
                             <div className="main">
-                                <h1 ><span>Sports </span>CELL</h1>
-                                <div class="seperator"></div>
+                                <h1 ><span>RECRUITMENT</span></h1>
+                                <div class="seperator"></div><br></br>
                             </div>
 
                             <div class="row ">
                                 <div class="col-md-6 col-lg-6 align-items-stretch mb-5 mb-lg-0">
                                     <div class="icon-box icon-box-pink">
                                         <div class="icon"></div>
-                                        
+
                                         <p class="description">
-                                        Schedule of Interview for the post of Assistant Professor Level 10 against Advertisement No. 01/TEACHING/IIITKOTA/ESTT/2019 Dated 30-07-2019.
-<br/><br/>
-Click to Download Schedule<br/><br/>
+                                            Schedule of Interview for the post of Assistant Professor Level 10 against Advertisement No. 01/TEACHING/IIITKOTA/ESTT/2019 Dated 30-07-2019.
+<br /><br />
+Click to Download Schedule<br /><br />
 
-List of Eligible candidates for the<br/><br/> Post of Assistant Professor Level 10 against Advertisement No. 01/TEACHING/IIITKOTA/ESTT/2019 Dated 30-07-2019.
+List of Eligible candidates for the<br /><br /> Post of Assistant Professor Level 10 against Advertisement No. 01/TEACHING/IIITKOTA/ESTT/2019 Dated 30-07-2019.
 
-Electronics and Communication Engineering<br/>
+Electronics and Communication Engineering<br />
 Computer Science and Engineering</p>
                                     </div>
                                 </div>
@@ -78,17 +78,17 @@ Computer Science and Engineering</p>
                                 <div class="col-md-6 col-lg-6 align-items-stretch mb-5 mb-lg-0 ">
                                     <div class="icon-box icon-box-cyan">
                                         <div class="icon"></div>
-                                        
+
                                         <p class="description">
-                                        Advertisement for the posts of various Teaching Positions [01/TEACHING/IIITKOTA/ESTT/2019]
-                                        <br/><br/>
+                                            Advertisement for the posts of various Teaching Positions <br></br><br></br>[01/TEACHING/IIITKOTA/ESTT/2019]
+                                        <br /><br />
 Click to Download Advertisement
-<br/><br/>
+<br /><br />
 Gazette Notification IIIT (PPP) Act, 2017
-<br/><br/>
+<br /><br />
 Recruitment Rules for the teaching posts of IIIT Kota
-<br/><br/>
-List of Authorities empowered to issue Caste/Community certificates-Information on the complete list</p>
+<br /><br />
+List of Authorities empowered to issue Caste/Community <br></br>certificates-Information on the complete list</p>
                                     </div>
                                 </div>
 

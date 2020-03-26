@@ -55,7 +55,14 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-
+.headd a {
+  font-size: 20px;
+  color: black;
+}
+a:hover {
+  /* font-size: 20px; */
+  color: green;
+}
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -79,12 +86,12 @@
 }
 
 .facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 

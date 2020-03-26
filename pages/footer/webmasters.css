@@ -106,5 +106,13 @@ a:focus {
   margin: 0 2px;
 }
 .row {
-  align-items: center;
+  /* align-items: center; */
+}
+.headd a {
+  font-size: 20px;
+  color: black;
+}
+a:hover {
+  /* font-size: 20px; */
+  color: green;
 }

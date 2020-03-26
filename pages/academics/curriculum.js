@@ -48,15 +48,15 @@ export default function LandingPage(props) {
                 </div>
             </Parallax>
             <div className={classNames(classes.main, classes.mainRaised)}>
-                <div className={classes.container}>
-                    <div className="main">
-                        <div class="space"></div>
-                        <h1 ><span></span>COURCES </h1>
-                        <div class="seperator"></div>
-                        <iframe class="iiframe" src="https://omkarethon.github.io/timepass/curriculam.html"></iframe>
-                    </div>
+                {/* <div className={classes.container}> */}
+                <div className="main">
+                    <div class="space"></div>
+                    <h1 ><span></span>CURRICULUM </h1>
+                    <div class="seperator"></div>
+                    <iframe class="iiframe" src="https://omkarethon.github.io/timepass/curriculam.html"></iframe>
                 </div>
             </div>
+            {/* </div> */}
             <Footer />
         </div>
     );

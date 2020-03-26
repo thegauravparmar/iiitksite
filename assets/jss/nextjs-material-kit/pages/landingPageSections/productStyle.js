@@ -12,7 +12,7 @@ const productStyle = {
   },
   title: {
     ...title,
-    textAlign: "center",
+    // textAlign: "center",
     marginBottom: "3rem",
     marginTop: "3rem",
     minHeight: "20px",

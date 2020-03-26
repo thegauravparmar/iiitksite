@@ -121,12 +121,12 @@ export default function Components(props) {
 
         {/* <SectionPills /> */}
         {/* <SectionNotifications /> */}
-        <SectionTypography />
+        {/* <SectionTypography /> */}
         {/* <SectionJavascript /> */}
         <SectionCompletedExamples />
-        <SectionCarousel />
-        <SectionTabs />
-        <SectionWhy />
+        {/* <SectionCarousel /> */}
+        {/* <SectionTabs /> */}
+        {/* <SectionWhy /> */}
         {/* <SectionBlog /> */}
         {/* <SectionLogin /> */}
         {/* <GridItem md={12} className={classes.textCenter}>

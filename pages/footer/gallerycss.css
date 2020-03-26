@@ -148,6 +148,14 @@ img {
   text-decoration: none;
 }
 .outer-container {
-  padding-top: 5% !important;
+  /* padding-top: 5% !important; */
   padding-bottom: 8% !important;
+}
+.headd a {
+  font-size: 20px;
+  color: black;
+}
+a:hover {
+  /* font-size: 20px; */
+  color: green;
 }

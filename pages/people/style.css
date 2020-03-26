@@ -6,7 +6,7 @@
 }
 .para {
   padding-top: 80px;
-  align-items: center;
+  /* align-items: center; */
   color: black;
   font-size: 300px;
   padding-bottom: 60px;
@@ -14,11 +14,14 @@
     font-size: 10px;
   }
 }
-a {
+.headd a {
   font-size: 20px;
   color: black;
 }
-
+a:hover {
+  /* font-size: 20px; */
+  color: green;
+}
 .vertical-wrapper-twit {
   position: fixed;
   right: 98%;

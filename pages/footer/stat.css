@@ -73,3 +73,11 @@ section {
 .title12 {
   font-weight: 800;
 }
+.headd a {
+  font-size: 20px;
+  color: black;
+}
+a:hover {
+  /* font-size: 20px; */
+  color: green;
+}

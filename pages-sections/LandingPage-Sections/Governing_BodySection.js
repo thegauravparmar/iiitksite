@@ -18,8 +18,8 @@ export default function ProductSection() {
                 <GridContainer justify="center">
                     <GridItem xs={12} sm={12} md={20}>
 
-                        <h5 className={classes.description}>
-                            The overall management and administration of the affairs of the Institute is vested in the Governing Body which consists of 12(twelve) members. The Governing Body has representation from Government, (both GoI  & GoRJ), Industry and Academia.</h5>
+                        {/* <h5 className={classes.description}>
+                            The overall management and administration of the affairs of the Institute is vested in the Governing Body which consists of 12(twelve) members. The Governing Body has representation from Government, (both GoI  & GoRJ), Industry and Academia.</h5> */}
                         <div className={classes.space50} />
 
                         <p className={classes.title}>Chairman</p>

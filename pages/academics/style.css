@@ -18,7 +18,7 @@ a {
 }
 .para {
   padding-top: 80px;
-  align-items: center;
+  /* align-items: center; */
   color: black;
   font-size: 300px;
   padding-bottom: 60px;
@@ -150,11 +150,19 @@ ul {
 }
 .iiframe {
   margin-top: 4%;
-  width: 100%;
+  width: 100% !important;
   border: white thin solid;
-  height: 1000px;
+  height: 1000px !important;
   margin-bottom: 5%;
 }
 .space {
   padding-bottom: 5%;
+}
+.headd a {
+  font-size: 20px;
+  color: black;
+}
+a:hover {
+  /* font-size: 20px; */
+  color: green;
 }

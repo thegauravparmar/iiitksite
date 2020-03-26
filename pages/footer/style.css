@@ -14,7 +14,7 @@
 }
 .para {
   padding-top: 80px;
-  align-items: center;
+  /* align-items: center; */
   color: black;
   padding-bottom: 40px;
   @media (max-width: 830px) {
@@ -115,7 +115,7 @@ a:hover {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-wrap: wrap;
   padding-right: 30px;
@@ -372,7 +372,7 @@ img:hover {
 /* Container holding the image and the text */
 .container {
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   color: white;
 }
 
@@ -426,7 +426,7 @@ img:hover {
   width: 15%;
 }
 .row {
-  padding-top: 5% !important;
+  /* padding-top: 5% !important; */
 }
 .pdfiframe {
   margin-top: 4%;
@@ -441,4 +441,12 @@ img:hover {
 }
 .description {
   color: white;
+}
+.headd a {
+  font-size: 20px;
+  color: black;
+}
+a:hover {
+  /* font-size: 20px; */
+  color: green;
 }
